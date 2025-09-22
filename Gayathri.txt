@@ -1,0 +1,42 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20250922104915
+Username: ASCENDI-8POD398\Ascendion
+RunAs User: ASCENDI-8POD398\Ascendion
+Configuration Name: 
+Machine: ASCENDI-8POD398 (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 1136
+PSVersion: 5.1.26100.4768
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.4768
+BuildVersion: 10.0.26100.4768
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\Ascendion\Desktop\Automation_Python\Gayathri.txt
+PS C:\Users\Ascendion\Desktop\Automation_Python> Set-Location "C:\Users\Ascendion\Desktop\Automation_Python\automation-092025"
+PS C:\Users\Ascendion\Desktop\Automation_Python\automation-092025> git fetch origin 
+remote: Counting objects: 100% (19/19), done.
+remote: Compressing objects: 100% (15/15), done.
+remote: Total 17 (delta 2), reused 6 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (17/17), 7.20 KiB | 75.00 KiB/s, done.
+From https://github.com/sureshnanjan/automation-092025
+   2d62b81..ec1db44  Teja           -> origin/Teja
+   2d62b81..d7f0f17  Varun          -> origin/Varun
+   2d62b81..0a2e708  mathesh-branch -> origin/mathesh-branch
+   2d62b81..7e059ca  sowmya.sridhar -> origin/sowmya.sridhar
+PS C:\Users\Ascendion\Desktop\Automation_Python\automation-092025> git branch -a
+  remotes/origin/shreya-branch
+  remotes/origin/sowmya.sridhar
+PS C:\Users\Ascendion\Desktop\Automation_Python\automation-092025> git checkout -b Gayathri origin/Gayathri
+
+PS C:\Users\Ascendion\Desktop\Automation_Python\automation-092025> git branch 
+
+PS C:\Users\Ascendion\Desktop\Automation_Python\automation-092025> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20250922105256
+**********************
