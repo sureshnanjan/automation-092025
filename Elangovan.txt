@@ -1,0 +1,53 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20250922105056
+Username: ASCENDION\elangovan.r
+RunAs User: ASCENDION\elangovan.r
+Configuration Name: 
+Machine: ASCINLAP61376 (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 26008
+PSVersion: 5.1.26100.6584
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.6584
+BuildVersion: 10.0.26100.6584
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is Elangovan.txt
+PS C:\Users\elangovan.r> New-Item -Path "C:\Users\elangovan.r\OneDrive - ascendion\Desktop" -Name ‘QA-Training’ -ItemType Directory
+
+
+    Directory: C:\Users\elangovan.r\OneDrive -
+    ascendion\Desktop
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        22-09-2025     10:51                QA-Training
+
+
+PS C:\Users\elangovan.r> Set-Location "C:\Users\elangovan.r\OneDrive - ascendion\Desktop\QA-Training"
+PS C:\Users\elangovan.r\OneDrive - ascendion\Desktop\QA-Training> git clone https://github.com/sureshnanjan/automation-092025.git
+Cloning into 'automation-092025'...
+remote: Enumerating objects: 32, done.
+remote: Counting objects: 100% (32/32), done.
+remote: Compressing objects: 100% (28/28), done.
+remote: Total 32 (delta 3), reused 11 (delta 0), pack-reused 0 (
+from 0)
+Receiving objects: 100% (32/32), 15.27 KiB | 539.00 KiB/s, done.
+Resolving deltas: 100% (3/3), done.
+PS C:\Users\elangovan.r\OneDrive - ascendion\Desktop\QA-Training> Set-Location automation-092025
+PS C:\Users\elangovan.r\OneDrive - ascendion\Desktop\QA-Training\automation-092025> git status
+
+PS C:\Users\elangovan.r\OneDrive - ascendion\Desktop\QA-Training\automation-092025> git checkout -b Elangovan-branch
+
+PS C:\Users\elangovan.r\OneDrive - ascendion\Desktop\QA-Training\automation-092025> git status
+
+PS C:\Users\elangovan.r\OneDrive - ascendion\Desktop\QA-Training\automation-092025> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20250922105413
+**********************
