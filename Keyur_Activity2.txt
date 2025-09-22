@@ -1,0 +1,46 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20250922162536
+Username: ASCENDI-6COJU9A\Ascendion
+RunAs User: ASCENDI-6COJU9A\Ascendion
+Configuration Name: 
+Machine: ASCENDI-6COJU9A (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 9308
+PSVersion: 5.1.26100.6584
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.6584
+BuildVersion: 10.0.26100.6584
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\Ascendion\Documents\QA-Training\Keyur_Activity2.txt
+PS C:\Users\Ascendion> python
+...        return list(iterable)
+...    # Let the base class default method raise the TypeError
+...    return super().default(o)
+...
+>>> json.JSONEncoder().encode({"foo": ["bar", "baz"]})
+'{"foo": ["bar", "baz"]}'
+>>> for chunk in json.JSONEncoder().iterencode(bigobject):
+...     mysocket.write(chunk)
+...
+Traceback (most recent call last):
+  File "<python-input-10>", line 1, in <module>
+    for chunk in json.JSONEncoder().iterencode(bigobject):
+                                               ^^^^^^^^^
+NameError: name 'bigobject' is not defined. Did you mean: 'object'?
+>>> Stop-Transcript
+Traceback (most recent call last):
+  File "<python-input-11>", line 1, in <module>
+    Stop-Transcript
+    ^^^^
+NameError: name 'Stop' is not defined
+>>> exit
+PS C:\Users\Ascendion> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20250922163056
+**********************
