@@ -1,0 +1,84 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20250922103607
+Username: ASCENDION\vamsi.krishna
+RunAs User: ASCENDION\vamsi.krishna
+Configuration Name: 
+Machine: ASCINLAP61375 (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 3552
+PSVersion: 5.1.26100.6584
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.6584
+BuildVersion: 10.0.26100.6584
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is vamsi.txt
+PS C:\Users\vamsi.krishna> New-Item -Path "C:\Users\vamsi.krishna\Downloads\" -Name ‘QA-Training’ -ItemType Directory
+
+
+    Directory: C:\Users\vamsi.krishna\Downloads
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        22-09-2025     10:46                QA-Training
+
+
+PS C:\Users\vamsi.krishna> Set-Location <path/to/workingfolder>\QA-Training
+At line:1 char:14
++ Set-Location <path/to/workingfolder>\QA-Training
++              ~
+The '<' operator is reserved for future use.
+At line:1 char:14
++ Set-Location <path/to/workingfolder>\QA-Training
++              ~
+The '<' operator is reserved for future use.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : RedirectionNotSupported
+
+PS C:\Users\vamsi.krishna> New-Item -Path C:\ -Name "QA-Training" -ItemType Directory
+
+
+    Directory: C:\
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        22-09-2025     10:53                QA-Training
+
+
+PS C:\Users\vamsi.krishna> Set-Location C:\QA-Training
+PS C:\QA-Training> git clone https://github.com/sureshnanjan/automation-092025.git
+
+PS C:\QA-Training> Set-Location automation-092025
+PS C:\QA-Training\automation-092025> git status
+
+PS C:\QA-Training\automation-092025> git checkout -b Vamsi-branch
+
+PS C:\QA-Training\automation-092025> git status
+
+PS C:\QA-Training\automation-092025> Stop Transcript
+Stop : The term 'Stop' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the 
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ Stop Transcript
++ ~~~~
+    + CategoryInfo          : ObjectNotFound: (Stop:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+Stop : The term 'Stop' is not recognized as the name of a cmdlet, function, script file, or operable program. Check
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ Stop Transcript
++ ~~~~
+    + CategoryInfo          : ObjectNotFound: (Stop:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\QA-Training\automation-092025> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20250922105721
+**********************
