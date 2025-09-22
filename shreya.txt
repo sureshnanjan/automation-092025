@@ -1,0 +1,87 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20250922101517
+Username: ASCENDION\shreya.sg
+RunAs User: ASCENDION\shreya.sg
+Configuration Name: 
+Machine: ASCINLAP61365 (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 18072
+PSVersion: 5.1.26100.6584
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.6584
+BuildVersion: 10.0.26100.6584
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is shreya.txt
+PS C:\Users\shreya.sg> New-Item -Path C:\Users\shreya.sg\OneDrive - ascendion\Desktop\python testing -Name 'QA-Training' -ItemType Directory
+>> TerminatingError(New-Item): "A positional parameter cannot be found that accepts argument '-'."
+New-Item : A positional parameter cannot be found that accepts argument '-'.
+At line:1 char:1
++ New-Item -Path C:\Users\shreya.sg\OneDrive - ascendion\Desktop\python ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [New-Item], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.NewItemCommand
+New-Item : A positional parameter cannot be found that accepts
+argument '-'.
+At line:1 char:1
++ New-Item -Path C:\Users\shreya.sg\OneDrive -
+ascendion\Desktop\python ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [New-Item],
+    ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Micr
+   osoft.PowerShell.Commands.NewItemCommand
+
+PS C:\Users\shreya.sg> New-Item -Path C:\Users\shreya.sg -Name 'QA-Training' -ItemType Directory
+New-Item : An item with the specified name C:\Users\shreya.sg\QA-Training already exists.
+At line:1 char:1
++ New-Item -Path C:\Users\shreya.sg -Name 'QA-Training' -ItemType Direc ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceExists: (C:\Users\shreya.sg\QA-Training:String) [New-Item], IOException
+    + FullyQualifiedErrorId : DirectoryExist,Microsoft.PowerShell.Commands.NewItemCommand
+New-Item : An item with the specified name
+C:\Users\shreya.sg\QA-Training already exists.
+At line:1 char:1
++ New-Item -Path C:\Users\shreya.sg -Name 'QA-Training'
+-ItemType Direc ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~
+    + CategoryInfo          : ResourceExists: (C:\Users\shreya
+   .sg\QA-Training:String) [New-Item], IOException
+    + FullyQualifiedErrorId : DirectoryExist,Microsoft.PowerSh
+   ell.Commands.NewItemCommand
+
+PS C:\Users\shreya.sg> New-Item -Path C:\Users\shreya.sg -Name 'QA-PythonTraining' -ItemType Directory
+
+
+    Directory: C:\Users\shreya.sg
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        22-09-2025     10:17                QA-PythonTrai
+                                                  ning
+
+
+PS C:\Users\shreya.sg> Set-Location C:\Users\shreya.sg\QA-PythonTraining
+PS C:\Users\shreya.sg\QA-PythonTraining> git --version
+
+PS C:\Users\shreya.sg\QA-PythonTraining> git clone https://github.com/sureshnanjan/automation-092025.git
+
+PS C:\Users\shreya.sg\QA-PythonTraining> Set-Location automation-092025
+PS C:\Users\shreya.sg\QA-PythonTraining\automation-092025> git status
+
+PS C:\Users\shreya.sg\QA-PythonTraining\automation-092025> git checkout -b shreya-branch
+
+PS C:\Users\shreya.sg\QA-PythonTraining\automation-092025> git status
+
+PS C:\Users\shreya.sg\QA-PythonTraining\automation-092025> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20250922102404
+**********************
