@@ -1,0 +1,52 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20250922113305
+Username: ASCENDI-6COJU9A\Ascendion
+RunAs User: ASCENDI-6COJU9A\Ascendion
+Configuration Name: 
+Machine: ASCENDI-6COJU9A (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 7372
+PSVersion: 5.1.26100.6584
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.6584
+BuildVersion: 10.0.26100.6584
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is Keyur.txt
+PS C:\Users\Ascendion\Documents\QA-Training\automation-092025> git status
+git checkout -b Keyur-branch
+New-Item -Name "sample.txt" -ItemType File
+git add sample.txt
+git commit -m "Add sample file"
+On branch Keyur-branch
+Your branch is up to date with 'origin/Keyur-branch'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Keyur.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+fatal: a branch named 'Keyur-branch' already exists
+
+
+    Directory: C:\Users\Ascendion\Documents\QA-Training\automation-092025
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         9/22/2025  11:33 AM              0 sample.txt
+
+[Keyur-branch c4904af] Add sample file
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 sample.txt
+
+
+PS C:\Users\Ascendion\Documents\QA-Training\automation-092025> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20250922113321
+**********************
