@@ -1,0 +1,28 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20250922110751
+Username: ASCENDION\jeya.mathesh
+RunAs User: ASCENDION\jeya.mathesh
+Configuration Name: 
+Machine: ASCINLAP61363 (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 22108
+PSVersion: 5.1.26100.6584
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.6584
+BuildVersion: 10.0.26100.6584
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is mathesh.log
+PS C:\Users\jeya.mathesh\OneDrive - ascendion\PythonTest\QA-Training\automation-092025> Get-ChildItem -Name *.log
+mathesh.log
+PS C:\Users\jeya.mathesh\OneDrive - ascendion\PythonTest\QA-Training\automation-092025> git status
+
+PS C:\Users\jeya.mathesh\OneDrive - ascendion\PythonTest\QA-Training\automation-092025> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20250922110811
+**********************
