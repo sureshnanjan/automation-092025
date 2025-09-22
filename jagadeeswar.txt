@@ -1,0 +1,53 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20250922110406
+Username: ASCENDION\jagadeeswar.arava
+RunAs User: ASCENDION\jagadeeswar.arava
+Configuration Name: 
+Machine: ASCINLAP61364 (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 20564
+PSVersion: 5.1.26100.6584
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.6584
+BuildVersion: 10.0.26100.6584
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is jagadeeswar.txt
+PS C:\Users\jagadeeswar.arava> New-Item -Path C:\Users\jagadeeswar.arava -Name ‘QA-Training’ -ItemType Directory
+
+
+    Directory: C:\Users\jagadeeswar.arava
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        22-09-2025     11:04                QA-Training
+
+
+PS C:\Users\jagadeeswar.arava> Set-Location  C:\Users\jagadeeswar.arava\QA-Training
+PS C:\Users\jagadeeswar.arava\QA-Training> git clone https://github.com/sureshnanjan/automation-092025.git
+Cloning into 'automation-092025'...
+remote: Enumerating objects: 42, done.
+remote: Counting objects: 100% (42/42), done.
+remote: Compressing objects: 100% (38/38), done.
+remote: Total 42 (delta 6), reused 20 (delta 0), pack-reused 0 (
+from 0)
+Receiving objects: 100% (42/42), 17.80 KiB | 236.00 KiB/s, done.
+Resolving deltas: 100% (6/6), done.
+PS C:\Users\jagadeeswar.arava\QA-Training> Set-Location automation-092025
+PS C:\Users\jagadeeswar.arava\QA-Training\automation-092025> git status
+
+PS C:\Users\jagadeeswar.arava\QA-Training\automation-092025> git checkout -b jagadeeswar
+
+PS C:\Users\jagadeeswar.arava\QA-Training\automation-092025> git status
+On branch jagadeeswar
+nothing to commit, working tree clean
+PS C:\Users\jagadeeswar.arava\QA-Training\automation-092025> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20250922110736
+**********************
