@@ -1,0 +1,77 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20250922104257
+Username: ASCENDI-03PBECJ\Ascendion
+RunAs User: ASCENDI-03PBECJ\Ascendion
+Configuration Name: 
+Machine: ASCENDI-03PBECJ (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 4104
+PSVersion: 5.1.26100.4768
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.4768
+BuildVersion: 10.0.26100.4768
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is sivasree.txt
+PS C:\WINDOWS\system32> New-Item -Path C:\Users\pythonautomationtesting -Name QA-Training -ItemType Directory
+
+
+
+    Directory: C:\Users\pythonautomationtesting
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         9/22/2025  10:45 AM                QA-Training
+
+
+PS C:\WINDOWS\system32> Set-Location C:\Users\pythonautomationtesting\QA-Training
+
+PS C:\Users\pythonautomationtesting\QA-Training> Invoke-WebRequest -Uri https://github.com/git-for-windows/git/releases/download/v2.44.0.windows.1/Git-2.44.0-64-bit.exe -OutFile git-installer.exe
+PS C:\Users\pythonautomationtesting\QA-Training> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+PS C:\Users\pythonautomationtesting\QA-Training> git clone https://github.com/sureshnanjan/automation-092025.git
+Cloning into 'automation-092025'...
+remote: Enumerating objects: 22, done.
+remote: Counting objects: 100% (22/22), done.
+remote: Compressing objects: 100% (20/20), done.
+remote: Total 22 (delta 2), reused 11 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (22/22), 9.11 KiB | 57.00 KiB/s, done.
+Resolving deltas: 100% (2/2), done.
+PS C:\Users\pythonautomationtesting\QA-Training>  Set-Location automation-092025
+PS C:\Users\pythonautomationtesting\QA-Training\automation-092025> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+PS C:\Users\pythonautomationtesting\QA-Training\automation-092025> git checkout -b sivasree-branch
+Switched to a new branch 'sivasree-branch'
+PS C:\Users\pythonautomationtesting\QA-Training\automation-092025> git status
+On branch sivasree-branch
+nothing to commit, working tree clean
+PS C:\Users\pythonautomationtesting\QA-Training\automation-092025> Stop -Transcript
+Stop : The term 'Stop' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the 
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ Stop -Transcript
++ ~~~~
+    + CategoryInfo          : ObjectNotFound: (Stop:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+Stop : The term 'Stop' is not recognized as the name of a cmdlet, function, script file, or operable
+program. Check the spelling of the name, or if a path was included, verify that the path is correct
+and try again.
+At line:1 char:1
++ Stop -Transcript
++ ~~~~
+    + CategoryInfo          : ObjectNotFound: (Stop:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\pythonautomationtesting\QA-Training\automation-092025> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20250922105046
+**********************
