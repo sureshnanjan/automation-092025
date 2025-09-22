@@ -1,0 +1,81 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20250922102137
+Username: ASCENDION\varun.reddy
+RunAs User: ASCENDION\varun.reddy
+Configuration Name: 
+Machine: ASCINLAP61395 (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 18116
+PSVersion: 5.1.26100.6584
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.6584
+BuildVersion: 10.0.26100.6584
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is varun.txt
+PS C:\Users\varun.reddy> New-Item -Path "C:\Users\varun.reddy\Downloads\varun.txt" -Name ‘QA-Training’ -ItemType Directory
+New-Item : Cannot create "C:\Users\varun.reddy\Downloads\varun.txt" because a file or directory with the same name 
+already exists.
+At line:1 char:1
++ New-Item -Path "C:\Users\varun.reddy\Downloads\varun.txt" -Name ‘QA-T ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\Users\varun....txt\QA-Training:String) [New-Item], IOException
+    + FullyQualifiedErrorId : CreateDirectoryIOError,Microsoft.PowerShell.Commands.NewItemCommand
+New-Item : Cannot create "C:\Users\varun.reddy\Downloads\varun.txt" because a file or directory with the same name
+already exists.
+At line:1 char:1
++ New-Item -Path "C:\Users\varun.reddy\Downloads\varun.txt" -Name ‘QA-T ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\Users\varun....txt\QA-Training:String) [New-Item], IOException
+    + FullyQualifiedErrorId : CreateDirectoryIOError,Microsoft.PowerShell.Commands.NewItemCommand
+
+PS C:\Users\varun.reddy> New-Item -Path "C:\Users\varun.reddy\Downloads\" -Name ‘QA-Training’ -ItemType Directory
+
+
+    Directory: C:\Users\varun.reddy\Downloads
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        22-09-2025     10:34                QA-Training
+
+
+PS C:\Users\varun.reddy> Set-Location "C:\Users\varun.reddy\Downloads\QA-Training"
+PS C:\Users\varun.reddy\Downloads\QA-Training> git clone https://github.com/sureshnanjan/automation-092025.git
+
+PS C:\Users\varun.reddy\Downloads\QA-Training> Set-Location automation-092025
+PS C:\Users\varun.reddy\Downloads\QA-Training\automation-092025> git status
+
+PS C:\Users\varun.reddy\Downloads\QA-Training\automation-092025> git checkout -b Varun -branch
+
+PS C:\Users\varun.reddy\Downloads\QA-Training\automation-092025> git status
+
+PS C:\Users\varun.reddy\Downloads\QA-Training\automation-092025> Stop-Transcrpit
+Stop-Transcrpit : The term 'Stop-Transcrpit' is not recognized as the name of a cmdlet, function, script file, or 
+operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try 
+again.
+At line:1 char:1
++ Stop-Transcrpit
++ ~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Stop-Transcrpit:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+Stop-Transcrpit : The term 'Stop-Transcrpit' is not recognized
+as the name of a cmdlet, function, script file, or operable
+program. Check the spelling of the name, or if a path was
+included, verify that the path is correct and try again.
+At line:1 char:1
++ Stop-Transcrpit
++ ~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Stop-Transcrpit
+   :String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\varun.reddy\Downloads\QA-Training\automation-092025> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20250922103723
+**********************
