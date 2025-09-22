@@ -1,0 +1,92 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20250922101454
+Username: ASCENDION\sehwag.v
+RunAs User: ASCENDION\sehwag.v
+Configuration Name: 
+Machine: ASCINLAP61358 (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 31284
+PSVersion: 5.1.26100.4768
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.4768
+BuildVersion: 10.0.26100.4768
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is sehwag.txt
+PS C:\Users\sehwag.v> New-Item -Path C:\Users\sehwag.v\OneDrive - ascendion\Desktop\Python Appium Training QA -Name ‘QA-Training’ -ItemType Directory
+PS C:\Users\sehwag.v> TerminatingError(New-Item): "A positional parameter cannot be found that accepts argument '-'."
+New-Item : A positional parameter cannot be found that accepts argument '-'.
+At line:1 char:1
++ New-Item -Path C:\Users\sehwag.v\OneDrive - ascendion\Desktop\Python  ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [New-Item], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.NewItemCommand
+New-Item : A positional parameter cannot be found that accepts argument '-'.
+At line:1 char:1
++ New-Item -Path C:\Users\sehwag.v\OneDrive - ascendion\Desktop\Python  ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [New-Item], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.NewItemCommand
+
+PS C:\Users\sehwag.v> New-Item -Path C:\Users\sehwag.v\OneDrive-ascendion\Desktop\Python Appium Training QA -Name ‘QA-Training’ -ItemType Directory
+>> TerminatingError(New-Item): "A positional parameter cannot be found that accepts argument 'Appium'."
+New-Item : A positional parameter cannot be found that accepts argument 'Appium'.
+At line:1 char:1
++ New-Item -Path C:\Users\sehwag.v\OneDrive-ascendion\Desktop\Python Ap ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [New-Item], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.NewItemCommand
+New-Item : A positional parameter cannot be found that accepts argument 'Appium'.
+At line:1 char:1
++ New-Item -Path C:\Users\sehwag.v\OneDrive-ascendion\Desktop\Python Ap ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [New-Item], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.NewItemCommand
+
+PS C:\Users\sehwag.v> New-Item -Path C:\Users\sehwag.v\OneDrive-ascendion\Desktop\Python-Appium-Training-QA -Name ‘QA-Training’ -ItemType Directory
+
+
+    Directory: C:\Users\sehwag.v\OneDrive-ascendion\Desktop\Python-Appium-Training-QA
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        22-09-2025     10:17                QA-Training
+
+
+PS C:\Users\sehwag.v> Set-Location C:\Users\sehwag.v\OneDrive - ascendion\Desktop\Python-Appium-Training-QA\QA-Training
+>> TerminatingError(Set-Location): "A positional parameter cannot be found that accepts argument '-'."
+Set-Location : A positional parameter cannot be found that accepts argument '-'.
+At line:1 char:1
++ Set-Location C:\Users\sehwag.v\OneDrive - ascendion\Desktop\Python-Ap ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-Location], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+Set-Location : A positional parameter cannot be found that accepts argument '-'.
+At line:1 char:1
++ Set-Location C:\Users\sehwag.v\OneDrive - ascendion\Desktop\Python-Ap ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-Location], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+
+PS C:\Users\sehwag.v> Set-Location C:\Users\sehwag.v\OneDrive-ascendion\Desktop\Python-Appium-Training-QA\QA-Training
+PS C:\Users\sehwag.v\OneDrive-ascendion\Desktop\Python-Appium-Training-QA\QA-Training> git --version
+
+PS C:\Users\sehwag.v\OneDrive-ascendion\Desktop\Python-Appium-Training-QA\QA-Training> git clone https://github.com/sureshnanjan/automation-092025.git
+
+PS C:\Users\sehwag.v\OneDrive-ascendion\Desktop\Python-Appium-Training-QA\QA-Training> Set-Location automation-092025
+PS C:\Users\sehwag.v\OneDrive-ascendion\Desktop\Python-Appium-Training-QA\QA-Training\automation-092025> git status
+
+PS C:\Users\sehwag.v\OneDrive-ascendion\Desktop\Python-Appium-Training-QA\QA-Training\automation-092025> git checkout -b sehwag-branch
+
+PS C:\Users\sehwag.v\OneDrive-ascendion\Desktop\Python-Appium-Training-QA\QA-Training\automation-092025> git status
+
+PS C:\Users\sehwag.v\OneDrive-ascendion\Desktop\Python-Appium-Training-QA\QA-Training\automation-092025> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20250922102219
+**********************
