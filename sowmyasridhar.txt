@@ -1,0 +1,52 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20250922104004
+Username: ASCENDI-5KUKA0U\Ascendion
+RunAs User: ASCENDI-5KUKA0U\Ascendion
+Configuration Name: 
+Machine: ASCENDI-5KUKA0U (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 7920
+PSVersion: 5.1.26100.6584
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.6584
+BuildVersion: 10.0.26100.6584
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\Ascendion\Desktop\PYTHON_FOLDER\sowmyasridhar.txt
+PS C:\Users\Ascendion> Set-Location "C:\Users\Ascendion\Desktop\PYTHON\automation-092025"
+PS C:\Users\Ascendion\Desktop\PYTHON\automation-092025> git fetch
+remote: Enumerating objects: 9, done.
+remote: Counting objects: 100% (9/9), done.
+remote: Compressing objects: 100% (7/7), done.
+remote: Total 8 (delta 0), reused 6 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (8/8), 2.39 KiB | 9.00 KiB/s, done.
+From https://github.com/sureshnanjan/automation-092025
+   2d62b81..6e244a0  Elangovan      -> origin/Elangovan
+   2d62b81..307bf9f  Teja           -> origin/Teja
+ * [new branch]      Varun          -> origin/Varun
+ * [new branch]      mathesh-branch -> origin/mathesh-branch
+ * [new branch]      shreya-branch  -> origin/shreya-branch
+PS C:\Users\Ascendion\Desktop\PYTHON\automation-092025>  git branch -a
+  remotes/origin/Teja
+  remotes/origin/Vamsi
+  remotes/origin/Varun
+  remotes/origin/main
+  remotes/origin/mathesh-branch
+  remotes/origin/sehwag-branch
+  remotes/origin/shreya-branch
+  remotes/origin/sowmya.sridhar
+PS C:\Users\Ascendion\Desktop\PYTHON\automation-092025> git checkout -b sowmya.sridhar origin/sowmya.sridhar
+
+PS C:\Users\Ascendion\Desktop\PYTHON\automation-092025> git checkout sowmya.sridhar
+
+PS C:\Users\Ascendion\Desktop\PYTHON\automation-092025> git branch
+
+PS C:\Users\Ascendion\Desktop\PYTHON\automation-092025> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20250922104512
+**********************
