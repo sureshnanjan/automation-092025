@@ -1,0 +1,48 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20250923145241
+Username: ASCENDI-8POD398\Ascendion
+RunAs User: ASCENDI-8POD398\Ascendion
+Configuration Name: 
+Machine: ASCENDI-8POD398 (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 5124
+PSVersion: 5.1.26100.6584
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.6584
+BuildVersion: 10.0.26100.6584
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is transcript.txt
+PS C:\Users\Ascendion\Desktop\Automation_Python> python 
+KeyboardInterrupt
+>>> import decimal
+... json.loads('1.1', parse_float=decimal.Decimal)
+...
+Decimal('1.1')
+>>> import json
+... class ComplexEncoder(json.JSONEncoder):
+...     def default(self, obj):
+...         if isinstance(obj, complex):
+...             return [obj.real, obj.imag]
+...         # Let the base class default method raise the TypeError
+...         return super().default(obj)
+...
+... json.dumps(2 + 1j, cls=ComplexEncoder)
+...
+'[2.0, 1.0]'
+>>> ComplexEncoder().encode(2 + 1j)
+'[2.0, 1.0]'
+>>> list(ComplexEncoder().iterencode(2 + 1j))
+['[2.0', ', 1.0', ']']
+>>> exit
+PS C:\Users\Ascendion\Desktop\Automation_Python> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+PS C:\Users\Ascendion\Desktop\Automation_Python> Stop-Transcript 
+**********************
+Windows PowerShell transcript end
+End time: 20250923150220
+**********************
