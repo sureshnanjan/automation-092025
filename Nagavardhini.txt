@@ -1,0 +1,188 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20250924155202
+Username: ASCENDI-SL6J8MQ\Ascendion
+RunAs User: ASCENDI-SL6J8MQ\Ascendion
+Configuration Name: 
+Machine: ASCENDI-SL6J8MQ (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 2580
+PSVersion: 5.1.26100.1591
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.1591
+BuildVersion: 10.0.26100.1591
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is Nagavardhini.txt
+PS C:\Users\Ascendion> New-Item -Path . -Name 'QA-Training' -ItemType Directory
+New-Item : An item with the specified name C:\Users\Ascendion\QA-Training already exists.
+At line:1 char:1
++ New-Item -Path . -Name 'QA-Training' -ItemType Directory
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceExists: (C:\Users\Ascendion\QA-Training:String) [New-Item], IOException
+    + FullyQualifiedErrorId : DirectoryExist,Microsoft.PowerShell.Commands.NewItemCommand
+New-Item : An item with the specified name C:\Users\Ascendion\QA-Training already exists.
+At line:1 char:1
++ New-Item -Path . -Name 'QA-Training' -ItemType Directory
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceExists: (C:\Users\Ascendion\QA-Training:String) [New-Item], IOException
+    + FullyQualifiedErrorId : DirectoryExist,Microsoft.PowerShell.Commands.NewItemCommand
+
+PS C:\Users\Ascendion> New-Item -Path . -Name 'QA-Training' 
+New-Item : The file 'C:\Users\Ascendion\QA-Training' already exists.
+At line:1 char:1
++ New-Item -Path . -Name 'QA-Training'
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\Users\Ascendion\QA-Training:String) [New-Item], IOException
+    + FullyQualifiedErrorId : NewItemIOError,Microsoft.PowerShell.Commands.NewItemCommand
+New-Item : The file 'C:\Users\Ascendion\QA-Training' already exists.
+At line:1 char:1
++ New-Item -Path . -Name 'QA-Training'
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\Users\Ascendion\QA-Training:String) [New-Item], IOException
+    + FullyQualifiedErrorId : NewItemIOError,Microsoft.PowerShell.Commands.NewItemCommand
+
+PS C:\Users\Ascendion> New-Item -Path . -Name 'QA-Training2' -ItemType Directory
+
+
+    Directory: C:\Users\Ascendion
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         9/24/2025   3:56 PM                QA-Training2
+
+
+PS C:\Users\Ascendion> dir
+
+
+    Directory: C:\Users\Ascendion
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-r---         9/24/2025  11:34 AM                Contacts
+d-r---         9/24/2025  11:34 AM                Desktop
+d-r---         9/24/2025  11:34 AM                Documents
+d-r---         9/24/2025  11:34 AM                Downloads
+d-r---         9/24/2025  11:34 AM                Favorites
+d-r---         9/24/2025  11:34 AM                Links
+d-r---         9/24/2025  11:34 AM                Music
+d-r---         9/24/2025  11:37 AM                OneDrive
+d-r---         9/24/2025  11:34 AM                Pictures
+d-----         9/24/2025  12:48 PM                QA-Training1
+d-----         9/24/2025   3:56 PM                QA-Training2
+d-r---         9/24/2025  11:34 AM                Saved Games
+d-r---         9/24/2025  11:36 AM                Searches
+d-r---         9/24/2025  11:34 AM                Videos
+-a----         9/24/2025   3:52 PM              0 Nagavardhini.txt
+-a----         9/24/2025  12:34 PM              0 QA-Training
+-a----         9/24/2025   3:49 PM           4170 Vardhini.txt
+
+
+PS C:\Users\Ascendion>  Set-Location QA-Training2
+PS C:\Users\Ascendion\QA-Training2> git –-version
+git : The term 'git' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the 
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ git –-version
++ ~~~
+    + CategoryInfo          : ObjectNotFound: (git:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+git : The term 'git' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ git –-version
++ ~~~
+    + CategoryInfo          : ObjectNotFound: (git:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Ascendion\QA-Training2> Invoke-WebRequest -Uri https://github.com/git-for-windows/git/releases/download/v2.44.0.windows.1/Git-2.44.0-64-bit.exe -OutFile git-installer.exe
+PS C:\Users\Ascendion\QA-Training2> dir
+
+
+    Directory: C:\Users\Ascendion\QA-Training2
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         9/24/2025   4:07 PM       20971520 git-installer.exe
+
+
+PS C:\Users\Ascendion\QA-Training2> .\git-installer.exe /VERYSILENT /NORESTART
+PS C:\Users\Ascendion\QA-Training2> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20250924160954
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20250924161138
+Username: ASCENDI-SL6J8MQ\Ascendion
+RunAs User: ASCENDI-SL6J8MQ\Ascendion
+Configuration Name: 
+Machine: ASCENDI-SL6J8MQ (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 7864
+PSVersion: 5.1.26100.1591
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.1591
+BuildVersion: 10.0.26100.1591
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is .\Nagavardhini.txt
+PS C:\Users\Ascendion>  Set-Location .\QA-Training2\
+PS C:\Users\Ascendion\QA-Training2> git –-version
+git : The term 'git' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the 
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ git –-version
++ ~~~
+    + CategoryInfo          : ObjectNotFound: (git:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+git : The term 'git' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try
+again.
+At line:1 char:1
++ git –-version
++ ~~~
+    + CategoryInfo          : ObjectNotFound: (git:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Ascendion\QA-Training2> git --Version
+git : The term 'git' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the 
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ git --Version
++ ~~~
+    + CategoryInfo          : ObjectNotFound: (git:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+git : The term 'git' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try
+again.
+At line:1 char:1
++ git --Version
++ ~~~
+    + CategoryInfo          : ObjectNotFound: (git:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Ascendion\QA-Training2> git –-version
+git : The term 'git' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the 
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ git –-version
++ ~~~
+    + CategoryInfo          : ObjectNotFound: (git:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+git : The term 'git' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try
+again.
+At line:1 char:1
++ git –-version
++ ~~~
+    + CategoryInfo          : ObjectNotFound: (git:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
