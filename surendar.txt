@@ -1,0 +1,174 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20250924123313
+Username: ASCENDI-TLF379D\Ascendion
+RunAs User: ASCENDI-TLF379D\Ascendion
+Configuration Name: 
+Machine: ASCENDI-TLF379D (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 2992
+PSVersion: 5.1.26100.1591
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.1591
+BuildVersion: 10.0.26100.1591
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is surendar.txt
+PS C:\Users\Ascendion> New-Item -Path . -Name QA-Training 
+
+
+    Directory: C:\Users\Ascendion
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         9/24/2025  12:34 PM              0 QA-Training
+
+
+PS C:\Users\Ascendion> Set-Location QA-Training
+Set-Location : Cannot find path 'QA-Training' because it does not exist.
+At line:1 char:1
++ Set-Location QA-Training
++ ~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (QA-Training:String) [Set-Location], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+Set-Location : Cannot find path 'QA-Training' because it does not exist.
+At line:1 char:1
++ Set-Location QA-Training
++ ~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (QA-Training:String) [Set-Location], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+
+PS C:\Users\Ascendion> dir
+
+
+    Directory: C:\Users\Ascendion
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-r---         9/24/2025  11:34 AM                Contacts
+d-r---         9/24/2025  11:34 AM                Desktop
+d-r---         9/24/2025  11:34 AM                Documents
+d-r---         9/24/2025  11:57 AM                Downloads
+d-r---         9/24/2025  11:34 AM                Favorites
+d-r---         9/24/2025  11:34 AM                Links
+d-r---         9/24/2025  11:34 AM                Music
+d-r---         9/24/2025  11:38 AM                OneDrive
+d-r---         9/24/2025  11:34 AM                Pictures
+d-r---         9/24/2025  11:34 AM                Saved Games
+d-r---         9/24/2025  11:36 AM                Searches
+d-r---         9/24/2025  11:34 AM                Videos
+-a----         9/24/2025  12:34 PM              0 QA-Training
+-a----         9/24/2025  12:34 PM            959 surendar.txt
+
+
+PS C:\Users\Ascendion> New-Item -Path . -Name QA-Training -ItemType Directory
+New-Item : An item with the specified name C:\Users\Ascendion\QA-Training already exists.
+At line:1 char:1
++ New-Item -Path . -Name QA-Training -ItemType Directory
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceExists: (C:\Users\Ascendion\QA-Training:String) [New-Item], IOException
+    + FullyQualifiedErrorId : DirectoryExist,Microsoft.PowerShell.Commands.NewItemCommand
+New-Item : An item with the specified name C:\Users\Ascendion\QA-Training already exists.
+At line:1 char:1
++ New-Item -Path . -Name QA-Training -ItemType Directory
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceExists: (C:\Users\Ascendion\QA-Training:String) [New-Item], IOException
+    + FullyQualifiedErrorId : DirectoryExist,Microsoft.PowerShell.Commands.NewItemCommand
+
+PS C:\Users\Ascendion> New-Item -Path . -Name QA-Training1 -ItemType Directory
+
+
+    Directory: C:\Users\Ascendion
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         9/24/2025  12:37 PM                QA-Training1
+
+
+PS C:\Users\Ascendion> Set-Location QA-Training1
+PS C:\Users\Ascendion\QA-Training1> git --version
+git : The term 'git' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the 
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ git --version
++ ~~~
+    + CategoryInfo          : ObjectNotFound: (git:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+git : The term 'git' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ git --version
++ ~~~
+    + CategoryInfo          : ObjectNotFound: (git:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Ascendion\QA-Training1> Invoke-WebRequest -Uri https://github.com/git-for-windows/git/releases/download/v2.44.0.windows.1/Git-2.44.0-64-bit.exe -OutFile git-installer.exe
+PS C:\Users\Ascendion\QA-Training1> dir
+
+
+    Directory: C:\Users\Ascendion\QA-Training1
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         9/24/2025  12:49 PM       65350776 git-installer.exe
+
+
+PS C:\Users\Ascendion\QA-Training1>  .\git-installer.exe /VERYSILENT /NORESTART
+PS C:\Users\Ascendion\QA-Training1> stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20250924125215
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20250924125321
+Username: ASCENDI-TLF379D\Ascendion
+RunAs User: ASCENDI-TLF379D\Ascendion
+Configuration Name: 
+Machine: ASCENDI-TLF379D (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 5284
+PSVersion: 5.1.26100.1591
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.1591
+BuildVersion: 10.0.26100.1591
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is .\surendar.txt
+PS C:\Users\Ascendion> set-Location .\QA-Training1\
+PS C:\Users\Ascendion\QA-Training1> git --version
+git version 2.44.0.windows.1
+PS C:\Users\Ascendion\QA-Training1> git clone https://github.com/sureshnanjan/automation-092025.git
+Cloning into 'automation-092025'...
+remote: Enumerating objects: 131, done.
+remote: Counting objects: 100% (50/50), done.
+remote: Compressing objects: 100% (42/42), done.
+Rremote: Total 131 (delta 8), reused 46 (delta 7), pack-reused 81 (from 1)
+Receiving objects: 100% (131/131), 1.20 MiB | 5.56 MiB/s, done.
+Resolving deltas: 100% (22/22), done.
+PS C:\Users\Ascendion\QA-Training1> Set-Location automation-092025
+PS C:\Users\Ascendion\QA-Training1\automation-092025> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+PS C:\Users\Ascendion\QA-Training1\automation-092025> git checkout -b surendar-branch
+Switched to a new branch 'surendar-branch'
+PS C:\Users\Ascendion\QA-Training1\automation-092025> git status
+On branch surendar-branch
+nothing to commit, working tree clean
+PS C:\Users\Ascendion\QA-Training1\automation-092025> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20250924125947
+**********************
