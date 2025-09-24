@@ -1,0 +1,67 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20250924123526
+Username: ASCENDION\bhavyasree.s
+RunAs User: ASCENDION\bhavyasree.s
+Configuration Name: 
+Machine: ASCINLAP20077 (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 22452
+PSVersion: 5.1.26100.6584
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.6584
+BuildVersion: 10.0.26100.6584
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is Bhavya.txt
+PS C:\Users\bhavyasree.s.ASCENDION>  New-Item -Path . -Name QA-Training1 -ItemType Directory
+
+
+    Directory: C:\Users\bhavyasree.s.ASCENDION
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         9/24/2025  12:39 PM                QA-Training1
+
+
+PS C:\Users\bhavyasree.s.ASCENDION> set-Location QA-Training1
+PS C:\Users\bhavyasree.s.ASCENDION\QA-Training1> git --version
+git version 2.42.0.windows.2
+PS C:\Users\bhavyasree.s.ASCENDION\QA-Training1>  git checkout -b Bhavya-branch
+Switched to a new branch 'Bhavya-branch'
+PS C:\Users\bhavyasree.s.ASCENDION\QA-Training1> git status
+        ../ntuser.ini
+        ../package-lock.json
+        ../source/
+
+nothing added to commit but untracked files present (use "git add" to track)
+PS C:\Users\bhavyasree.s.ASCENDION\QA-Training1> 5.1. git clone https://github.com/sureshnanjan/automation-092025.g git clone https://github.com/sureshnanjan/automation-092025.git
+At line:1 char:10
++ 5.1. git clone https://github.com/sureshnanjan/automation-092025.g gi ...
++          ~~~~~
+Unexpected token 'clone' in expression or statement.
+At line:1 char:10
++ 5.1. git clone https://github.com/sureshnanjan/automation-092025.g gi ...
++          ~~~~~
+Unexpected token 'clone' in expression or statement.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : UnexpectedToken
+
+PS C:\Users\bhavyasree.s.ASCENDION\QA-Training1> git clone https://github.com/sureshnanjan/automation-092025.git
+
+PS C:\Users\bhavyasree.s.ASCENDION\QA-Training1> Set-Location automation-092025
+PS C:\Users\bhavyasree.s.ASCENDION\QA-Training1\automation-092025> git status
+
+PS C:\Users\bhavyasree.s.ASCENDION\QA-Training1\automation-092025>  git checkout -b Bhavya-branch
+
+PS C:\Users\bhavyasree.s.ASCENDION\QA-Training1\automation-092025> git status
+
+PS C:\Users\bhavyasree.s.ASCENDION\QA-Training1\automation-092025>  stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20250924130001
+**********************
