@@ -1,0 +1,57 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20250924162739
+Username: BRD\tanuj.singh
+RunAs User: BRD\tanuj.singh
+Configuration Name: 
+Machine: INBL01LAP04621 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 8700
+PSVersion: 5.1.19041.6328
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6328
+BuildVersion: 10.0.19041.6328
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is tanujsingh.txt
+PS C:\Users\tanuj.singh> New-Item -Path C:\Users\tanuj.singh\Desktop\WorkingFolder -Name ‘QA-Training’ -ItemType Directory 
+
+
+    Directory: C:\Users\tanuj.singh\Desktop\WorkingFolder
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        24-09-2025     16:28                QA-Training
+
+
+PS C:\Users\tanuj.singh> Set-Location C:\Users\tanuj.singh\Desktop\WorkingFolder\QA-Training
+PS C:\Users\tanuj.singh\Desktop\WorkingFolder\QA-Training> git --version
+git version 2.44.0.windows.1
+PS C:\Users\tanuj.singh\Desktop\WorkingFolder\QA-Training> git clone https://github.com/sureshnanjan/automation-092025.git 
+Cloning into 'automation-092025'...
+remote: Enumerating objects: 140, done.
+remote: Counting objects: 100% (59/59), done.
+remote: Compressing objects: 100% (51/51), done.
+remote: Total 140 (delta 13), reused 50 (delta 7), pack-reused 81 (from 1)
+Receiving objects: 100% (140/140), 1.20 MiB | 2.13 MiB/s, done.
+Resolving deltas: 100% (27/27), done.
+PS C:\Users\tanuj.singh\Desktop\WorkingFolder\QA-Training> Set-Location automation-092025
+PS C:\Users\tanuj.singh\Desktop\WorkingFolder\QA-Training\automation-092025> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+PS C:\Users\tanuj.singh\Desktop\WorkingFolder\QA-Training\automation-092025> git checkout -b tanuj-branch
+Switched to a new branch 'tanuj-branch'
+PS C:\Users\tanuj.singh\Desktop\WorkingFolder\QA-Training\automation-092025> git status
+On branch tanuj-branch
+nothing to commit, working tree clean
+PS C:\Users\tanuj.singh\Desktop\WorkingFolder\QA-Training\automation-092025> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20250924163010
+**********************
