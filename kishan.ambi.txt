@@ -1,0 +1,120 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20250924143137
+Username: ASCENDI-4OSBC2N\Ascendion
+RunAs User: ASCENDI-4OSBC2N\Ascendion
+Configuration Name: 
+Machine: ASCENDI-4OSBC2N (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 2756
+PSVersion: 5.1.26100.1591
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.1591
+BuildVersion: 10.0.26100.1591
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is kishan.ambi.txt
+PS C:\Users\Ascendion> New-Item -Path C:\Python wiht Appium -Name "Qa-Training" -ItemType Directory
+PS C:\Users\Ascendion> TerminatingError(New-Item): "A positional parameter cannot be found that accepts argument 'wiht'."
+New-Item : A positional parameter cannot be found that accepts argument 'wiht'.
+At line:1 char:1
++ New-Item -Path C:\Python wiht Appium -Name "Qa-Training" -ItemType Di ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [New-Item], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.NewItemCommand
+New-Item : A positional parameter cannot be found that accepts argument 'wiht'.
+At line:1 char:1
++ New-Item -Path C:\Python wiht Appium -Name "Qa-Training" -ItemType Di ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [New-Item], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.NewItemComman
+   d
+
+PS C:\Users\Ascendion> New-Item -Path C:\Python_with_Appium -Name "Qa-Training" -ItemType Directory
+
+
+    Directory: C:\Python_with_Appium
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         9/24/2025   2:36 PM                Qa-Training
+
+
+PS C:\Users\Ascendion> Set-Location C:\Python_with_Appium \Qa-Training
+>> TerminatingError(Set-Location): "A positional parameter cannot be found that accepts argument '\Qa-Training'."
+Set-Location : A positional parameter cannot be found that accepts argument '\Qa-Training'.
+At line:1 char:1
++ Set-Location C:\Python_with_Appium \Qa-Training
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-Location], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+Set-Location : A positional parameter cannot be found that accepts argument '\Qa-Training'.
+At line:1 char:1
++ Set-Location C:\Python_with_Appium \Qa-Training
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-Location], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.SetLocationCo
+   mmand
+
+PS C:\Users\Ascendion> Set-Location C:\Python_with_Appium\Qa-Training
+PS C:\Python_with_Appium\Qa-Training> Invoke-WebRequest -Url https://github.com/git-for-windows/git/releases/download/v2.44.0.windows.1/Git-2.44.0-64-bit.exe -Outfile git-installer.exe
+>> TerminatingError(Invoke-WebRequest): "A parameter cannot be found that matches parameter name 'Url'."
+Invoke-WebRequest : A parameter cannot be found that matches parameter name 'Url'.
+At line:1 char:19
++ Invoke-WebRequest -Url https://github.com/git-for-windows/git/release ...
++                   ~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Invoke-WebRequest], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.PowerShell.Commands.InvokeWebRequestCommand
+Invoke-WebRequest : A parameter cannot be found that matches parameter name 'Url'.
+At line:1 char:19
++ Invoke-WebRequest -Url https://github.com/git-for-windows/git/release ...
++                   ~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Invoke-WebRequest], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.PowerShell.Commands.InvokeWebRequestCo
+   mmand
+
+PS C:\Python_with_Appium\Qa-Training> Invoke-WebRequest -Uri https://github.com/git-for-windows/git/releases/download/v2.44.0.windows.1/Git-2.44.0-64-bit.exe -Outfile git-installer.exe
+PS C:\Python_with_Appium\Qa-Training> .\git-installer.exe/VERYSILENT/NORESTART
+.\git-installer.exe/VERYSILENT/NORESTART : The term '.\git-installer.exe/VERYSILENT/NORESTART' is not recognized as the 
+name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was 
+included, verify that the path is correct and try again.
+At line:1 char:1
++ .\git-installer.exe/VERYSILENT/NORESTART
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.\git-installer.exe/VERYSILENT/NORESTART:String) [], 
+CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.\git-installer.exe/VERYSILENT/NORESTART : The term '.\git-installer.exe/VERYSILENT/NORESTART' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the
+name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ .\git-installer.exe/VERYSILENT/NORESTART
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.\git-installer.exe/VERYSILENT/NORESTART:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Python_with_Appium\Qa-Training> .\git-installer.exe /VERYSILENT /NORESTART
+PS C:\Python_with_Appium\Qa-Training> git --version
+git : The term 'git' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the 
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ git --version
++ ~~~
+    + CategoryInfo          : ObjectNotFound: (git:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+git : The term 'git' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try
+again.
+At line:1 char:1
++ git --version
++ ~~~
+    + CategoryInfo          : ObjectNotFound: (git:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Python_with_Appium\Qa-Training> stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20250924145421
+**********************
