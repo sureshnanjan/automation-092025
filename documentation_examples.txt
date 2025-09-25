@@ -1,0 +1,134 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20250925172900
+Username: ASCENDI-5KUKA0U\Ascendion
+RunAs User: ASCENDI-5KUKA0U\Ascendion
+Configuration Name: 
+Machine: ASCENDI-5KUKA0U (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 7416
+PSVersion: 5.1.26100.6584
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.6584
+BuildVersion: 10.0.26100.6584
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\Ascendion\Desktop\PYTHON\automation-092025\documentation_examples.txt
+PS C:\Users\Ascendion> python
+Python 3.13.7 (tags/v3.13.7:bcee1c3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> help(abs)
+Help on built-in function abs in module builtins:
+
+abs(x, /)
+    Return the absolute value of the argument.
+
+>>> abs(-10)
+10
+>>> abs(3.14)
+3.14
+>>> help(len)
+Help on built-in function len in module builtins:
+
+len(obj, /)
+    Return the number of items in a container.
+
+>>> list("hello")
+['h', 'e', 'l', 'l', 'o']
+>>> list(range(5))
+[0, 1, 2, 3, 4]
+>>> dict(a=1, b=2)
+{'a': 1, 'b': 2}
+>>> dict([("x", 10), ("y", 20)])
+{'x': 10, 'y': 20}
+>>> list(range(2, 10, 2))
+[2, 4, 6, 8]
+>>> help(locals)
+Help on built-in function locals in module builtins:
+
+locals()
+    Return a dictionary containing the current scope's local variables.
+
+    NOTE: Whether or not updates to this dictionary will affect name lookups in
+    the local scope and vice-versa is *implementation dependent* and not
+    covered by any backwards compatibility guarantees.
+
+>>> x=10
+>>> y=90
+>>> locals()
+{'__name__': '__main__', '__doc__': None, '__package__': '_pyrepl', '__loader__': None, '__spec__': None, '__annotations__': {}, '__builtins__': <module 'builtins' (built-in)>, '__file__': 'C:\\Users\\Ascendion\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\_pyrepl\\__main__.py', '__cached__': 'C:\\Users\\Ascendion\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\_pyrepl\\__pycache__\\__main__.cpython-313.pyc', 'x': 10, 'y': 90}
+>>> type(10)
+<class 'int'>
+>>> type([1,2,3])
+<class 'list'>
+>>> help(sorted)
+Help on built-in function sorted in module builtins:
+
+sorted(iterable, /, *, key=None, reverse=False)
+    Return a new list containing all items from the iterable in ascending order.
+
+    A custom key function can be supplied to customize the sort order, and the
+    reverse flag can be set to request the result in descending order.
+
+>>> sorted([5,2,9,1])
+[1, 2, 5, 9]
+>>> sorted("python")
+['h', 'n', 'o', 'p', 't', 'y']
+>>> len([1,2,3,4])
+4
+>>> len("sowmya")
+6
+>>> import math
+>>> help(vars)
+Help on built-in function vars in module builtins:
+
+vars(...)
+    vars([object]) -> dictionary
+
+    Without arguments, equivalent to locals().
+    With an argument, equivalent to object.__dict__.
+
+>>> print(vars(math))
+{'__name__': 'math', '__doc__': 'This module provides access to the mathematical functions\ndefined by the C standard.', '__package__': '', '__loader__': <class '_frozen_importlib.BuiltinImporter'>, '__spec__': ModuleSpec(name='math', loader=<class '_frozen_importlib.BuiltinImporter'>, origin='built-in'), 'acos': <built-in function acos>, 'acosh': <built-in function acosh>, 'asin': <built-in function asin>, 'asinh': <built-in function asinh>, 'atan': <built-in function atan>, 'atan2': <built-in function atan2>, 'atanh': <built-in function atanh>, 'cbrt': <built-in function cbrt>, 'ceil': <built-in function ceil>, 'copysign': <built-in function copysign>, 'cos': <built-in function cos>, 'cosh': <built-in function cosh>, 'degrees': <built-in function degrees>, 'dist': <built-in function dist>, 'erf': <built-in function erf>, 'erfc': <built-in function erfc>, 'exp': <built-in function exp>, 'exp2': <built-in function exp2>, 'expm1': <built-in function expm1>, 'fabs': <built-in function fabs>, 'factorial': <built-in function factorial>, 'floor': <built-in function floor>, 'fma': <built-in function fma>, 'fmod': <built-in function fmod>, 'frexp': <built-in function frexp>, 'fsum': <built-in function fsum>, 'gamma': <built-in function gamma>, 'gcd': <built-in function gcd>, 'hypot': <built-in function hypot>, 'isclose': <built-in function isclose>, 'isfinite': <built-in function isfinite>, 'isinf': <built-in function isinf>, 'isnan': <built-in function isnan>, 'isqrt': <built-in function isqrt>, 'lcm': <built-in function lcm>, 'ldexp': <built-in function ldexp>, 'lgamma': <built-in function lgamma>, 'log': <built-in function log>, 'log1p': <built-in function log1p>, 'log10': <built-in function log10>, 'log2': <built-in function log2>, 'modf': <built-in function modf>, 'pow': <built-in function pow>, 'radians': <built-in function radians>, 'remainder': <built-in function remainder>, 'sin': <built-in function sin>, 'sinh': <built-in function sinh>, 'sqrt': <built-in function sqrt>, 'tan': <built-in function tan>, 'tanh': <built-in function tanh>, 'sumprod': <built-in function sumprod>, 'trunc': <built-in function trunc>, 'prod': <built-in function prod>, 'perm': <built-in function perm>, 'comb': <built-in function comb>, 'nextafter': <built-in function nextafter>, 'ulp': <built-in function ulp>, 'pi': 3.141592653589793, 'e': 2.718281828459045, 'tau': 6.283185307179586, 'inf': inf, 'nan': nan}
+>>> numbers = [3, 7, 2, 9, 5]
+>>> max(numbers)
+9
+>>> min(numbers)
+2
+>>> sum(numbers)
+26
+>>> help(any)
+Help on built-in function any in module builtins:
+
+any(iterable, /)
+    Return True if bool(x) is True for any x in the iterable.
+
+    If the iterable is empty, return False.
+
+>>> help(all)
+Help on built-in function all in module builtins:
+
+all(iterable, /)
+    Return True if bool(x) is True for all values x in the iterable.
+
+    If the iterable is empty, return True.
+
+>>> values=[0,1,2]
+>>> any(values)
+True
+>>> all(values)
+False
+>>> fruits = ["apple", "banana", "cherry"]
+>>> list(enumerate(fruits))
+[(0, 'apple'), (1, 'banana'), (2, 'cherry')]
+>>> list(reversed([1,2,3,4]))
+[4, 3, 2, 1]
+>>> exit
+PS C:\Users\Ascendion> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20250925174309
+**********************
