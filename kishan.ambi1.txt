@@ -1,0 +1,86 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20250925122241
+Username: ASCENDI-4OSBC2N\Ascendion
+RunAs User: ASCENDI-4OSBC2N\Ascendion
+Configuration Name: 
+Machine: ASCENDI-4OSBC2N (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 13292
+PSVersion: 5.1.26100.6584
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.6584
+BuildVersion: 10.0.26100.6584
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is kishan.ambi1.txt
+PS C:\Python_with_Appium\Qa-Training\automation-092025> python
+
+PS C:\Python_with_Appium\Qa-Training\automation-092025> Stop-Transcript -path .\kishan.ambi1.txt
+>> TerminatingError(Stop-Transcript): "A parameter cannot be found that matches parameter name 'path'."
+Stop-Transcript : A parameter cannot be found that matches parameter name 'path'.
+At line:1 char:17
++ Stop-Transcript -path .\kishan.ambi1.txt
++                 ~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Stop-Transcript], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.PowerShell.Commands.StopTranscriptCommand
+Stop-Transcript : A parameter cannot be found that matches parameter name 'path'.
+At line:1 char:17
++ Stop-Transcript -path .\kishan.ambi1.txt
++                 ~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Stop-Transcript], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.PowerShell.Commands.StopTranscriptCommand
+
+PS C:\Python_with_Appium\Qa-Training\automation-092025> Stop-Transcript -path kishan.ambi1.txt
+>> TerminatingError(Stop-Transcript): "A parameter cannot be found that matches parameter name 'path'."
+Stop-Transcript : A parameter cannot be found that matches parameter name 'path'.
+At line:1 char:17
++ Stop-Transcript -path kishan.ambi1.txt
++                 ~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Stop-Transcript], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.PowerShell.Commands.StopTranscriptCommand
+Stop-Transcript : A parameter cannot be found that matches parameter name 'path'.
+At line:1 char:17
++ Stop-Transcript -path kishan.ambi1.txt
++                 ~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Stop-Transcript], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.PowerShell.Commands.StopTranscriptCommand
+
+PS C:\Python_with_Appium\Qa-Training\automation-092025> Stop-Transcript -Path .\kishan.ambi1.txt
+>> TerminatingError(Stop-Transcript): "A parameter cannot be found that matches parameter name 'Path'."
+Stop-Transcript : A parameter cannot be found that matches parameter name 'Path'.
+At line:1 char:17
++ Stop-Transcript -Path .\kishan.ambi1.txt
++                 ~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Stop-Transcript], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.PowerShell.Commands.StopTranscriptCommand
+Stop-Transcript : A parameter cannot be found that matches parameter name 'Path'.
+At line:1 char:17
++ Stop-Transcript -Path .\kishan.ambi1.txt
++                 ~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Stop-Transcript], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.PowerShell.Commands.StopTranscriptCommand
+
+PS C:\Python_with_Appium\Qa-Training\automation-092025> Stop-Transcript -Path kishan.ambi1.txt
+>> TerminatingError(Stop-Transcript): "A parameter cannot be found that matches parameter name 'Path'."
+Stop-Transcript : A parameter cannot be found that matches parameter name 'Path'.
+At line:1 char:17
++ Stop-Transcript -Path kishan.ambi1.txt
++                 ~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Stop-Transcript], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.PowerShell.Commands.StopTranscriptCommand
+Stop-Transcript : A parameter cannot be found that matches parameter name 'Path'.
+At line:1 char:17
++ Stop-Transcript -Path kishan.ambi1.txt
++                 ~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Stop-Transcript], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.PowerShell.Commands.StopTranscriptCommand
+
+PS C:\Python_with_Appium\Qa-Training\automation-092025> Stop-Transcript 
+**********************
+Windows PowerShell transcript end
+End time: 20250925152444
+**********************
