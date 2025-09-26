@@ -1,0 +1,142 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20250926101735
+Username: ASCENDI-8POD398\Ascendion
+RunAs User: ASCENDI-8POD398\Ascendion
+Configuration Name: 
+Machine: ASCENDI-8POD398 (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 6136
+PSVersion: 5.1.26100.6584
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.6584
+BuildVersion: 10.0.26100.6584
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is BuiltinExample.txt
+PS C:\Users\Ascendion\Desktop\Automation_Python> python 
+Python 3.13.7 (tags/v3.13.7:bcee1c3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> abs(-78)
+78
+>>> abs(7.8811)
+7.8811
+>>> abs(-0.00001)
+1e-05
+>>> abs(22.11)
+22.11
+>>> abs(4 + 5j)
+6.4031242374328485
+>>> abs(3 + 4j)
+5.0
+>>> abs(-1 - 1j)
+1.4142135623730951
+>>> abs((3 + 4j)(1 - 4j))
+<python-input-7>:1: SyntaxWarning: 'complex' object is not callable; perhaps you missed a comma?
+Traceback (most recent call last):
+  File "<python-input-7>", line 1, in <module>
+    abs((3 + 4j)(1 - 4j))
+        ~~~~~~~~^^^^^^^^
+TypeError: 'complex' object is not callable
+>>> abs((3 + 4j) * (1 - 4j))
+20.615528128088304
+>>> import math
+>>> help(math)
+Help on built-in module math:
+
+NAME
+    math
+
+DESCRIPTION
+    This module provides access to the mathematical functions
+    defined by the C standard.
+
+FUNCTIONS
+    acos(x, /)
+        Return the arc cosine (measured in radians) of x.
+
+        The result is between 0 and pi.
+
+    acosh(x, /)
+        Return the inverse hyperbolic cosine of x.
+
+    asin(x, /)
+        Return the arc sine (measured in radians) of x.
+
+        The result is between -pi/2 and pi/2.
+
+    asinh(x, /)
+        Return the inverse hyperbolic sine of x.
+
+    atan(x, /)
+        Return the arc tangent (measured in radians) of x.
+
+        The result is between -pi/2 and pi/2.
+>>> lst1 = []
+>>> lst2 = [1, 2, 3, 4]
+>>> lst3 = ["apple", "banana", "cherry"]
+>>> lst4 = [1, "hello", 3.14, True]
+>>> print(lst1 + lst2 + lst3 + lst4)
+[1, 2, 3, 4, 'apple', 'banana', 'cherry', 1, 'hello', 3.14, True]
+>>> print(lst4[1])
+hello
+>>> print(lst2[-2])
+3
+>>> d1 = {}
+>>> d2 = {1: "apple", 2: "banana"}
+>>> d3 = {"name": "Alice", "age": 25, "city": "Paris"}
+>>> print ( d1 + d2 + d3)
+Traceback (most recent call last):
+  File "<python-input-22>", line 1, in <module>
+    print ( d1 + d2 + d3)
+            ~~~^~~~
+TypeError: unsupported operand type(s) for +: 'dict' and 'dict'
+>>> merged = {**d1, **d2, **d3}
+>>> print(merged)
+{1: 'apple', 2: 'banana', 'name': 'Alice', 'age': 25, 'city': 'Paris'}
+>>> person = {"name": "John", "age": 30, "city": "Paris"}
+>>> person.pop("age")
+30
+>>> print(type(10))
+<class 'int'>
+>>> print(type(2 + 3j))
+<class 'complex'>
+>>> print(type(3.14))
+<class 'float'>
+>>> print(type(True))
+<class 'bool'>
+>>> print(type({"a": 1, "b": 2}))
+<class 'dict'>
+>>> print(type([1, 2, 3]))
+<class 'list'>
+>>> numbers = [10, 20, 30, 40]
+>>> print(len(numbers))
+4
+>>>
+>>> for i in range(2, 6):
+...     print(i)
+...
+2
+3
+4
+5
+>>> print(list(range(5)))
+[0, 1, 2, 3, 4]
+>>> numbers = [5, 2, 9, 1, 4]
+... numbers.sort()
+... print(numbers)
+...
+[1, 2, 4, 5, 9]
+>>> numbers.sort(reverse=True)
+... print(numbers)
+...
+[9, 5, 4, 2, 1]
+>>> exit
+PS C:\Users\Ascendion\Desktop\Automation_Python> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20250926111416
+**********************
