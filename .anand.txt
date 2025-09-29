@@ -1,0 +1,111 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20250929143405
+Username: ASCENDI-1S6H4SU\Ascendion
+RunAs User: ASCENDI-1S6H4SU\Ascendion
+Configuration Name: 
+Machine: ASCENDI-1S6H4SU (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 7348
+PSVersion: 5.1.26100.1591
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.1591
+BuildVersion: 10.0.26100.1591
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is .anand.txt
+PS C:\Users\Ascendion> set-Location.QA-Training3
+set-Location.QA-Training3 : The term 'set-Location.QA-Training3' is not recognized as the name of a cmdlet, function, 
+script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is 
+correct and try again.
+At line:1 char:1
++ set-Location.QA-Training3
++ ~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (set-Location.QA-Training3:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+set-Location.QA-Training3 : The term 'set-Location.QA-Training3' is not
+recognized as the name of a cmdlet, function, script file, or operable program.
+Check the spelling of the name, or if a path was included, verify that the path
+is correct and try again.
+At line:1 char:1
++ set-Location.QA-Training3
++ ~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (set-Location.QA-Training3:String)
+    [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Ascendion> set-Location.QA-Training1
+set-Location.QA-Training1 : The term 'set-Location.QA-Training1' is not recognized as the name of a cmdlet, function, 
+script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is 
+correct and try again.
+At line:1 char:1
++ set-Location.QA-Training1
++ ~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (set-Location.QA-Training1:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+set-Location.QA-Training1 : The term 'set-Location.QA-Training1' is not
+recognized as the name of a cmdlet, function, script file, or operable program.
+Check the spelling of the name, or if a path was included, verify that the path
+is correct and try again.
+At line:1 char:1
++ set-Location.QA-Training1
++ ~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (set-Location.QA-Training1:String)
+    [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Ascendion> set-Location.\QA-Training3\
+set-Location.\QA-Training3\ : The term 'set-Location.\QA-Training3\' is not recognized as the name of a cmdlet, 
+function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the 
+path is correct and try again.
+At line:1 char:1
++ set-Location.\QA-Training3\
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (set-Location.\QA-Training3\:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+set-Location.\QA-Training3\ : The term 'set-Location.\QA-Training3\' is not
+recognized as the name of a cmdlet, function, script file, or operable program.
+Check the spelling of the name, or if a path was included, verify that the path
+is correct and try again.
+At line:1 char:1
++ set-Location.\QA-Training3\
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (set-Location.\QA-Training3\:Strin
+   g) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Ascendion> set-Location. \QA-Training3\
+set-Location. : The term 'set-Location.' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ set-Location. \QA-Training3\
++ ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (set-Location.:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+set-Location. : The term 'set-Location.' is not recognized as the name of a
+cmdlet, function, script file, or operable program. Check the spelling of the
+name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ set-Location. \QA-Training3\
++ ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (set-Location.:String) [], Command
+   NotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Ascendion> cd .\QA-Training1\automation-092025
+PS C:\Users\Ascendion\QA-Training1\automation-092025> git status
+
+PS C:\Users\Ascendion\QA-Training1\automation-092025> git checkout -b anand_branch
+
+PS C:\Users\Ascendion\QA-Training1\automation-092025> git checkout -b anandkumar_branch
+
+PS C:\Users\Ascendion\QA-Training1\automation-092025> git status
+
+PS C:\Users\Ascendion\QA-Training1\automation-092025> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20250929144055
+**********************
