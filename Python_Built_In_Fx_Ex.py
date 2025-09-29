@@ -1,3 +1,11 @@
+# 26-09-2025 - Assignment
+# With the help of the python documentation understand and provide with working examples on how to
+# use the below functions
+# filter
+# enumerate
+# zipformat
+# slice
+
 # Enumerate
 from idlelib.outwin import OutputWindow
 
