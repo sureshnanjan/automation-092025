@@ -1,0 +1,98 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20250929112202
+Username: ASCENDI-7V67EKU\Ascendion
+RunAs User: ASCENDI-7V67EKU\Ascendion
+Configuration Name: 
+Machine: ASCENDI-7V67EKU (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 3140
+PSVersion: 5.1.26100.6584
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.6584
+BuildVersion: 10.0.26100.6584
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is builtin_examples.txt
+PS C:\Users\Ascendion\Desktop\pythontesting\automation-092025> python
+Python 3.13.7 (tags/v3.13.7:bcee1c3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> help(abs)
+Help on built-in function abs in module builtins:
+
+abs(x, /)
+    Return the absolute value of the argument.
+
+>>> abs(-11)
+11
+>>> abs(8.96)
+8.96
+>>> help(len)
+Help on built-in function len in module builtins:
+
+len(obj, /)
+    Return the number of items in a container.
+
+>>> len([1,2,3,4])
+4
+>>> len("python")
+6
+>>> list("hello")
+['h', 'e', 'l', 'l', 'o']
+>>> list(range(5))
+[0, 1, 2, 3, 4]
+>>>  dict(a=1, b=2)
+>>> dict(a=1, b=2)
+{'a': 1, 'b': 2}
+>>> dict([("x", 10), ("y", 20)])
+{'x': 10, 'y': 20}
+>>> range(5)
+range(0, 5)
+>>> list(range(2, 10, 2))
+[2, 4, 6, 8]
+>>> help(locals)
+Help on built-in function locals in module builtins:
+
+locals()
+    Return a dictionary containing the current scope's local variables.
+
+    NOTE: Whether or not updates to this dictionary will affect name lookups in
+    the local scope and vice-versa is *implementation dependent* and not
+    covered by any backwards compatibility guarantees.
+
+>>> x=10
+>>> y=20
+>>> locals()
+{'__name__': '__main__', '__doc__': None, '__package__': '_pyrepl', '__loader__': None, '__spec__': None, '__annotations__': {}, '__builtins__': <module 'builtins' (built-in)>, '__file__': 'C:\\Users\\Ascendion\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\_pyrepl\\__main__.py', '__cached__': 'C:\\Users\\Ascendion\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\_pyrepl\\__pycache__\\__main__.cpython-313.pyc', 'x': 10, 'y': 20}
+>>> type(10)
+<class 'int'>
+>>> type([1,2,3])
+<class 'list'>
+>>> type("sample")
+<class 'str'>
+>>> help(sorted)
+Help on built-in function sorted in module builtins:
+
+sorted(iterable, /, *, key=None, reverse=False)
+    Return a new list containing all items from the iterable in ascending or
+der.
+
+    A custom key function can be supplied to customize the sort order, and t
+he
+    reverse flag can be set to request the result in descending order.
+
+>>> sorted([5,2,9,1])
+[1, 2, 5, 9]
+>>> sorted("python")
+['h', 'n', 'o', 'p', 't', 'y']
+>>> sorted([("a",3),("b",1)], key=lambda x:x[1])
+[('b', 1), ('a', 3)]
+>>> exit
+PS C:\Users\Ascendion\Desktop\pythontesting\automation-092025> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20250929120028
+**********************
