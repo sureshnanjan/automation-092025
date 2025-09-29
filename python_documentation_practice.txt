@@ -1,0 +1,71 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20250929215450
+Username: ASCENDI-03PBECJ\Ascendion
+RunAs User: ASCENDI-03PBECJ\Ascendion
+Configuration Name: 
+Machine: ASCENDI-03PBECJ (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 7044
+PSVersion: 5.1.26100.6584
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.6584
+BuildVersion: 10.0.26100.6584
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is python_documentation_practice.txt
+PS C:\Users\siva.sree\OneDrive - ascendion\Desktop> python
+Python 3.13.7 (tags/v3.13.7:bcee1c3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> # enumerate example
+>>> fruits = ["apple", "banana", "cherry"]
+>>> for index, fruit in enumerate(fruits, start=1):
+...         print(index, fruit)
+...
+1 apple
+2 banana
+3 cherry
+>>> # zip example
+>>> names = ["Alice", "Bob", "Charlie"]
+>>> scores = [85, 90, 95]
+>>> for name, score in zip(names, scores):
+...             print(name, score)
+...
+Alice 85
+Bob 90
+Charlie 95
+>>>
+>>> # format example
+>>> student = "John"
+>>> marks = 88
+>>> print("Student: {}, Marks: {}".format(student, marks))
+Student: John, Marks: 88
+>>> print("Pi value: {:.2f}".format(3.14159))
+Pi value: 3.14
+>>>
+>>> # slice example
+>>> numbers = [10, 20, 30, 40, 50]
+>>> print("Full list:", numbers)
+Full list: [10, 20, 30, 40, 50]
+>>> print("Slice from index 1 to 3:", numbers[1:4])
+Slice from index 1 to 3: [20, 30, 40]
+>>> print("Slice with step 2:", numbers[::2])
+Slice with step 2: [10, 30, 50]
+>>>
+>>> # filter example
+>>> def is_even(num):
+...     return num % 2 == 0
+...
+>>> nums = [1, 2, 3, 4, 5, 6]
+>>> even_nums = list(filter(is_even, nums))
+>>> print("Even numbers:", even_nums)
+Even numbers: [2, 4, 6]
+>>> exit()
+PS C:\Users\siva.sree\OneDrive - ascendion\Desktop> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20250929215807
+**********************
