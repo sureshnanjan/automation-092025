@@ -1,3 +1,0 @@
-This is my file
-I just updated This line only for checking 
-This line edited from the git 
