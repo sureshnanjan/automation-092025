@@ -1,0 +1,177 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20250930090343
+Username: ASCENDI-91JKQ5I\Ascendion
+RunAs User: ASCENDI-91JKQ5I\Ascendion
+Configuration Name: 
+Machine: ASCENDI-91JKQ5I (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 6000
+PSVersion: 5.1.26100.6584
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.6584
+BuildVersion: 10.0.26100.6584
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is Pavithra.txt
+PS C:\Users\Ascendion> New Item -Path . -Name 'QA-Training' -Itemtype Directory
+New : The term 'New' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the 
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ New Item -Path . -Name 'QA-Training' -Itemtype Directory
++ ~~~
+    + CategoryInfo          : ObjectNotFound: (New:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+New : The term 'New' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ New Item -Path . -Name 'QA-Training' -Itemtype Directory
++ ~~~
+    + CategoryInfo          : ObjectNotFound: (New:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Ascendion> New Item -Path . -Name 'QA-Training' 
+New : The term 'New' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the 
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ New Item -Path . -Name 'QA-Training'
++ ~~~
+    + CategoryInfo          : ObjectNotFound: (New:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+New : The term 'New' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ New Item -Path . -Name 'QA-Training'
++ ~~~
+    + CategoryInfo          : ObjectNotFound: (New:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Ascendion> New Item -Path C:\Users\Ascendion\Training -Name 'QA-Training' -Itemtype Directory
+New : The term 'New' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the 
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ New Item -Path C:\Users\Ascendion\Training -Name 'QA-Training' -Itemt ...
++ ~~~
+    + CategoryInfo          : ObjectNotFound: (New:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+New : The term 'New' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ New Item -Path C:\Users\Ascendion\Training -Name 'QA-Training' -Itemt ...
++ ~~~
+    + CategoryInfo          : ObjectNotFound: (New:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Ascendion> New Item -Path C:\Users\Ascendion\Training -Name 'QA-Training1' -Itemtype Directory
+New : The term 'New' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the 
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ New Item -Path C:\Users\Ascendion\Training -Name 'QA-Training1' -Item ...
++ ~~~
+    + CategoryInfo          : ObjectNotFound: (New:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+New : The term 'New' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ New Item -Path C:\Users\Ascendion\Training -Name 'QA-Training1' -Item ...
++ ~~~
+    + CategoryInfo          : ObjectNotFound: (New:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Ascendion> New Item -Path . -Name 'QA-Training1' -Itemtype Directory
+New : The term 'New' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the 
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ New Item -Path . -Name 'QA-Training1' -Itemtype Directory
++ ~~~
+    + CategoryInfo          : ObjectNotFound: (New:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+New : The term 'New' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ New Item -Path . -Name 'QA-Training1' -Itemtype Directory
++ ~~~
+    + CategoryInfo          : ObjectNotFound: (New:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Ascendion> New Item -Path . -Name 'QA-Training2' -Itemtype Directory
+New : The term 'New' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the 
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ New Item -Path . -Name 'QA-Training2' -Itemtype Directory
++ ~~~
+    + CategoryInfo          : ObjectNotFound: (New:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+New : The term 'New' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ New Item -Path . -Name 'QA-Training2' -Itemtype Directory
++ ~~~
+    + CategoryInfo          : ObjectNotFound: (New:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Ascendion> pip --version
+pip : The term 'pip' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the 
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ pip --version
++ ~~~
+    + CategoryInfo          : ObjectNotFound: (pip:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+pip : The term 'pip' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ pip --version
++ ~~~
+    + CategoryInfo          : ObjectNotFound: (pip:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Ascendion> New Item -Path C:\Users\Ascendion -Name 'QA-Training1' -Itemtype Directory
+New : The term 'New' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the 
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ New Item -Path C:\Users\Ascendion -Name 'QA-Training1' -Itemtype Dire ...
++ ~~~
+    + CategoryInfo          : ObjectNotFound: (New:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+New : The term 'New' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ New Item -Path C:\Users\Ascendion -Name 'QA-Training1' -Itemtype Dire ...
++ ~~~
+    + CategoryInfo          : ObjectNotFound: (New:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Ascendion> New-Item -Path C:\Users\Ascendion -Name 'QA-Training1' -Itemtype Directory
+
+
+    Directory: C:\Users\Ascendion
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         9/30/2025   9:36 AM                QA-Training1
+
+
+PS C:\Users\Ascendion> Set-Location C:\Users\Ascendion\QA-Training1
+PS C:\Users\Ascendion\QA-Training1> git --version
+
+PS C:\Users\Ascendion\QA-Training1> git clone
+
+PS C:\Users\Ascendion\QA-Training1> git clone https://github.com/sureshnanjan/automation-092025.git
+
+PS C:\Users\Ascendion\QA-Training1> Set-Location automation-092025
+PS C:\Users\Ascendion\QA-Training1\automation-092025> git status
+
+PS C:\Users\Ascendion\QA-Training1\automation-092025> git checkout -b Pavithra-branch
+
+PS C:\Users\Ascendion\QA-Training1\automation-092025> git status
+
+PS C:\Users\Ascendion\QA-Training1\automation-092025> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20250930095250
+**********************
