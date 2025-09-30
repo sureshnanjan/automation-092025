@@ -1,3 +1,4 @@
+def make_dashboard():
 import datetime
 title = "Training Dashboard"
 training_title = "Appium with Python"
@@ -18,5 +19,8 @@ print(trainer_name)
 print(topics)
 print(students)
 print(marks)
-#Students: ".,.,.,.,."
-#Marks: 10,9,8,5,6
+
+    
+make_dashboard()
+
+
