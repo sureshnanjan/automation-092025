@@ -34,7 +34,7 @@ def calculate_bmi(weight_kg, height_m):
         >>> calculate_bmi(70, 1.75)
         22.86
     """
-    pass
+     return round(weight_kg / height_m ** 2, 2)
 
 
 def celsius_to_fahrenheit(celsius):
@@ -53,7 +53,7 @@ def celsius_to_fahrenheit(celsius):
         >>> celsius_to_fahrenheit(0)
         32.0
     """
-    pass
+    return round((celsius * 9 / 5) + 32, 1)
 
 
 def compound_interest(principal, rate, years):
@@ -75,7 +75,7 @@ def compound_interest(principal, rate, years):
         >>> compound_interest(1000, 5, 10)
         1628.89
     """
-    pass
+    return round(principal * (1 + rate) ** years, 2)
 
 
 # =============================================================================
