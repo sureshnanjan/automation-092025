@@ -11,7 +11,7 @@ desired_caps = {
 }
 
 # Connect to Appium Server
-driver = webdriver.Remote("http://localhost:8080, desired_caps)
+driver = webdriver.Remote("http://localhost:8080", desired_caps)
 
 # Open the URL
 driver.get("https://the-internet.herokuapp.com/")
