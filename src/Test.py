@@ -78,7 +78,6 @@ swapped = invert_dictionary(original)
 print(swapped)
 
 
-
 def merge_dictionaries(dict1, dict2):
 
     merged = dict1.copy()
@@ -87,14 +86,122 @@ def merge_dictionaries(dict1, dict2):
     return merged
 d1 = {'apple': 10, 'banana': 15}
 d2 = {'banana': 7, 'cherry': 3}
-
 result = merge_dictionaries(d1, d2)
 print(result)
 
-
 def group_by_length(words):
-
     result = {}
     for word in words:
         result.setdefault(len(word), []).append(word)
     return result
+word_list = ["apple", "bat", "banana", "cat", "dog", "elephant"]
+result = group_by_length(word_list)
+print(result)
+
+# =============================================================================
+# SECTION 5: CONDITIONALS
+# =============================================================================
+
+def categorize_temperature(temp_celsius):
+    if temp_celsius <= 0:
+        return "Freezing"
+    elif 0 < temp_celsius <= 10:
+        return "Cold"
+    elif 10 < temp_celsius <= 20:
+        return "Moderate"
+    elif 20 < temp_celsius <= 30:
+        return "Warm"
+    else:
+        return "Hot"
+
+
+def triangle_type(a, b, c):
+    """Check type of triangle or if it's invalid."""
+    if a + b <= c or a + c <= b or b + c <= a:
+        return "Not a triangle"
+    if a == b == c:
+        return "Equilateral"
+    elif a == b or b == c or a == c:
+        return "Isosceles"
+    else:
+        return "Scalene"
+
+def calculate_shipping_cost(weight, distance, is_express):
+    base = 5
+    cost = base + (2 * weight) + (0.5 * distance)
+    if is_express:
+        cost *= 1.5
+    return round(cost, 2)
+
+# =============================================================================
+# SECTION 6: LOOPS
+# =============================================================================
+
+def factorial(n):
+    result = 1
+    for i in range(2, n + 1):
+        result *= i
+    return result
+
+
+def fizzbuzz(n):
+    result = []
+    for i in range(1, n + 1):
+        if i % 15 == 0:
+            result.append("FizzBuzz")
+        elif i % 3 == 0:
+            result.append("Fizz")
+        elif i % 5 == 0:
+            result.append("Buzz")
+        else:
+            result.append(str(i))
+    return result
+
+
+def sum_of_digits(n):
+    return sum(int(d) for d in str(n))
+
+# =============================================================================
+# SECTION 7: FUNCTIONS
+# =============================================================================
+
+def find_prime_numbers(limit):
+
+    primes = []
+    for num in range(2, limit + 1):
+        is_prime = True
+        for i in range(2, int(num**0.5) + 1):
+            if num % i == 0:
+                is_prime = False
+                break
+        if is_prime:
+            primes.append(num)
+    return primes
+
+
+def calculate_statistics(numbers):
+
+    numbers_sorted = sorted(numbers)
+    n = len(numbers_sorted)
+    mean = sum(numbers_sorted) / n
+    if n % 2 == 1:
+        median = numbers_sorted[n // 2]
+    else:
+        median = (numbers_sorted[n // 2 - 1] + numbers_sorted[n // 2]) / 2
+    return {
+        "mean": mean,
+        "median": median,
+        "min": min(numbers_sorted),
+        "max": max(numbers_sorted),
+    }
+
+def flatten_list(nested_list):
+    return [item for sub in nested_list for item in sub]
+
+# =============================================================================
+
+
+
+
+
+
