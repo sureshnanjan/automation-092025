@@ -1,7 +1,7 @@
 from appium import webdriver
 from appium.webdriver.common.appiumby import AppiumBy
 
-# Desired Capabilities (change these as per your setup)
+# Desired Capabilities 
 desired_caps = {
     "platformName": "Android",
     "platformVersion": "11.0",         # Your device Android version
