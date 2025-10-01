@@ -235,7 +235,7 @@ def safe_divide_with_default(a, b, default=0):
 print(safe_divide_with_default(10, 3))
 print(safe_divide_with_default(10, 0, -1))
 
-#Parse integer list
+#Parse integer List
 def parse_integer_list(string_list):
     parsed = []
     for item in string_list:
