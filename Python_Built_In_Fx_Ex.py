@@ -16,12 +16,11 @@ print(All_Seasons)
 # output
 # [(0, 'Fall'), (1, 'Spring'), (2, 'Summer'), (3, 'Autumn'), (4, 'Winter')]
 
-*******************************************************************************
+#*******************************************************************************
 
 # Zip
 
-for item in zip([1,2,3,4,5],['Fall','Spring','Summer','Autumn','Winter']):
-(item)
+for item in zip([1,2,3,4,5],['Fall','Spring','Summer','Autumn','Winter']):(item)
 
 # Output
 # (1, 'Fall')

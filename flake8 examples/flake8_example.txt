@@ -1,0 +1,30 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20251001093334
+Username: BRD\tanuj.singh
+RunAs User: BRD\tanuj.singh
+Configuration Name: 
+Machine: INBL01LAP04621 (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 11148
+PSVersion: 5.1.26100.6725
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.6725
+BuildVersion: 10.0.26100.6725
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\tanuj.singh\Desktop\WorkingFolder\QA-Training\automation-092025\flake8_example.txt
+PS C:\Users\tanuj.singh\Desktop\WorkingFolder\QA-Training\automation-092025> flake8 C:\Users\tanuj.singh\Desktop\WorkingFolder\QA-Training\automation-092025\hello_selenium.py
+C:\Users\tanuj.singh\Desktop\WorkingFolder\QA-Training\automation-092025\hello_selenium.py:8:17: W292 no newline at end of file
+PS C:\Users\tanuj.singh\Desktop\WorkingFolder\QA-Training\automation-092025> flake8 C:\Users\tanuj.singh\Desktop\WorkingFolder\QA-Training\automation-092025\hello_selenium.py
+
+PS C:\Users\tanuj.singh\Desktop\WorkingFolder\QA-Training\automation-092025> flake8 C:\Users\tanuj.singh\Desktop\WorkingFolder\QA-Training\automation-092025\python_source_formatting.py
+
+PS C:\Users\tanuj.singh\Desktop\WorkingFolder\QA-Training\automation-092025> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20251001093827
+**********************
