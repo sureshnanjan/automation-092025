@@ -1,0 +1,250 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20250930172735
+Username: ASCENDI-08HI1F0\Ascendion
+RunAs User: ASCENDI-08HI1F0\Ascendion
+Configuration Name: 
+Machine: ASCENDI-08HI1F0 (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 7836
+PSVersion: 5.1.26100.1591
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.1591
+BuildVersion: 10.0.26100.1591
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is Sukanya.txt
+PS C:\Users\Ascendion> Start-Transcript -Path Sukanya.txt
+**********************
+Windows PowerShell transcript end
+End time: 20250930172817
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20251001114606
+Username: ASCENDI-08HI1F0\Ascendion
+RunAs User: ASCENDI-08HI1F0\Ascendion
+Configuration Name: 
+Machine: ASCENDI-08HI1F0 (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 2492
+PSVersion: 5.1.26100.1591
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.1591
+BuildVersion: 10.0.26100.1591
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is .\Sukanya.txt
+PS C:\Users\Ascendion> set-Location .\QA-Training1\
+set-Location : Cannot find path 'C:\Users\Ascendion\QA-Training1\' because it does not exist.
+At line:1 char:1
++ set-Location .\QA-Training1\
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Ascendion\QA-Training1\:String) [Set-Location], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+set-Location : Cannot find path 'C:\Users\Ascendion\QA-Training1\' because it does not exist.
+At line:1 char:1
++ set-Location .\QA-Training1\
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Ascendion\QA-Training1\:String) [Set-Location], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+
+PS C:\Users\Ascendion> set-Location .Sukanya\QA-Training1\
+set-Location : Cannot find path 'C:\Users\Ascendion\.Sukanya\QA-Training1\' because it does not exist.
+At line:1 char:1
++ set-Location .Sukanya\QA-Training1\
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Ascend...a\QA-Training1\:String) [Set-Location], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+set-Location : Cannot find path 'C:\Users\Ascendion\.Sukanya\QA-Training1\' because it does not exist.
+At line:1 char:1
++ set-Location .Sukanya\QA-Training1\
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Ascend...a\QA-Training1\:String) [Set-Location], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+
+PS C:\Users\Ascendion> set-Location Sukanya\QA-Training1\
+PS C:\Users\Ascendion\Sukanya\QA-Training1>  git --version
+git : The term 'git' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the 
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:2
++  git --version
++  ~~~
+    + CategoryInfo          : ObjectNotFound: (git:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+git : The term 'git' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try
+again.
+At line:1 char:2
++  git --version
++  ~~~
+    + CategoryInfo          : ObjectNotFound: (git:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Ascendion\Sukanya\QA-Training1> git clone https://github.com/sureshnanjan/automation-092025.git
+git : The term 'git' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the 
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ git clone https://github.com/sureshnanjan/automation-092025.git
++ ~~~
+    + CategoryInfo          : ObjectNotFound: (git:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+git : The term 'git' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try
+again.
+At line:1 char:1
++ git clone https://github.com/sureshnanjan/automation-092025.git
++ ~~~
+    + CategoryInfo          : ObjectNotFound: (git:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Ascendion\Sukanya\QA-Training1> gitclone https://github.com/sureshnanjan/automation-092025.git
+gitclone : The term 'gitclone' is not recognized as the name of a cmdlet, function, script file, or operable program. 
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ gitclone https://github.com/sureshnanjan/automation-092025.git
++ ~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (gitclone:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+gitclone : The term 'gitclone' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is
+correct and try again.
+At line:1 char:1
++ gitclone https://github.com/sureshnanjan/automation-092025.git
++ ~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (gitclone:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Ascendion\Sukanya\QA-Training1>  .\git-installer.exe /VERYSILENT /NORESTART
+>> TerminatingError(): "Program 'git-installer.exe' failed to run: The file or directory is corrupted and unreadableAt line:1 char:2
++  .\git-installer.exe /VERYSILENT /NORESTART
++  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~."
+Program 'git-installer.exe' failed to run: The file or directory is corrupted and unreadableAt line:1 char:2
++  .\git-installer.exe /VERYSILENT /NORESTART
++  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~.
+At line:1 char:2
++  .\git-installer.exe /VERYSILENT /NORESTART
++  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [], ApplicationFailedException
+    + FullyQualifiedErrorId : NativeCommandFailed
+Program 'git-installer.exe' failed to run: The file or directory is corrupted and unreadableAt line:1 char:2
++  .\git-installer.exe /VERYSILENT /NORESTART
++  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~.
+At line:1 char:2
++  .\git-installer.exe /VERYSILENT /NORESTART
++  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [], ApplicationFailedException
+    + FullyQualifiedErrorId : NativeCommandFailed
+
+PS C:\Users\Ascendion\Sukanya\QA-Training1>  .\git-installer.exe /VERYSILENT /NORESTART
+>> TerminatingError(): "Program 'git-installer.exe' failed to run: The file or directory is corrupted and unreadableAt line:1 char:2
++  .\git-installer.exe /VERYSILENT /NORESTART
++  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~."
+Program 'git-installer.exe' failed to run: The file or directory is corrupted and unreadableAt line:1 char:2
++  .\git-installer.exe /VERYSILENT /NORESTART
++  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~.
+At line:1 char:2
++  .\git-installer.exe /VERYSILENT /NORESTART
++  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [], ApplicationFailedException
+    + FullyQualifiedErrorId : NativeCommandFailed
+Program 'git-installer.exe' failed to run: The file or directory is corrupted and unreadableAt line:1 char:2
++  .\git-installer.exe /VERYSILENT /NORESTART
++  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~.
+At line:1 char:2
++  .\git-installer.exe /VERYSILENT /NORESTART
++  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [], ApplicationFailedException
+    + FullyQualifiedErrorId : NativeCommandFailed
+
+PS C:\Users\Ascendion\Sukanya\QA-Training1> Invoke-WebRequest -Uri https://github.com/git-for-windows/git/releases/download/v2.44.0.windows.1/Git-2.44.0-64-bit.exe -OutFile git-installer.exe
+PS C:\Users\Ascendion\Sukanya\QA-Training1>  .\git-installer.exe /VERYSILENT /NORESTART
+PS C:\Users\Ascendion\Sukanya\QA-Training1>  .\git-installer.exe /VERYSILENT /NORESTART
+PS C:\Users\Ascendion\Sukanya\QA-Training1> Stop -Transcript
+Stop : The term 'Stop' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the 
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ Stop -Transcript
++ ~~~~
+    + CategoryInfo          : ObjectNotFound: (Stop:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+Stop : The term 'Stop' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and
+try again.
+At line:1 char:1
++ Stop -Transcript
++ ~~~~
+    + CategoryInfo          : ObjectNotFound: (Stop:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Ascendion\Sukanya\QA-Training1>  git --version
+git : The term 'git' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the 
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:2
++  git --version
++  ~~~
+    + CategoryInfo          : ObjectNotFound: (git:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+git : The term 'git' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try
+again.
+At line:1 char:2
++  git --version
++  ~~~
+    + CategoryInfo          : ObjectNotFound: (git:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Ascendion\Sukanya\QA-Training1> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20251001120607
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20251001122711
+Username: ASCENDI-08HI1F0\Ascendion
+RunAs User: ASCENDI-08HI1F0\Ascendion
+Configuration Name: 
+Machine: ASCENDI-08HI1F0 (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 7368
+PSVersion: 5.1.26100.1591
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.1591
+BuildVersion: 10.0.26100.1591
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is .\Sukanya.txt
+PS C:\Users\Ascendion> set-Location Sukanya\QA-Training1\
+PS C:\Users\Ascendion\Sukanya\QA-Training1> git --version
+git version 2.51.0.windows.2
+PS C:\Users\Ascendion\Sukanya\QA-Training1> git clone https://github.com/sureshnanjan/automation-092025.git
+Cloning into 'automation-092025'...
+remote: Enumerating objects: 387, done.
+remote: Counting objects: 100% (40/40), done.
+remote: Compressing objects: 100% (36/36), done.
+remote: Total 387 (delta 14), reused 22 (delta 4), pack-reused 347 (from 1)
+Receiving objects: 100% (387/387), 2.42 MiB | 211.00 KiB/s, done.
+Resolving deltas: 100% (168/168), done.
+PS C:\Users\Ascendion\Sukanya\QA-Training1> Set-Location automation-092025
+PS C:\Users\Ascendion\Sukanya\QA-Training1\automation-092025> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+PS C:\Users\Ascendion\Sukanya\QA-Training1\automation-092025> git checkout -b Sukanya-branch
+Switched to a new branch 'Sukanya-branch'
+PS C:\Users\Ascendion\Sukanya\QA-Training1\automation-092025>  git status
+On branch Sukanya-branch
+nothing to commit, working tree clean
+PS C:\Users\Ascendion\Sukanya\QA-Training1\automation-092025>  Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20251001124139
+**********************
