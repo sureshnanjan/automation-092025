@@ -9,7 +9,5 @@ assert 'Welcome to the-internet' in title.text
 
 sub_title = mybroswer.find_element(By.TAG_NAME, 'h2')
 assert 'Available Examples' in sub_title.text 
-=======
-#assert 'Suresh' in title.text
->>>>>>> 455e073be5e5d192f1b98ada50e6fb6155fb9897
+
 mybroswer.quit()
