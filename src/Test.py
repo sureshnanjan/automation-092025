@@ -195,7 +195,7 @@ def find_prime_numbers(limit):
     return primes
 print("Prime numbers are: "+str(find_prime_numbers(25)))
 
-#Calculate statistics
+#Calculate statistics numbers
 def calculate_statistics(numbers):
     if not numbers:
         raise ValueError("The list is empty.")
@@ -232,7 +232,7 @@ def safe_divide_with_default(a, b, default=0):
         return a / b
     except (ZeroDivisionError, TypeError):
         return default
-print(safe_divide_with_default(10, 2))
+print(safe_divide_with_default(10, 3))
 print(safe_divide_with_default(10, 0, -1))
 
 #Parse integer list
