@@ -6,5 +6,3 @@ assert 'Internet' in mybroswer.title
 title = mybroswer.find_element(By.TAG_NAME, 'h1')
 assert 'Tanuj' in title.text
 mybroswer.quit()
-
-***********
