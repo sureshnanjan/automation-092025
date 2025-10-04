@@ -1,0 +1,174 @@
+Script started on Fri Oct  3 21:31:14 2025
+[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Tanujs-MacBook-Air.local/Users/tanujsingh[0m[27m[24m[Jtanujsingh@Tanujs-MacBook-Air ~ % [K[?2004h[7mappium-doctor --android[27m
+[K[A[34C[27ma[27mp[27mp[27mi[27mu[27mm[27m-[27md[27mo[27mc[27mt[27mo[27mr[27m [27m-[27m-[27ma[27mn[27md[27mr[27mo[27mi[27md[1B[K[A[57C[?2004l[1B
+[32minfo[0m [0m[35mAppiumDoctor[0m Appium Doctor v.2.1.15
+[0m[30;43mWARN[0m [0m[35mAppiumDoctor[0m This package is deprecated since the Appium server version 2.4.0 and will be removed in the future.
+[0m[30;43mWARN[0m [0m[35mAppiumDoctor[0m Use doctor checks (if any exist) integrated into your installed driver or plugin by running `appium driver doctor <driver_name>` or `appium plugin doctor <plugin_name>`.
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m ### Diagnostic for [32mnecessary[39m dependencies starting ###
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m APPIUM_HOME is /Users/tanujsingh/.appium
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m The Node.js binary was found at: /opt/homebrew/bin/node
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m Node version is 24.9.0
+[0m^[[B^[[D        [32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m ANDROID_HOME is set to: /Users/tanujsingh/Library/Android/sdk
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m JAVA_HOME is set to: /opt/homebrew/Cellar/openjdk@17/17.0.16/libexec/openjdk.jdk/Contents/Home
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m    Checking adb, emulator, apkanalyzer
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m      'adb' is in /Users/tanujsingh/Library/Android/sdk/platform-tools/adb
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m      'emulator' is in /Users/tanujsingh/Library/Android/sdk/emulator/emulator
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m      'apkanalyzer' is in /Users/tanujsingh/Library/Android/sdk/cmdline-tools/latest/bin/apkanalyzer
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m adb, emulator, apkanalyzer exist: /Users/tanujsingh/Library/Android/sdk
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m 'bin' subfolder exists under '/opt/homebrew/Cellar/openjdk@17/17.0.16/libexec/openjdk.jdk/Contents/Home'
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m ### Diagnostic for necessary dependencies completed, no fix needed. ###
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m 
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m ### Diagnostic for [33moptional[39m dependencies starting ###
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m ffmpeg is installed at: /opt/homebrew/bin/ffmpeg. ffmpeg version 8.0 Copyright (c) 2000-2025 the FFmpeg developers
+[0m[30;43mWARN[0m [0m[35mAppiumDoctor[0m  [33m✖[39m mjpeg-consumer cannot be found.
+[0m[30;43mWARN[0m [0m[35mAppiumDoctor[0m  [33m✖[39m bundletool.jar cannot be found
+[0m[30;43mWARN[0m [0m[35mAppiumDoctor[0m  [33m✖[39m gst-launch-1.0 and/or gst-inspect-1.0 cannot be found
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m ### Diagnostic for optional dependencies completed, 3 fixes possible. ###
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m 
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m ### Optional Manual Fixes ###
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m The configuration can install optionally. Please do the following manually:
+[0m[30;43mWARN[0m [0m[35mAppiumDoctor[0m  ➜ [1mmjpeg-consumer[22m module is required to use MJPEG-over-HTTP features. Please install it with 'npm i -g mjpeg-consumer'.
+[0m[30;43mWARN[0m [0m[35mAppiumDoctor[0m  ➜ [1mbundletool.jar[22m is used to handle Android App Bundle. Please read http://appium.io/docs/en/writing-running-appium/android/android-appbundle/ to install it
+[0m[30;43mWARN[0m [0m[35mAppiumDoctor[0m  ➜ [1mgst-launch-1.0 and gst-inspect-1.0[22m are used to stream the screen of the device under test. Please read https://appium.io/docs/en/writing-running-appium/android/android-screen-streaming/ to install them and for more details
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m 
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m ###
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m 
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m Bye! Run appium-doctor again when all manual fixes have been applied!
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m 
+[0m[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Tanujs-MacBook-Air.local/Users/tanujsingh[0m[27m[24m[Jtanujsingh@Tanujs-MacBook-Air ~ % [K[?2004h[7mnpm install -g mjpeg-consumer[27m
+[K[A[34C[27mn[27mp[27mm[27m [27mi[27mn[27ms[27mt[27ma[27ml[27ml[27m [27m-[27mg[27m [27mm[27mj[27mp[27me[27mg[27m-[27mc[27mo[27mn[27ms[27mu[27mm[27me[27mr[1B[K[A[63C[?2004l[1B
+[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K
+added 1 package in 2s
+[1G[0K⠸[1G[0K[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Tanujs-MacBook-Air.local/Users/tanujsingh[0m[27m[24m[Jtanujsingh@Tanujs-MacBook-Air ~ % [K[?2004hnpm install -g mjpeg-consumer
+[K[K[A[34C[1B[A[34C                             [1B[K[A[34C[7mwhich mjpeg-consumer[1B[27m[K[A[34C[27mw[27mh[27mi[27mc[27mh[27m [27mm[27mj[27mp[27me[27mg[27m-[27mc[27mo[27mn[27ms[27mu[27mm[27me[27mr[1B[K[A[54C[?2004l[1B
+mjpeg-consumer not found
+[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Tanujs-MacBook-Air.local/Users/tanujsingh[0m[27m[24m[Jtanujsingh@Tanujs-MacBook-Air ~ % [K[?2004h[7mnpm install -g mjpeg-consumer[27m
+[K[A[34C[27mn[27mp[27mm[27m [27mi[27mn[27ms[27mt[27ma[27ml[27ml[27m [27m-[27mg[27m [27mm[27mj[27mp[27me[27mg[27m-[27mc[27mo[27mn[27ms[27mu[27mm[27me[27mr[1B[K[A[63C[?2004l[1B
+[1G[0K⠙[1G[0K
+changed 1 package in 392ms
+[1G[0K⠙[1G[0K[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Tanujs-MacBook-Air.local/Users/tanujsingh[0m[27m[24m[Jtanujsingh@Tanujs-MacBook-Air ~ % [K[?2004h[7mwhich mjpeg-consumer[27m
+[K[A[34C[27mw[27mh[27mi[27mc[27mh[27m [27mm[27mj[27mp[27me[27mg[27m-[27mc[27mo[27mn[27ms[27mu[27mm[27me[27mr[1B[K[A[54C[?2004l[1B
+mjpeg-consumer not found
+[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Tanujs-MacBook-Air.local/Users/tanujsingh[0m[27m[24m[Jtanujsingh@Tanujs-MacBook-Air ~ % [K[?2004h[7mnpm bin -g[27m
+[K[A[34C[27mn[27mp[27mm[27m [27mb[27mi[27mn[27m [27m-[27mg[1B[K[A[44C[?2004l[1B
+Unknown command: "bin"
+
+To see a list of supported npm commands, run:
+  npm help
+[1G[0K[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Tanujs-MacBook-Air.local/Users/tanujsingh[0m[27m[24m[Jtanujsingh@Tanujs-MacBook-Air ~ % [K[?2004h[7mnpm config get prefix[27m
+[K[A[34C[27mn[27mp[27mm[27m [27mc[27mo[27mn[27mf[27mi[27mg[27m [27mg[27me[27mt[27m [27mp[27mr[27me[27mf[27mi[27mx[1B[K[A[55C[?2004l[1B
+/opt/homebrew
+[1G[0K[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Tanujs-MacBook-Air.local/Users/tanujsingh[0m[27m[24m[Jtanujsingh@Tanujs-MacBook-Air ~ % [K[?2004h[7mexport PATH="/opt/homebrew/bin:$PATH"[27m
+[K[A[34C[27me[27mx[27mp[27mo[27mr[27mt[27m [27mP[27mA[27mT[27mH[27m=[27m"[27m/[27mo[27mp[27mt[27m/[27mh[27mo[27mm[27me[27mb[27mr[27me[27mw[27m/[27mb[27mi[27mn[27m:[27m$[27mP[27mA[27mT[27mH[27m"[1B[K[A[71C[?2004l[1B
+[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Tanujs-MacBook-Air.local/Users/tanujsingh[0m[27m[24m[Jtanujsingh@Tanujs-MacBook-Air ~ % [K[?2004h[7msource ~/.zshrc[27m
+[K[A[34C[27ms[27mo[27mu[27mr[27mc[27me[27m [27m~[27m/[27m.[27mz[27ms[27mh[27mr[27mc[1B[K[A[49C[?2004l[1B
+[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Tanujs-MacBook-Air.local/Users/tanujsingh[0m[27m[24m[Jtanujsingh@Tanujs-MacBook-Air ~ % [K[?2004h[7mnpm install -g mjpeg-consumer[27m
+[K[A[34C[27mn[27mp[27mm[27m [27mi[27mn[27ms[27mt[27ma[27ml[27ml[27m [27m-[27mg[27m [27mm[27mj[27mp[27me[27mg[27m-[27mc[27mo[27mn[27ms[27mu[27mm[27me[27mr[1B[K[A[63C[?2004l[1B
+[1G[0K⠙[1G[0K
+changed 1 package in 387ms
+[1G[0K⠙[1G[0K[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Tanujs-MacBook-Air.local/Users/tanujsingh[0m[27m[24m[Jtanujsingh@Tanujs-MacBook-Air ~ % [K[?2004h[7mwhich mjpeg-consumer[27m
+[K[A[34C[27mw[27mh[27mi[27mc[27mh[27m [27mm[27mj[27mp[27me[27mg[27m-[27mc[27mo[27mn[27ms[27mu[27mm[27me[27mr[1B[K[A[54C[?2004l[1B
+mjpeg-consumer not found
+[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Tanujs-MacBook-Air.local/Users/tanujsingh[0m[27m[24m[Jtanujsingh@Tanujs-MacBook-Air ~ % [K[?2004h[7mls -l /opt/homebrew/bin | grep mjpeg[27m
+[K[A[34C[27ml[27ms[27m [27m-[27ml[27m [27m/[27mo[27mp[27mt[27m/[27mh[27mo[27mm[27me[27mb[27mr[27me[27mw[27m/[27mb[27mi[27mn[27m [27m|[27m [27mg[27mr[27me[27mp[27m [27mm[27mj[27mp[27me[27mg[1B[K[A[70C[?2004l[1B
+[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Tanujs-MacBook-Air.local/Users/tanujsingh[0m[27m[24m[Jtanujsingh@Tanujs-MacBook-Air ~ % [K[?2004h[7mls -l /opt/homebrew/bin | grep mjpeg[27m
+[K[A[34C[27ml[27ms[27m [27m-[27ml[27m [27m/[27mo[27mp[27mt[27m/[27mh[27mo[27mm[27me[27mb[27mr[27me[27mw[27m/[27mb[27mi[27mn[27m [27m|[27m [27mg[27mr[27me[27mp[27m [27mm[27mj[27mp[27me[27mg[1B[K[K[A[70C                             l  [7mls -l /opt/homebrew/lib/node_modules/mjpeg-consumer/bin[1B[27m[K[A[34C[27ml[27ms[27m [27m-[27ml[27m [27m/[27mo[27mp[27mt[27m/[27mh[27mo[27mm[27me[27mb[27mr[27me[27mw[27m/[27ml[27mi[27mb[27m/[27mn[27mo[27md[27me[27m_[27mm[27mo[27md[27mu[27ml[27me[27ms[27m/[27mm[27mj[27mp[27me[27mg[27m-[27mc[27mo[27mn[27ms[27mu[27mm[27me[27mr[27m/[27mb[27mi[27mn[1B[K[A[89C[?2004l[1B
+ls: /opt/homebrew/lib/node_modules/mjpeg-consumer/bin: No such file or directory
+[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Tanujs-MacBook-Air.local/Users/tanujsingh[0m[27m[24m[Jtanujsingh@Tanujs-MacBook-Air ~ % [K[?2004h[7mls -l /opt/homebrew/lib/node_modules/mjpeg-consumer/[27m
+[K[A[34C[27ml[27ms[27m [27m-[27ml[27m [27m/[27mo[27mp[27mt[27m/[27mh[27mo[27mm[27me[27mb[27mr[27me[27mw[27m/[27ml[27mi[27mb[27m/[27mn[27mo[27md[27me[27m_[27mm[27mo[27md[27mu[27ml[27me[27ms[27m/[27mm[27mj[27mp[27me[27mg[27m-[27mc[27mo[27mn[27ms[27mu[27mm[27me[27mr[27m/[1B[K[A[86C[?2004l[1B
+total 24
+drwxr-xr-x  3 tanujsingh  admin    96  3 Oct 21:35 example
+-rw-r--r--  1 tanujsingh  admin    49  3 Oct 21:35 index.js
+drwxr-xr-x  3 tanujsingh  admin    96  3 Oct 21:35 lib
+-rw-r--r--  1 tanujsingh  admin   875  3 Oct 21:35 package.json
+-rw-r--r--  1 tanujsingh  admin  1247  3 Oct 21:35 README.md
+drwxr-xr-x  4 tanujsingh  admin   128  3 Oct 21:35 test
+[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Tanujs-MacBook-Air.local/Users/tanujsingh[0m[27m[24m[Jtanujsingh@Tanujs-MacBook-Air ~ % [K[?2004h[7mnpm ls -g mjpeg-consumer[27m
+[K[A[34C[27mn[27mp[27mm[27m [27ml[27ms[27m [27m-[27mg[27m [27mm[27mj[27mp[27me[27mg[27m-[27mc[27mo[27mn[27ms[27mu[27mm[27me[27mr[1B[K[A[58C[?2004l[1B
+[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K[0m/opt/homebrew/lib[0m
+[0m└── [33mmjpeg-consumer@2.0.0[39m[0m
+[0m[0m
+[1G[0K⠴[1G[0K[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Tanujs-MacBook-Air.local/Users/tanujsingh[0m[27m[24m[Jtanujsingh@Tanujs-MacBook-Air ~ % [K[?2004h[7mnpm install mjpeg-consumer[27m
+[K[A[34C[27mn[27mp[27mm[27m [27mi[27mn[27ms[27mt[27ma[27ml[27ml[27m [27mm[27mj[27mp[27me[27mg[27m-[27mc[27mo[27mn[27ms[27mu[27mm[27me[27mr[1B[K[A[60C[?2004l[1B
+[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K
+added 1 package in 2s
+[1G[0K⠹[1G[0K[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Tanujs-MacBook-Air.local/Users/tanujsingh[0m[27m[24m[Jtanujsingh@Tanujs-MacBook-Air ~ % [K[?2004h[7mappium-doctor --android[27m
+[K[A[34C[27ma[27mp[27mp[27mi[27mu[27mm[27m-[27md[27mo[27mc[27mt[27mo[27mr[27m [27m-[27m-[27ma[27mn[27md[27mr[27mo[27mi[27md[1B[K[A[57C[?2004l[1B
+[32minfo[0m [0m[35mAppiumDoctor[0m Appium Doctor v.2.1.15
+[0m[30;43mWARN[0m [0m[35mAppiumDoctor[0m This package is deprecated since the Appium server version 2.4.0 and will be removed in the future.
+[0m[30;43mWARN[0m [0m[35mAppiumDoctor[0m Use doctor checks (if any exist) integrated into your installed driver or plugin by running `appium driver doctor <driver_name>` or `appium plugin doctor <plugin_name>`.
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m ### Diagnostic for [32mnecessary[39m dependencies starting ###
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m APPIUM_HOME is /Users/tanujsingh/.appium
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m The Node.js binary was found at: /opt/homebrew/bin/node
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m Node version is 24.9.0
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m ANDROID_HOME is set to: /Users/tanujsingh/Library/Android/sdk
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m JAVA_HOME is set to: /opt/homebrew/Cellar/openjdk@17/17.0.16/libexec/openjdk.jdk/Contents/Home
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m    Checking adb, emulator, apkanalyzer
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m      'adb' is in /Users/tanujsingh/Library/Android/sdk/platform-tools/adb
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m      'emulator' is in /Users/tanujsingh/Library/Android/sdk/emulator/emulator
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m      'apkanalyzer' is in /Users/tanujsingh/Library/Android/sdk/cmdline-tools/latest/bin/apkanalyzer
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m adb, emulator, apkanalyzer exist: /Users/tanujsingh/Library/Android/sdk
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m 'bin' subfolder exists under '/opt/homebrew/Cellar/openjdk@17/17.0.16/libexec/openjdk.jdk/Contents/Home'
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m ### Diagnostic for necessary dependencies completed, no fix needed. ###
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m 
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m ### Diagnostic for [33moptional[39m dependencies starting ###
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m ffmpeg is installed at: /opt/homebrew/bin/ffmpeg. ffmpeg version 8.0 Copyright (c) 2000-2025 the FFmpeg developers
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m mjpeg-consumer is installed at: /opt/homebrew/lib. Installed version is: 2.0.0
+[0m[30;43mWARN[0m [0m[35mAppiumDoctor[0m  [33m✖[39m bundletool.jar cannot be found
+[0m[30;43mWARN[0m [0m[35mAppiumDoctor[0m  [33m✖[39m gst-launch-1.0 and/or gst-inspect-1.0 cannot be found
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m ### Diagnostic for optional dependencies completed, 2 fixes possible. ###
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m 
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m ### Optional Manual Fixes ###
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m The configuration can install optionally. Please do the following manually:
+[0m[30;43mWARN[0m [0m[35mAppiumDoctor[0m  ➜ [1mbundletool.jar[22m is used to handle Android App Bundle. Please read http://appium.io/docs/en/writing-running-appium/android/android-appbundle/ to install it
+[0m[30;43mWARN[0m [0m[35mAppiumDoctor[0m  ➜ [1mgst-launch-1.0 and gst-inspect-1.0[22m are used to stream the screen of the device under test. Please read https://appium.io/docs/en/writing-running-appium/android/android-screen-streaming/ to install them and for more details
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m 
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m ###
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m 
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m Bye! Run appium-doctor again when all manual fixes have been applied!
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m 
+[0m[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Tanujs-MacBook-Air.local/Users/tanujsingh[0m[27m[24m[Jtanujsingh@Tanujs-MacBook-Air ~ % [K[?2004h[7mexport BUNDLETOOL_PATH=~/Library/Android/sdk/tools/bundletool.jar[27m
+[K[A[34C[27me[27mx[27mp[27mo[27mr[27mt[27m [27mB[27mU[27mN[27mD[27mL[27mE[27mT[27mO[27mO[27mL[27m_[27mP[27mA[27mT[27mH[27m=[27m~[27m/[27mL[27mi[27mb[27mr[27ma[27mr[27my[27m/[27mA[27mn[27md[27mr[27mo[27mi[27md[27m/[27ms[27md[27mk[27m/[27mt[27mo[27mo[27ml[27ms[27m/[27mb[27mu[27mn[27md[27ml[27me[27mt[27mo[27mo[27ml[27m.[27mj[27ma[27mr[1B[K[A[99C[?2004l[1B
+[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Tanujs-MacBook-Air.local/Users/tanujsingh[0m[27m[24m[Jtanujsingh@Tanujs-MacBook-Air ~ % [K[?2004h[7mexport BUNDLETOOL_PATH=~/Users/tanujsingh/Desktop/WorkingFolder/Set-up/bundletool.jar[27m
+[K[A[34C[27me[27mx[27mp[27mo[27mr[27mt[27m [27mB[27mU[27mN[27mD[27mL[27mE[27mT[27mO[27mO[27mL[27m_[27mP[27mA[27mT[27mH[27m=[27m~[27m/[27mU[27ms[27me[27mr[27ms[27m/[27mt[27ma[27mn[27mu[27mj[27ms[27mi[27mn[27mg[27mh[27m/[27mD[27me[27ms[27mk[27mt[27mo[27mp[27m/[27mW[27mo[27mr[27mk[27mi[27mn[27mg[27mF[27mo[27ml[27md[27me[27mr[27m/[27mS[27me[27mt[27m-[27mu[27mp[27m/[27mb[27mu[27mn[27md[27ml[27me[27mt[27mo[27mo[27ml[27m.[27mj[27ma[27mr[1B[K[A[119C[?2004l[1B
+[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Tanujs-MacBook-Air.local/Users/tanujsingh[0m[27m[24m[Jtanujsingh@Tanujs-MacBook-Air ~ % [K[?2004h[7msource ~/.zshrc[27m
+[K[A[34C[27ms[27mo[27mu[27mr[27mc[27me[27m [27m~[27m/[27m.[27mz[27ms[27mh[27mr[27mc[1B[K[A[49C[?2004l[1B
+[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Tanujs-MacBook-Air.local/Users/tanujsingh[0m[27m[24m[Jtanujsingh@Tanujs-MacBook-Air ~ % [K[?2004h[7mappium-doctor --android[27m
+[K[A[34C[27ma[27mp[27mp[27mi[27mu[27mm[27m-[27md[27mo[27mc[27mt[27mo[27mr[27m [27m-[27m-[27ma[27mn[27md[27mr[27mo[27mi[27md[1B[K[A[57C[?2004l[1B
+[32minfo[0m [0m[35mAppiumDoctor[0m Appium Doctor v.2.1.15
+[0m[30;43mWARN[0m [0m[35mAppiumDoctor[0m This package is deprecated since the Appium server version 2.4.0 and will be removed in the future.
+[0m[30;43mWARN[0m [0m[35mAppiumDoctor[0m Use doctor checks (if any exist) integrated into your installed driver or plugin by running `appium driver doctor <driver_name>` or `appium plugin doctor <plugin_name>`.
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m ### Diagnostic for [32mnecessary[39m dependencies starting ###
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m APPIUM_HOME is /Users/tanujsingh/.appium
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m The Node.js binary was found at: /opt/homebrew/bin/node
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m Node version is 24.9.0
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m ANDROID_HOME is set to: /Users/tanujsingh/Library/Android/sdk
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m JAVA_HOME is set to: /opt/homebrew/Cellar/openjdk@17/17.0.16/libexec/openjdk.jdk/Contents/Home
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m    Checking adb, emulator, apkanalyzer
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m      'adb' is in /Users/tanujsingh/Library/Android/sdk/platform-tools/adb
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m      'emulator' is in /Users/tanujsingh/Library/Android/sdk/emulator/emulator
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m      'apkanalyzer' is in /Users/tanujsingh/Library/Android/sdk/cmdline-tools/latest/bin/apkanalyzer
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m adb, emulator, apkanalyzer exist: /Users/tanujsingh/Library/Android/sdk
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m 'bin' subfolder exists under '/opt/homebrew/Cellar/openjdk@17/17.0.16/libexec/openjdk.jdk/Contents/Home'
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m ### Diagnostic for necessary dependencies completed, no fix needed. ###
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m 
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m ### Diagnostic for [33moptional[39m dependencies starting ###
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m ffmpeg is installed at: /opt/homebrew/bin/ffmpeg. ffmpeg version 8.0 Copyright (c) 2000-2025 the FFmpeg developers
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m mjpeg-consumer is installed at: /opt/homebrew/lib. Installed version is: 2.0.0
+[0m[30;43mWARN[0m [0m[35mAppiumDoctor[0m  [33m✖[39m bundletool.jar cannot be found
+[0m[30;43mWARN[0m [0m[35mAppiumDoctor[0m  [33m✖[39m gst-launch-1.0 and/or gst-inspect-1.0 cannot be found
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m ### Diagnostic for optional dependencies completed, 2 fixes possible. ###
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m 
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m ### Optional Manual Fixes ###
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m The configuration can install optionally. Please do the following manually:
+[0m[30;43mWARN[0m [0m[35mAppiumDoctor[0m  ➜ [1mbundletool.jar[22m is used to handle Android App Bundle. Please read http://appium.io/docs/en/writing-running-appium/android/android-appbundle/ to install it
+[0m[30;43mWARN[0m [0m[35mAppiumDoctor[0m  ➜ [1mgst-launch-1.0 and gst-inspect-1.0[22m are used to stream the screen of the device under test. Please read https://appium.io/docs/en/writing-running-appium/android/android-screen-streaming/ to install them and for more details
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m 
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m ###
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m 
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m Bye! Run appium-doctor again when all manual fixes have been applied!
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m 
+[0m[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Tanujs-MacBook-Air.local/Users/tanujsingh[0m[27m[24m[Jtanujsingh@Tanujs-MacBook-Air ~ % [K[?2004h[7mexport BUNDLETOOL_PATH=/Users/tanujsingh/Desktop/WorkingFolder/Set-up/bundletool.jar[27m
+[K[A[34C[27me[27mx[27mp[27mo[27mr[27mt[27m [27mB[27mU[27mN[27mD[27mL[27mE[27mT[27mO[27mO[27mL[27m_[27mP[27mA[27mT[27mH[27m=[27m/[27mU[27ms[27me[27mr[27ms[27m/[27mt[27ma[27mn[27mu[27mj[27ms[27mi[27mn[27mg[27mh[27m/[27mD[27me[27ms[27mk[27mt[27mo[27mp[27m/[27mW[27mo[27mr[27mk[27mi[27mn[27mg[27mF[27mo[27ml[27md[27me[27mr[27m/[27mS[27me[27mt[27m-[27mu[27mp[27m/[27mb[27mu[27mn[27md[27ml[27me[27mt[27mo[27mo[27ml[27m.[27mj[27ma[27mr[1B[K[A[118C[?2004l[1B
+[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Tanujs-MacBook-Air.local/Users/tanujsingh[0m[27m[24m[Jtanujsingh@Tanujs-MacBook-Air ~ % [K[?2004h[7mecho 'export BUNDLETOOL_PATH=/Users/tanujsingh/Desktop/WorkingFolder/Set-up/bundletool[7m.[7mjar' >> ~/.zshrc[27m[K
+[K[A[A[34C[27me[27mc[27mh[27mo[27m [27m'[27me[27mx[27mp[27mo[27mr[27mt[27m [27mB[27mU[27mN[27mD[27mL[27mE[27mT[27mO[27mO[27mL[27m_[27mP[27mA[27mT[27mH[27m=[27m/[27mU[27ms[27me[27mr[27ms[27m/[27mt[27ma[27mn[27mu[27mj[27ms[27mi[27mn[27mg[27mh[27m/[27mD[27me[27ms[27mk[27mt[27mo[27mp[27m/[27mW[27mo[27mr[27mk[27mi[27mn[27mg[27mF[27mo[27ml[27md[27me[27mr[27m/[27mS[27me[27mt[27m-[27mu[27mp[27m/[27mb[27mu[27mn[27md[27ml[27me[27mt[27mo[27mo[27ml.[27mj[27ma[27mr[27m'[27m [27m>[27m>[27m [27m~[27m/[27m.[27mz[27ms[27mh[27mr[27mc[1B[K[A[17C[A[17C[6P[80C.jar[K[1B[K[1B[K[A

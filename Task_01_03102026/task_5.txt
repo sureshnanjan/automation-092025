@@ -1,0 +1,374 @@
+Script started on Fri Oct  3 22:18:53 2025
+[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Tanujs-MacBook-Air.local/Users/tanujsingh[0m[27m[24m[Jtanujsingh@Tanujs-MacBook-Air ~ % [K[?2004h[7mcd /Users/tanujsingh/Desktop/WorkingFolder[27m
+[K[A[34C[27mc[27md[27m [27m/[27mU[27ms[27me[27mr[27ms[27m/[27mt[27ma[27mn[27mu[27mj[27ms[27mi[27mn[27mg[27mh[27m/[27mD[27me[27ms[27mk[27mt[27mo[27mp[27m/[27mW[27mo[27mr[27mk[27mi[27mn[27mg[27mF[27mo[27ml[27md[27me[27mr[1B[K[A[76C[?2004l[1B
+[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Tanujs-MacBook-Air.local/Users/tanujsingh/Desktop/WorkingFolder[0m[27m[24m[Jtanujsingh@Tanujs-MacBook-Air WorkingFolder % [K[?2004h[7mmv bundletool-all-1.18.2.jar bundletool.jar[27m
+[K[A[46C[27mm[27mv[27m [27mb[27mu[27mn[27md[27ml[27me[27mt[27mo[27mo[27ml[27m-[27ma[27ml[27ml[27m-[27m1[27m.[27m1[27m8[27m.[27m2[27m.[27mj[27ma[27mr[27m [27mb[27mu[27mn[27md[27ml[27me[27mt[27mo[27mo[27ml[27m.[27mj[27ma[27mr[1B[K[A[89C[?2004l[1B
+mv: bundletool-all-1.18.2.jar: No such file or directory
+[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Tanujs-MacBook-Air.local/Users/tanujsingh/Desktop/WorkingFolder[0m[27m[24m[Jtanujsingh@Tanujs-MacBook-Air WorkingFolder % [K[?2004hmv bundletool-all-1.18.2.jar bundletool.jar
+[K[K[A[89C[?2004l[1B
+[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Tanujs-MacBook-Air.local/Users/tanujsingh/Desktop/WorkingFolder[0m[27m[24m[Jtanujsingh@Tanujs-MacBook-Air WorkingFolder % [K[?2004h[7mmv bundletool-all-1.18.2.jar bundletool.jar[27m
+[K[A[46C[27mm[27mv[27m [27mb[27mu[27mn[27md[27ml[27me[27mt[27mo[27mo[27ml[27m-[27ma[27ml[27ml[27m-[27m1[27m.[27m1[27m8[27m.[27m2[27m.[27mj[27ma[27mr[27m [27mb[27mu[27mn[27md[27ml[27me[27mt[27mo[27mo[27ml[27m.[27mj[27ma[27mr[1B[K[A[46C[1C[1B[K[A[89C                                       m  [7mmv bundletool-all-1.18.2.jar bundletool.jar[1B[27m[K[A[46C[27mm[27mv[27m [27mb[27mu[27mn[27md[27ml[27me[27mt[27mo[27mo[27ml[27m-[27ma[27ml[27ml[27m-[27m1[27m.[27m1[27m8[27m.[27m2[27m.[27mj[27ma[27mr[27m [27mb[27mu[27mn[27md[27ml[27me[27mt[27mo[27mo[27ml[27m.[27mj[27ma[27mr[1B[K[A[89C[?2004l[1B
+mv: bundletool-all-1.18.2.jar: No such file or directory
+[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Tanujs-MacBook-Air.local/Users/tanujsingh/Desktop/WorkingFolder[0m[27m[24m[Jtanujsingh@Tanujs-MacBook-Air WorkingFolder % [K[?2004haapp a  mv bundletool-all-1.18.2.jar bundletool.jar
+[K[K[A[46C[1B[A[46C[1B[A[46C[1B[K[A[89C                                       m  cd /Users/tanujsingh/Desktop/WorkingFolder[1B[K[K[A[46Cappium-doctor --android                   [1B[K[A[69C[?2004l[1B[32minfo[0m [0m[35mAppiumDoctor[0m Appium Doctor v.2.1.15
+[0m[30;43mWARN[0m [0m[35mAppiumDoctor[0m This package is deprecated since the Appium server version 2.4.0 and will be removed in the future.
+[0m[30;43mWARN[0m [0m[35mAppiumDoctor[0m Use doctor checks (if any exist) integrated into your installed driver or plugin by running `appium driver doctor <driver_name>` or `appium plugin doctor <plugin_name>`.
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m ### Diagnostic for [32mnecessary[39m dependencies starting ###
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m APPIUM_HOME is /Users/tanujsingh/.appium
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m The Node.js binary was found at: /opt/homebrew/bin/node
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m Node version is 24.9.0
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m ANDROID_HOME is set to: /Users/tanujsingh/Library/Android/sdk
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m JAVA_HOME is set to: /opt/homebrew/Cellar/openjdk@17/17.0.16/libexec/openjdk.jdk/Contents/Home
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m    Checking adb, emulator, apkanalyzer
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m      'adb' is in /Users/tanujsingh/Library/Android/sdk/platform-tools/adb
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m      'emulator' is in /Users/tanujsingh/Library/Android/sdk/emulator/emulator
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m      'apkanalyzer' is in /Users/tanujsingh/Library/Android/sdk/cmdline-tools/latest/bin/apkanalyzer
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m adb, emulator, apkanalyzer exist: /Users/tanujsingh/Library/Android/sdk
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m 'bin' subfolder exists under '/opt/homebrew/Cellar/openjdk@17/17.0.16/libexec/openjdk.jdk/Contents/Home'
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m ### Diagnostic for necessary dependencies completed, no fix needed. ###
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m 
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m ### Diagnostic for [33moptional[39m dependencies starting ###
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m ffmpeg is installed at: /opt/homebrew/bin/ffmpeg. ffmpeg version 8.0 Copyright (c) 2000-2025 the FFmpeg developers
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m mjpeg-consumer is installed at: /opt/homebrew/lib. Installed version is: 2.0.0
+[0m[30;43mWARN[0m [0m[35mAppiumDoctor[0m  [33m✖[39m bundletool.jar cannot be found
+[0m[30;43mWARN[0m [0m[35mAppiumDoctor[0m  [33m✖[39m gst-launch-1.0 and/or gst-inspect-1.0 cannot be found
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m ### Diagnostic for optional dependencies completed, 2 fixes possible. ###
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m 
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m ### Optional Manual Fixes ###
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m The configuration can install optionally. Please do the following manually:
+[0m[30;43mWARN[0m [0m[35mAppiumDoctor[0m  ➜ [1mbundletool.jar[22m is used to handle Android App Bundle. Please read http://appium.io/docs/en/writing-running-appium/android/android-appbundle/ to install it
+[0m[30;43mWARN[0m [0m[35mAppiumDoctor[0m  ➜ [1mgst-launch-1.0 and gst-inspect-1.0[22m are used to stream the screen of the device under test. Please read https://appium.io/docs/en/writing-running-appium/android/android-screen-streaming/ to install them and for more details
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m 
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m ###
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m 
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m Bye! Run appium-doctor again when all manual fixes have been applied!
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m 
+[0m[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Tanujs-MacBook-Air.local/Users/tanujsingh/Desktop/WorkingFolder[0m[27m[24m[Jtanujsingh@Tanujs-MacBook-Air WorkingFolder % [K[?2004h[7mexport BUNDLETOOL_PATH=/Users/tanujsingh/Desktop/WorkingFolder/bundletool.[7mj[7mar[27m[K
+[K[A[A[46C[27me[27mx[27mp[27mo[27mr[27mt[27m [27mB[27mU[27mN[27mD[27mL[27mE[27mT[27mO[27mO[27mL[27m_[27mP[27mA[27mT[27mH[27m=[27m/[27mU[27ms[27me[27mr[27ms[27m/[27mt[27ma[27mn[27mu[27mj[27ms[27mi[27mn[27mg[27mh[27m/[27mD[27me[27ms[27mk[27mt[27mo[27mp[27m/[27mW[27mo[27mr[27mk[27mi[27mn[27mg[27mF[27mo[27ml[27md[27me[27mr[27m/[27mb[27mu[27mn[27md[27ml[27me[27mt[27mo[27mo[27ml[27m.j[27ma[27mr[1B[K[A[3C[?2004l[1B
+[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Tanujs-MacBook-Air.local/Users/tanujsingh/Desktop/WorkingFolder[0m[27m[24m[Jtanujsingh@Tanujs-MacBook-Air WorkingFolder % [K[?2004h[7m~/.zshrc[27m[8D[27m~[27m/[27m.[27mz[27ms[27mh[27mr[27mc[1C      ~  [7msource ~/.zshrc[27m[15D[27ms[27mo[27mu[27mr[27mc[27me[27m [27m~[27m/[27m.[27mz[27ms[27mh[27mr[27mc[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Tanujs-MacBook-Air.local/Users/tanujsingh/Desktop/WorkingFolder[0m[27m[24m[Jtanujsingh@Tanujs-MacBook-Air WorkingFolder % [K[?2004h[7mls -l /Users/tanujsingh/Desktop/WorkingFolder/bundletool.jar[27m
+[K[A[46C[27ml[27ms[27m [27m-[27ml[27m [27m/[27mU[27ms[27me[27mr[27ms[27m/[27mt[27ma[27mn[27mu[27mj[27ms[27mi[27mn[27mg[27mh[27m/[27mD[27me[27ms[27mk[27mt[27mo[27mp[27m/[27mW[27mo[27mr[27mk[27mi[27mn[27mg[27mF[27mo[27ml[27md[27me[27mr[27m/[27mb[27mu[27mn[27md[27ml[27me[27mt[27mo[27mo[27ml[27m.[27mj[27ma[27mr[1B[K[A[106C[?2004l[1B
+-rw-r--r--@ 1 tanujsingh  staff  32515387  3 Oct 21:39 /Users/tanujsingh/Desktop/WorkingFolder/bundletool.jar
+[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Tanujs-MacBook-Air.local/Users/tanujsingh/Desktop/WorkingFolder[0m[27m[24m[Jtanujsingh@Tanujs-MacBook-Air WorkingFolder % [K[?2004h[7mappium-doctor --android[27m
+[K[A[46C[27ma[27mp[27mp[27mi[27mu[27mm[27m-[27md[27mo[27mc[27mt[27mo[27mr[27m [27m-[27m-[27ma[27mn[27md[27mr[27mo[27mi[27md[1B[K[A[69C[?2004l[1B
+[32minfo[0m [0m[35mAppiumDoctor[0m Appium Doctor v.2.1.15
+[0m[30;43mWARN[0m [0m[35mAppiumDoctor[0m This package is deprecated since the Appium server version 2.4.0 and will be removed in the future.
+[0m[30;43mWARN[0m [0m[35mAppiumDoctor[0m Use doctor checks (if any exist) integrated into your installed driver or plugin by running `appium driver doctor <driver_name>` or `appium plugin doctor <plugin_name>`.
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m ### Diagnostic for [32mnecessary[39m dependencies starting ###
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m APPIUM_HOME is /Users/tanujsingh/.appium
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m The Node.js binary was found at: /opt/homebrew/bin/node
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m Node version is 24.9.0
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m ANDROID_HOME is set to: /Users/tanujsingh/Library/Android/sdk
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m JAVA_HOME is set to: /opt/homebrew/Cellar/openjdk@17/17.0.16/libexec/openjdk.jdk/Contents/Home
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m    Checking adb, emulator, apkanalyzer
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m      'adb' is in /Users/tanujsingh/Library/Android/sdk/platform-tools/adb
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m      'emulator' is in /Users/tanujsingh/Library/Android/sdk/emulator/emulator
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m      'apkanalyzer' is in /Users/tanujsingh/Library/Android/sdk/cmdline-tools/latest/bin/apkanalyzer
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m adb, emulator, apkanalyzer exist: /Users/tanujsingh/Library/Android/sdk
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m 'bin' subfolder exists under '/opt/homebrew/Cellar/openjdk@17/17.0.16/libexec/openjdk.jdk/Contents/Home'
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m ### Diagnostic for necessary dependencies completed, no fix needed. ###
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m 
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m ### Diagnostic for [33moptional[39m dependencies starting ###
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m ffmpeg is installed at: /opt/homebrew/bin/ffmpeg. ffmpeg version 8.0 Copyright (c) 2000-2025 the FFmpeg developers
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m mjpeg-consumer is installed at: /opt/homebrew/lib. Installed version is: 2.0.0
+[0m[30;43mWARN[0m [0m[35mAppiumDoctor[0m  [33m✖[39m bundletool.jar cannot be found
+[0m[30;43mWARN[0m [0m[35mAppiumDoctor[0m  [33m✖[39m gst-launch-1.0 and/or gst-inspect-1.0 cannot be found
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m ### Diagnostic for optional dependencies completed, 2 fixes possible. ###
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m 
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m ### Optional Manual Fixes ###
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m The configuration can install optionally. Please do the following manually:
+[0m[30;43mWARN[0m [0m[35mAppiumDoctor[0m  ➜ [1mbundletool.jar[22m is used to handle Android App Bundle. Please read http://appium.io/docs/en/writing-running-appium/android/android-appbundle/ to install it
+[0m[30;43mWARN[0m [0m[35mAppiumDoctor[0m  ➜ [1mgst-launch-1.0 and gst-inspect-1.0[22m are used to stream the screen of the device under test. Please read https://appium.io/docs/en/writing-running-appium/android/android-screen-streaming/ to install them and for more details
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m 
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m ###
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m 
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m Bye! Run appium-doctor again when all manual fixes have been applied!
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m 
+[0m[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Tanujs-MacBook-Air.local/Users/tanujsingh/Desktop/WorkingFolder[0m[27m[24m[Jtanujsingh@Tanujs-MacBook-Air WorkingFolder % [K[?2004h[7mexport BUNDLETOOL_PATH=/Users/tanujsingh/Desktop/WorkingFolder/bundletool.[7mj[7mar[27m[K
+[K[A[A[46C[27me[27mx[27mp[27mo[27mr[27mt[27m [27mB[27mU[27mN[27mD[27mL[27mE[27mT[27mO[27mO[27mL[27m_[27mP[27mA[27mT[27mH[27m=[27m/[27mU[27ms[27me[27mr[27ms[27m/[27mt[27ma[27mn[27mu[27mj[27ms[27mi[27mn[27mg[27mh[27m/[27mD[27me[27ms[27mk[27mt[27mo[27mp[27m/[27mW[27mo[27mr[27mk[27mi[27mn[27mg[27mF[27mo[27ml[27md[27me[27mr[27m/[27mb[27mu[27mn[27md[27ml[27me[27mt[27mo[27mo[27ml[27m.j[27ma[27mr[1B[K[A[3C[?2004l[1B
+[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Tanujs-MacBook-Air.local/Users/tanujsingh/Desktop/WorkingFolder[0m[27m[24m[Jtanujsingh@Tanujs-MacBook-Air WorkingFolder % [K[?2004h[7msource ~/.bash_profile[27m
+[K[A[46C[27ms[27mo[27mu[27mr[27mc[27me[27m [27m~[27m/[27m.[27mb[27ma[27ms[27mh[27m_[27mp[27mr[27mo[27mf[27mi[27ml[27me[1B[K[A[68C[?2004l[1B
+source: no such file or directory: /Users/tanujsingh/.bash_profile
+[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Tanujs-MacBook-Air.local/Users/tanujsingh/Desktop/WorkingFolder[0m[27m[24m[Jtanujsingh@Tanujs-MacBook-Air WorkingFolder % [K[?2004h[7msource ~/.zshrc[27m
+[K[A[46C[27ms[27mo[27mu[27mr[27mc[27me[27m [27m~[27m/[27m.[27mz[27ms[27mh[27mr[27mc[1B[K[A[61C[?2004l[1B
+[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Tanujs-MacBook-Air.local/Users/tanujsingh/Desktop/WorkingFolder[0m[27m[24m[Jtanujsingh@Tanujs-MacBook-Air WorkingFolder % [K[?2004h[7mappium-doctor --android[27m
+[K[A[46C[27ma[27mp[27mp[27mi[27mu[27mm[27m-[27md[27mo[27mc[27mt[27mo[27mr[27m [27m-[27m-[27ma[27mn[27md[27mr[27mo[27mi[27md[1B[K[A[69C[?2004l[1B
+[32minfo[0m [0m[35mAppiumDoctor[0m Appium Doctor v.2.1.15
+[0m[30;43mWARN[0m [0m[35mAppiumDoctor[0m This package is deprecated since the Appium server version 2.4.0 and will be removed in the future.
+[0m[30;43mWARN[0m [0m[35mAppiumDoctor[0m Use doctor checks (if any exist) integrated into your installed driver or plugin by running `appium driver doctor <driver_name>` or `appium plugin doctor <plugin_name>`.
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m ### Diagnostic for [32mnecessary[39m dependencies starting ###
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m APPIUM_HOME is /Users/tanujsingh/.appium
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m The Node.js binary was found at: /opt/homebrew/bin/node
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m Node version is 24.9.0
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m ANDROID_HOME is set to: /Users/tanujsingh/Library/Android/sdk
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m JAVA_HOME is set to: /opt/homebrew/Cellar/openjdk@17/17.0.16/libexec/openjdk.jdk/Contents/Home
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m    Checking adb, emulator, apkanalyzer
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m      'adb' is in /Users/tanujsingh/Library/Android/sdk/platform-tools/adb
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m      'emulator' is in /Users/tanujsingh/Library/Android/sdk/emulator/emulator
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m      'apkanalyzer' is in /Users/tanujsingh/Library/Android/sdk/cmdline-tools/latest/bin/apkanalyzer
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m adb, emulator, apkanalyzer exist: /Users/tanujsingh/Library/Android/sdk
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m 'bin' subfolder exists under '/opt/homebrew/Cellar/openjdk@17/17.0.16/libexec/openjdk.jdk/Contents/Home'
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m ### Diagnostic for necessary dependencies completed, no fix needed. ###
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m 
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m ### Diagnostic for [33moptional[39m dependencies starting ###
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m ffmpeg is installed at: /opt/homebrew/bin/ffmpeg. ffmpeg version 8.0 Copyright (c) 2000-2025 the FFmpeg developers
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m mjpeg-consumer is installed at: /opt/homebrew/lib. Installed version is: 2.0.0
+[0m[30;43mWARN[0m [0m[35mAppiumDoctor[0m  [33m✖[39m bundletool.jar cannot be found
+[0m[30;43mWARN[0m [0m[35mAppiumDoctor[0m  [33m✖[39m gst-launch-1.0 and/or gst-inspect-1.0 cannot be found
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m ### Diagnostic for optional dependencies completed, 2 fixes possible. ###
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m 
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m ### Optional Manual Fixes ###
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m The configuration can install optionally. Please do the following manually:
+[0m[30;43mWARN[0m [0m[35mAppiumDoctor[0m  ➜ [1mbundletool.jar[22m is used to handle Android App Bundle. Please read http://appium.io/docs/en/writing-running-appium/android/android-appbundle/ to install it
+[0m[30;43mWARN[0m [0m[35mAppiumDoctor[0m  ➜ [1mgst-launch-1.0 and gst-inspect-1.0[22m are used to stream the screen of the device under test. Please read https://appium.io/docs/en/writing-running-appium/android/android-screen-streaming/ to install them and for more details
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m 
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m ###
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m 
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m Bye! Run appium-doctor again when all manual fixes have been applied!
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m 
+[0m[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Tanujs-MacBook-Air.local/Users/tanujsingh/Desktop/WorkingFolder[0m[27m[24m[Jtanujsingh@Tanujs-MacBook-Air WorkingFolder % [K[?2004h[7mecho $BUNDLETOOL_PATH[27m
+[K[A[46C[27me[27mc[27mh[27mo[27m [27m$[27mB[27mU[27mN[27mD[27mL[27mE[27mT[27mO[27mO[27mL[27m_[27mP[27mA[27mT[27mH[1B[K[A[67C[?2004l[1B
+/Users/tanujsingh/bundletool-all-1.18.2.jar
+[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Tanujs-MacBook-Air.local/Users/tanujsingh/Desktop/WorkingFolder[0m[27m[24m[Jtanujsingh@Tanujs-MacBook-Air WorkingFolder % [K[?2004h[7mexport BUNDLETOOL_PATH=/Users/tanujsingh/Desktop/WorkingFolder/bundletool-[7ma[7mll-1.18.2.jar[27m[K
+[K[A[A[46C[27me[27mx[27mp[27mo[27mr[27mt[27m [27mB[27mU[27mN[27mD[27mL[27mE[27mT[27mO[27mO[27mL[27m_[27mP[27mA[27mT[27mH[27m=[27m/[27mU[27ms[27me[27mr[27ms[27m/[27mt[27ma[27mn[27mu[27mj[27ms[27mi[27mn[27mg[27mh[27m/[27mD[27me[27ms[27mk[27mt[27mo[27mp[27m/[27mW[27mo[27mr[27mk[27mi[27mn[27mg[27mF[27mo[27ml[27md[27me[27mr[27m/[27mb[27mu[27mn[27md[27ml[27me[27mt[27mo[27mo[27ml[27m-a[27ml[27ml[27m-[27m1[27m.[27m1[27m8[27m.[27m2[27m.[27mj[27ma[27mr[1B[K[A[14C.jar jar .jar .jar jar .jar .jar .jar a.jar .jar [A[119C.jar [A[115C.jar [A[115C.jar [A[115C.jar [K[A[115Co.jar[A[116Co.jar[A[116Cl.jar[A[116C[1B[1C[1C[1C[1B[A[A[46C[2B[A[3C[?2004l[1B
+[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Tanujs-MacBook-Air.local/Users/tanujsingh/Desktop/WorkingFolder[0m[27m[24m[Jtanujsingh@Tanujs-MacBook-Air WorkingFolder % [K[?2004h[7mecho $BUNDLETOOL_PATH[27m
+[K[A[46C[27me[27mc[27mh[27mo[27m [27m$[27mB[27mU[27mN[27mD[27mL[27mE[27mT[27mO[27mO[27mL[27m_[27mP[27mA[27mT[27mH[1B[K[A[67C[?2004l[1B
+/Users/tanujsingh/Desktop/WorkingFolder/bundletool.jar
+[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Tanujs-MacBook-Air.local/Users/tanujsingh/Desktop/WorkingFolder[0m[27m[24m[Jtanujsingh@Tanujs-MacBook-Air WorkingFolder % [K[?2004hecho $BUNDLETOOL_PATH
+[K[K[A[46Cexport BUNDLETOOL_PATH=/Users/tanujsingh/Desktop/WorkingFolder/bundletool.jar
+[K[K[A[A[46Cecho $[P[15C[K[1B[K[1B[K[A[A[46Cappium-doctor --android[1B[A[69C[?2004l[2B[32minfo[0m [0m[35mAppiumDoctor[0m Appium Doctor v.2.1.15
+[0m[30;43mWARN[0m [0m[35mAppiumDoctor[0m This package is deprecated since the Appium server version 2.4.0 and will be removed in the future.
+[0m[30;43mWARN[0m [0m[35mAppiumDoctor[0m Use doctor checks (if any exist) integrated into your installed driver or plugin by running `appium driver doctor <driver_name>` or `appium plugin doctor <plugin_name>`.
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m ### Diagnostic for [32mnecessary[39m dependencies starting ###
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m APPIUM_HOME is /Users/tanujsingh/.appium
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m The Node.js binary was found at: /opt/homebrew/bin/node
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m Node version is 24.9.0
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m ANDROID_HOME is set to: /Users/tanujsingh/Library/Android/sdk
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m JAVA_HOME is set to: /opt/homebrew/Cellar/openjdk@17/17.0.16/libexec/openjdk.jdk/Contents/Home
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m    Checking adb, emulator, apkanalyzer
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m      'adb' is in /Users/tanujsingh/Library/Android/sdk/platform-tools/adb
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m      'emulator' is in /Users/tanujsingh/Library/Android/sdk/emulator/emulator
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m      'apkanalyzer' is in /Users/tanujsingh/Library/Android/sdk/cmdline-tools/latest/bin/apkanalyzer
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m adb, emulator, apkanalyzer exist: /Users/tanujsingh/Library/Android/sdk
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m 'bin' subfolder exists under '/opt/homebrew/Cellar/openjdk@17/17.0.16/libexec/openjdk.jdk/Contents/Home'
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m ### Diagnostic for necessary dependencies completed, no fix needed. ###
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m 
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m ### Diagnostic for [33moptional[39m dependencies starting ###
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m ffmpeg is installed at: /opt/homebrew/bin/ffmpeg. ffmpeg version 8.0 Copyright (c) 2000-2025 the FFmpeg developers
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m mjpeg-consumer is installed at: /opt/homebrew/lib. Installed version is: 2.0.0
+[0m[30;43mWARN[0m [0m[35mAppiumDoctor[0m  [33m✖[39m bundletool.jar cannot be found
+[0m[30;43mWARN[0m [0m[35mAppiumDoctor[0m  [33m✖[39m gst-launch-1.0 and/or gst-inspect-1.0 cannot be found
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m ### Diagnostic for optional dependencies completed, 2 fixes possible. ###
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m 
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m ### Optional Manual Fixes ###
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m The configuration can install optionally. Please do the following manually:
+[0m[30;43mWARN[0m [0m[35mAppiumDoctor[0m  ➜ [1mbundletool.jar[22m is used to handle Android App Bundle. Please read http://appium.io/docs/en/writing-running-appium/android/android-appbundle/ to install it
+[0m[30;43mWARN[0m [0m[35mAppiumDoctor[0m  ➜ [1mgst-launch-1.0 and gst-inspect-1.0[22m are used to stream the screen of the device under test. Please read https://appium.io/docs/en/writing-running-appium/android/android-screen-streaming/ to install them and for more details
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m 
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m ###
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m 
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m Bye! Run appium-doctor again when all manual fixes have been applied!
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m 
+[0m[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Tanujs-MacBook-Air.local/Users/tanujsingh/Desktop/WorkingFolder[0m[27m[24m[Jtanujsingh@Tanujs-MacBook-Air WorkingFolder % [K[?2004h[7mls -l bundletool.jar[27m
+[K[A[46C[27ml[27ms[27m [27m-[27ml[27m [27mb[27mu[27mn[27md[27ml[27me[27mt[27mo[27mo[27ml[27m.[27mj[27ma[27mr[1B[K[A[66C[?2004l[1B
+-rw-r--r--@ 1 tanujsingh  staff  32515387  3 Oct 21:39 bundletool.jar
+[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Tanujs-MacBook-Air.local/Users/tanujsingh/Desktop/WorkingFolder[0m[27m[24m[Jtanujsingh@Tanujs-MacBook-Air WorkingFolder % [K[?2004h[7mecho $BUNDLETOOL_PATH[27m
+[K[A[46C[27me[27mc[27mh[27mo[27m [27m$[27mB[27mU[27mN[27mD[27mL[27mE[27mT[27mO[27mO[27mL[27m_[27mP[27mA[27mT[27mH[1B[K[A[67C[?2004l[1B
+/Users/tanujsingh/Desktop/WorkingFolder/bundletool.jar
+[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Tanujs-MacBook-Air.local/Users/tanujsingh/Desktop/WorkingFolder[0m[27m[24m[Jtanujsingh@Tanujs-MacBook-Air WorkingFolder % [K[?2004h[7mjava -jar /Users/tanujsingh/Desktop/WorkingFolder/bundletool.jar version[27m
+[K[A[46C[27mj[27ma[27mv[27ma[27m [27m-[27mj[27ma[27mr[27m [27m/[27mU[27ms[27me[27mr[27ms[27m/[27mt[27ma[27mn[27mu[27mj[27ms[27mi[27mn[27mg[27mh[27m/[27mD[27me[27ms[27mk[27mt[27mo[27mp[27m/[27mW[27mo[27mr[27mk[27mi[27mn[27mg[27mF[27mo[27ml[27md[27me[27mr[27m/[27mb[27mu[27mn[27md[27ml[27me[27mt[27mo[27mo[27ml[27m.[27mj[27ma[27mr[27m [27mv[27me[27mr[27ms[27mi[27mo[27mn[1B[K[A[118C[?2004l[1B
+1.18.2
+[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Tanujs-MacBook-Air.local/Users/tanujsingh/Desktop/WorkingFolder[0m[27m[24m[Jtanujsingh@Tanujs-MacBook-Air WorkingFolder % [K[?2004h[7mappium-doctor --android --verbose[27m
+[K[A[46C[27ma[27mp[27mp[27mi[27mu[27mm[27m-[27md[27mo[27mc[27mt[27mo[27mr[27m [27m-[27m-[27ma[27mn[27md[27mr[27mo[27mi[27md[27m [27m-[27m-[27mv[27me[27mr[27mb[27mo[27ms[27me[1B[K[A[79C[?2004l[1B
+Usage: appium-doctor [options, defaults: --ios --android]
+
+Options:
+      --version  Show version number                                   [boolean]
+      --ios      Check iOS setup                                       [boolean]
+      --android  Check Android setup                                   [boolean]
+      --dev      Check dev setup                                       [boolean]
+      --debug    Show debug messages                                   [boolean]
+      --yes      Always respond yes                                    [boolean]
+      --no       Always respond no                                     [boolean]
+      --demo     Run appium-doctor demo (for dev).                     [boolean]
+  -h, --help     Show help                                             [boolean]
+
+Unknown argument: verbose
+[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Tanujs-MacBook-Air.local/Users/tanujsingh/Desktop/WorkingFolder[0m[27m[24m[Jtanujsingh@Tanujs-MacBook-Air WorkingFolder % [K[?2004happium-doctor --android --verbose
+[K][K[K[A[79C         [?2004l[1B[32minfo[0m [0m[35mAppiumDoctor[0m Appium Doctor v.2.1.15
+[0m[30;43mWARN[0m [0m[35mAppiumDoctor[0m This package is deprecated since the Appium server version 2.4.0 and will be removed in the future.
+[0m[30;43mWARN[0m [0m[35mAppiumDoctor[0m Use doctor checks (if any exist) integrated into your installed driver or plugin by running `appium driver doctor <driver_name>` or `appium plugin doctor <plugin_name>`.
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m ### Diagnostic for [32mnecessary[39m dependencies starting ###
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m APPIUM_HOME is /Users/tanujsingh/.appium
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m The Node.js binary was found at: /opt/homebrew/bin/node
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m Node version is 24.9.0
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m ANDROID_HOME is set to: /Users/tanujsingh/Library/Android/sdk
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m JAVA_HOME is set to: /opt/homebrew/Cellar/openjdk@17/17.0.16/libexec/openjdk.jdk/Contents/Home
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m    Checking adb, emulator, apkanalyzer
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m      'adb' is in /Users/tanujsingh/Library/Android/sdk/platform-tools/adb
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m      'emulator' is in /Users/tanujsingh/Library/Android/sdk/emulator/emulator
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m      'apkanalyzer' is in /Users/tanujsingh/Library/Android/sdk/cmdline-tools/latest/bin/apkanalyzer
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m adb, emulator, apkanalyzer exist: /Users/tanujsingh/Library/Android/sdk
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m 'bin' subfolder exists under '/opt/homebrew/Cellar/openjdk@17/17.0.16/libexec/openjdk.jdk/Contents/Home'
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m ### Diagnostic for necessary dependencies completed, no fix needed. ###
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m 
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m ### Diagnostic for [33moptional[39m dependencies starting ###
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m ffmpeg is installed at: /opt/homebrew/bin/ffmpeg. ffmpeg version 8.0 Copyright (c) 2000-2025 the FFmpeg developers
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m mjpeg-consumer is installed at: /opt/homebrew/lib. Installed version is: 2.0.0
+[0m[30;43mWARN[0m [0m[35mAppiumDoctor[0m  [33m✖[39m bundletool.jar cannot be found
+[0m[30;43mWARN[0m [0m[35mAppiumDoctor[0m  [33m✖[39m gst-launch-1.0 and/or gst-inspect-1.0 cannot be found
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m ### Diagnostic for optional dependencies completed, 2 fixes possible. ###
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m 
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m ### Optional Manual Fixes ###
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m The configuration can install optionally. Please do the following manually:
+[0m[30;43mWARN[0m [0m[35mAppiumDoctor[0m  ➜ [1mbundletool.jar[22m is used to handle Android App Bundle. Please read http://appium.io/docs/en/writing-running-appium/android/android-appbundle/ to install it
+[0m[30;43mWARN[0m [0m[35mAppiumDoctor[0m  ➜ [1mgst-launch-1.0 and gst-inspect-1.0[22m are used to stream the screen of the device under test. Please read https://appium.io/docs/en/writing-running-appium/android/android-screen-streaming/ to install them and for more details
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m 
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m ###
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m 
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m Bye! Run appium-doctor again when all manual fixes have been applied!
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m 
+[0m[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Tanujs-MacBook-Air.local/Users/tanujsingh/Desktop/WorkingFolder[0m[27m[24m[Jtanujsingh@Tanujs-MacBook-Air WorkingFolder % [K[?2004h[7mmkdir -p ~/Library/Android/sdk/build-tools/latest[27m
+[K[A[46C[27mm[27mk[27md[27mi[27mr[27m [27m-[27mp[27m [27m~[27m/[27mL[27mi[27mb[27mr[27ma[27mr[27my[27m/[27mA[27mn[27md[27mr[27mo[27mi[27md[27m/[27ms[27md[27mk[27m/[27mb[27mu[27mi[27ml[27md[27m-[27mt[27mo[27mo[27ml[27ms[27m/[27ml[27ma[27mt[27me[27ms[27mt[1B[K[A[95C[?2004l[1B
+[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Tanujs-MacBook-Air.local/Users/tanujsingh/Desktop/WorkingFolder[0m[27m[24m[Jtanujsingh@Tanujs-MacBook-Air WorkingFolder % [K[?2004h[7mcp /Users/tanujsingh/Desktop/WorkingFolder/bundletool.jar ~/Library/Androi[7md[7m/sdk/build-tools/latest/[27m[K
+[K[A[A[46C[27mc[27mp[27m [27m/[27mU[27ms[27me[27mr[27ms[27m/[27mt[27ma[27mn[27mu[27mj[27ms[27mi[27mn[27mg[27mh[27m/[27mD[27me[27ms[27mk[27mt[27mo[27mp[27m/[27mW[27mo[27mr[27mk[27mi[27mn[27mg[27mF[27mo[27ml[27md[27me[27mr[27m/[27mb[27mu[27mn[27md[27ml[27me[27mt[27mo[27mo[27ml[27m.[27mj[27ma[27mr[27m [27m~[27m/[27mL[27mi[27mb[27mr[27ma[27mr[27my[27m/[27mA[27mn[27md[27mr[27mo[27mid[27m/[27ms[27md[27mk[27m/[27mb[27mu[27mi[27ml[27md[27m-[27mt[27mo[27mo[27ml[27ms[27m/[27ml[27ma[27mt[27me[27ms[27mt[27m/[1B[K[A[25C[?2004l[1B
+[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Tanujs-MacBook-Air.local/Users/tanujsingh/Desktop/WorkingFolder[0m[27m[24m[Jtanujsingh@Tanujs-MacBook-Air WorkingFolder % [K[?2004h[7mexport ANDROID_HOME=~/Library/Android/sdk[27m
+[K[A[46C[27me[27mx[27mp[27mo[27mr[27mt[27m [27mA[27mN[27mD[27mR[27mO[27mI[27mD[27m_[27mH[27mO[27mM[27mE[27m=[27m~[27m/[27mL[27mi[27mb[27mr[27ma[27mr[27my[27m/[27mA[27mn[27md[27mr[27mo[27mi[27md[27m/[27ms[27md[27mk[1B[K[A[87C[?2004l[1B
+[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Tanujs-MacBook-Air.local/Users/tanujsingh/Desktop/WorkingFolder[0m[27m[24m[Jtanujsingh@Tanujs-MacBook-Air WorkingFolder % [K[?2004h[7mexport PATH=$PATH:$ANDROID_HOME/platform-tools[27m
+[K[A[46C[27me[27mx[27mp[27mo[27mr[27mt[27m [27mP[27mA[27mT[27mH[27m=[27m$[27mP[27mA[27mT[27mH[27m:[27m$[27mA[27mN[27mD[27mR[27mO[27mI[27mD[27m_[27mH[27mO[27mM[27mE[27m/[27mp[27ml[27ma[27mt[27mf[27mo[27mr[27mm[27m-[27mt[27mo[27mo[27ml[27ms[1B[K[A[92C[?2004l[1B
+[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Tanujs-MacBook-Air.local/Users/tanujsingh/Desktop/WorkingFolder[0m[27m[24m[Jtanujsingh@Tanujs-MacBook-Air WorkingFolder % [K[?2004h[7mappium-doctor --android[27m
+[K[A[46C[27ma[27mp[27mp[27mi[27mu[27mm[27m-[27md[27mo[27mc[27mt[27mo[27mr[27m [27m-[27m-[27ma[27mn[27md[27mr[27mo[27mi[27md[1B[K[A[69C[?2004l[1B
+[32minfo[0m [0m[35mAppiumDoctor[0m Appium Doctor v.2.1.15
+[0m[30;43mWARN[0m [0m[35mAppiumDoctor[0m This package is deprecated since the Appium server version 2.4.0 and will be removed in the future.
+[0m[30;43mWARN[0m [0m[35mAppiumDoctor[0m Use doctor checks (if any exist) integrated into your installed driver or plugin by running `appium driver doctor <driver_name>` or `appium plugin doctor <plugin_name>`.
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m ### Diagnostic for [32mnecessary[39m dependencies starting ###
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m APPIUM_HOME is /Users/tanujsingh/.appium
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m The Node.js binary was found at: /opt/homebrew/bin/node
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m Node version is 24.9.0
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m ANDROID_HOME is set to: /Users/tanujsingh/Library/Android/sdk
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m JAVA_HOME is set to: /opt/homebrew/Cellar/openjdk@17/17.0.16/libexec/openjdk.jdk/Contents/Home
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m    Checking adb, emulator, apkanalyzer
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m      'adb' is in /Users/tanujsingh/Library/Android/sdk/platform-tools/adb
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m      'emulator' is in /Users/tanujsingh/Library/Android/sdk/emulator/emulator
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m      'apkanalyzer' is in /Users/tanujsingh/Library/Android/sdk/cmdline-tools/latest/bin/apkanalyzer
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m adb, emulator, apkanalyzer exist: /Users/tanujsingh/Library/Android/sdk
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m 'bin' subfolder exists under '/opt/homebrew/Cellar/openjdk@17/17.0.16/libexec/openjdk.jdk/Contents/Home'
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m ### Diagnostic for necessary dependencies completed, no fix needed. ###
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m 
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m ### Diagnostic for [33moptional[39m dependencies starting ###
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m ffmpeg is installed at: /opt/homebrew/bin/ffmpeg. ffmpeg version 8.0 Copyright (c) 2000-2025 the FFmpeg developers
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m mjpeg-consumer is installed at: /opt/homebrew/lib. Installed version is: 2.0.0
+[0m[30;43mWARN[0m [0m[35mAppiumDoctor[0m  [33m✖[39m bundletool.jar cannot be found
+[0m[30;43mWARN[0m [0m[35mAppiumDoctor[0m  [33m✖[39m gst-launch-1.0 and/or gst-inspect-1.0 cannot be found
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m ### Diagnostic for optional dependencies completed, 2 fixes possible. ###
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m 
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m ### Optional Manual Fixes ###
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m The configuration can install optionally. Please do the following manually:
+[0m[30;43mWARN[0m [0m[35mAppiumDoctor[0m  ➜ [1mbundletool.jar[22m is used to handle Android App Bundle. Please read http://appium.io/docs/en/writing-running-appium/android/android-appbundle/ to install it
+[0m[30;43mWARN[0m [0m[35mAppiumDoctor[0m  ➜ [1mgst-launch-1.0 and gst-inspect-1.0[22m are used to stream the screen of the device under test. Please read https://appium.io/docs/en/writing-running-appium/android/android-screen-streaming/ to install them and for more details
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m 
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m ###
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m 
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m Bye! Run appium-doctor again when all manual fixes have been applied!
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m 
+[0m[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Tanujs-MacBook-Air.local/Users/tanujsingh/Desktop/WorkingFolder[0m[27m[24m[Jtanujsingh@Tanujs-MacBook-Air WorkingFolder % [K[?2004h[7mls ~/Library/Android/sdk/build-tools[27m
+[K[A[46C[27ml[27ms[27m [27m~[27m/[27mL[27mi[27mb[27mr[27ma[27mr[27my[27m/[27mA[27mn[27md[27mr[27mo[27mi[27md[27m/[27ms[27md[27mk[27m/[27mb[27mu[27mi[27ml[27md[27m-[27mt[27mo[27mo[27ml[27ms[1B[K[?2004l
+35.0.0	36.1.0	latest
+[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Tanujs-MacBook-Air.local/Users/tanujsingh/Desktop/WorkingFolder[0m[27m[24m[Jtanujsingh@Tanujs-MacBook-Air WorkingFolder % [K[?2004h[7mcp /Users/tanujsingh/Desktop/WorkingFolder/bundletool.jar ~/Library/Androi[7md[7m/sdk/build-tools/34.0.1/[27m[K
+[K[A[A[46C[27mc[27mp[27m [27m/[27mU[27ms[27me[27mr[27ms[27m/[27mt[27ma[27mn[27mu[27mj[27ms[27mi[27mn[27mg[27mh[27m/[27mD[27me[27ms[27mk[27mt[27mo[27mp[27m/[27mW[27mo[27mr[27mk[27mi[27mn[27mg[27mF[27mo[27ml[27md[27me[27mr[27m/[27mb[27mu[27mn[27md[27ml[27me[27mt[27mo[27mo[27ml[27m.[27mj[27ma[27mr[27m [27m~[27m/[27mL[27mi[27mb[27mr[27ma[27mr[27my[27m/[27mA[27mn[27md[27mr[27mo[27mid[27m/[27ms[27md[27mk[27m/[27mb[27mu[27mi[27ml[27md[27m-[27mt[27mo[27mo[27ml[27ms[27m/[27m3[27m4[27m.[27m0[27m.[27m1[27m/[1B[K[A[25C[1C.0.1/ 5.0.1/[1C[1C[1C[1C/ 0/[1C[?2004l[1B
+[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Tanujs-MacBook-Air.local/Users/tanujsingh/Desktop/WorkingFolder[0m[27m[24m[Jtanujsingh@Tanujs-MacBook-Air WorkingFolder % [K[?2004hcp /Users/tanujsingh/Desktop/WorkingFolder/bundletool.jar ~/Library/Android/sdk/build-tools/35.0.0/[K
+[K[K[A[25C.0.0/ 6.0.0/[1C[1C.0/ 1.0/[1C[1C[?2004l[1B
+[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Tanujs-MacBook-Air.local/Users/tanujsingh/Desktop/WorkingFolder[0m[27m[24m[Jtanujsingh@Tanujs-MacBook-Air WorkingFolder % [K[?2004h[7mexport ANDROID_HOME=~/Library/Android/sdk[27m
+[K[A[46C[27me[27mx[27mp[27mo[27mr[27mt[27m [27mA[27mN[27mD[27mR[27mO[27mI[27mD[27m_[27mH[27mO[27mM[27mE[27m=[27m~[27m/[27mL[27mi[27mb[27mr[27ma[27mr[27my[27m/[27mA[27mn[27md[27mr[27mo[27mi[27md[27m/[27ms[27md[27mk[1B[K[A[87C[?2004l[1B
+[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Tanujs-MacBook-Air.local/Users/tanujsingh/Desktop/WorkingFolder[0m[27m[24m[Jtanujsingh@Tanujs-MacBook-Air WorkingFolder % [K[?2004h[7mexport PATH=$PATH:$ANDROID_HOME/platform-tools[27m
+[K[A[46C[27me[27mx[27mp[27mo[27mr[27mt[27m [27mP[27mA[27mT[27mH[27m=[27m$[27mP[27mA[27mT[27mH[27m:[27m$[27mA[27mN[27mD[27mR[27mO[27mI[27mD[27m_[27mH[27mO[27mM[27mE[27m/[27mp[27ml[27ma[27mt[27mf[27mo[27mr[27mm[27m-[27mt[27mo[27mo[27ml[27ms[1B[K[A[92C[?2004l[1B
+[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Tanujs-MacBook-Air.local/Users/tanujsingh/Desktop/WorkingFolder[0m[27m[24m[Jtanujsingh@Tanujs-MacBook-Air WorkingFolder % [K[?2004h[7mexport PATH=$PATH:$ANDROID_HOME/build-tools/34.0.1[27m
+[K[A[46C[27me[27mx[27mp[27mo[27mr[27mt[27m [27mP[27mA[27mT[27mH[27m=[27m$[27mP[27mA[27mT[27mH[27m:[27m$[27mA[27mN[27mD[27mR[27mO[27mI[27mD[27m_[27mH[27mO[27mM[27mE[27m/[27mb[27mu[27mi[27ml[27md[27m-[27mt[27mo[27mo[27ml[27ms[27m/[27m3[27m4[27m.[27m0[27m.[27m1[1B[K[A[96C[?2004l[1B
+[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Tanujs-MacBook-Air.local/Users/tanujsingh/Desktop/WorkingFolder[0m[27m[24m[Jtanujsingh@Tanujs-MacBook-Air WorkingFolder % [K[?2004h[7msource ~/.zshrc[27m[15D[27ms[27mo[27mu[27mr[27mc[27me[27m [27m~[27m/[27m.[27mz[27ms[27mh[27mr[27mc[1C[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Tanujs-MacBook-Air.local/Users/tanujsingh/Desktop/WorkingFolder[0m[27m[24m[Jtanujsingh@Tanujs-MacBook-Air WorkingFolder % [K[?2004h[7mexport PATH=$PATH:$ANDROID_HOME/build-tools/36.1.0[27m
+[K[A[46C[27me[27mx[27mp[27mo[27mr[27mt[27m [27mP[27mA[27mT[27mH[27m=[27m$[27mP[27mA[27mT[27mH[27m:[27m$[27mA[27mN[27mD[27mR[27mO[27mI[27mD[27m_[27mH[27mO[27mM[27mE[27m/[27mb[27mu[27mi[27ml[27md[27m-[27mt[27mo[27mo[27ml[27ms[27m/[27m3[27m6[27m.[27m1[27m.[27m0[1B[K[A[96C[?2004l[1B
+[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Tanujs-MacBook-Air.local/Users/tanujsingh/Desktop/WorkingFolder[0m[27m[24m[Jtanujsingh@Tanujs-MacBook-Air WorkingFolder % [K[?2004h[7msource ~/.zshrc[27m[15D[27ms[27mo[27mu[27mr[27mc[27me[27m [27m~[27m/[27m.[27mz[27ms[27mh[27mr[27mc[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Tanujs-MacBook-Air.local/Users/tanujsingh/Desktop/WorkingFolder[0m[27m[24m[Jtanujsingh@Tanujs-MacBook-Air WorkingFolder % [K[?2004h[7mappium-doctor --android[27m
+[K[A[46C[27ma[27mp[27mp[27mi[27mu[27mm[27m-[27md[27mo[27mc[27mt[27mo[27mr[27m [27m-[27m-[27ma[27mn[27md[27mr[27mo[27mi[27md[1B[K[A[69C[?2004l[1B
+[32minfo[0m [0m[35mAppiumDoctor[0m Appium Doctor v.2.1.15
+[0m[30;43mWARN[0m [0m[35mAppiumDoctor[0m This package is deprecated since the Appium server version 2.4.0 and will be removed in the future.
+[0m[30;43mWARN[0m [0m[35mAppiumDoctor[0m Use doctor checks (if any exist) integrated into your installed driver or plugin by running `appium driver doctor <driver_name>` or `appium plugin doctor <plugin_name>`.
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m ### Diagnostic for [32mnecessary[39m dependencies starting ###
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m APPIUM_HOME is /Users/tanujsingh/.appium
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m The Node.js binary was found at: /opt/homebrew/bin/node
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m Node version is 24.9.0
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m ANDROID_HOME is set to: /Users/tanujsingh/Library/Android/sdk
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m JAVA_HOME is set to: /opt/homebrew/Cellar/openjdk@17/17.0.16/libexec/openjdk.jdk/Contents/Home
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m    Checking adb, emulator, apkanalyzer
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m      'adb' is in /Users/tanujsingh/Library/Android/sdk/platform-tools/adb
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m      'emulator' is in /Users/tanujsingh/Library/Android/sdk/emulator/emulator
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m      'apkanalyzer' is in /Users/tanujsingh/Library/Android/sdk/cmdline-tools/latest/bin/apkanalyzer
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m adb, emulator, apkanalyzer exist: /Users/tanujsingh/Library/Android/sdk
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m 'bin' subfolder exists under '/opt/homebrew/Cellar/openjdk@17/17.0.16/libexec/openjdk.jdk/Contents/Home'
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m ### Diagnostic for necessary dependencies completed, no fix needed. ###
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m 
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m ### Diagnostic for [33moptional[39m dependencies starting ###
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m ffmpeg is installed at: /opt/homebrew/bin/ffmpeg. ffmpeg version 8.0 Copyright (c) 2000-2025 the FFmpeg developers
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m mjpeg-consumer is installed at: /opt/homebrew/lib. Installed version is: 2.0.0
+[0m[30;43mWARN[0m [0m[35mAppiumDoctor[0m  [33m✖[39m bundletool.jar cannot be found
+[0m[30;43mWARN[0m [0m[35mAppiumDoctor[0m  [33m✖[39m gst-launch-1.0 and/or gst-inspect-1.0 cannot be found
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m ### Diagnostic for optional dependencies completed, 2 fixes possible. ###
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m 
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m ### Optional Manual Fixes ###
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m The configuration can install optionally. Please do the following manually:
+[0m[30;43mWARN[0m [0m[35mAppiumDoctor[0m  ➜ [1mbundletool.jar[22m is used to handle Android App Bundle. Please read http://appium.io/docs/en/writing-running-appium/android/android-appbundle/ to install it
+[0m[30;43mWARN[0m [0m[35mAppiumDoctor[0m  ➜ [1mgst-launch-1.0 and gst-inspect-1.0[22m are used to stream the screen of the device under test. Please read https://appium.io/docs/en/writing-running-appium/android/android-screen-streaming/ to install them and for more details
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m 
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m ###
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m 
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m Bye! Run appium-doctor again when all manual fixes have been applied!
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m 
+[0m[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Tanujs-MacBook-Air.local/Users/tanujsingh/Desktop/WorkingFolder[0m[27m[24m[Jtanujsingh@Tanujs-MacBook-Air WorkingFolder % [K[?2004h[7mjava -jar ~/Library/Android/sdk/build-tools/36.1.0/bundletool.jar version[27m
+[K[A[46C[27mj[27ma[27mv[27ma[27m [27m-[27mj[27ma[27mr[27m [27m~[27m/[27mL[27mi[27mb[27mr[27ma[27mr[27my[27m/[27mA[27mn[27md[27mr[27mo[27mi[27md[27m/[27ms[27md[27mk[27m/[27mb[27mu[27mi[27ml[27md[27m-[27mt[27mo[27mo[27ml[27ms[27m/[27m3[27m6[27m.[27m1[27m.[27m0[27m/[27mb[27mu[27mn[27md[27ml[27me[27mt[27mo[27mo[27ml[27m.[27mj[27ma[27mr[27m [27mv[27me[27mr[27ms[27mi[27mo[27mn[1B[K[A[119C[?2004l[1B
+1.18.2
+[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Tanujs-MacBook-Air.local/Users/tanujsingh/Desktop/WorkingFolder[0m[27m[24m[Jtanujsingh@Tanujs-MacBook-Air WorkingFolder % [K[?2004h[7mecho $ANDROID_HOME[27m
+[K[A[46C[27me[27mc[27mh[27mo[27m [27m$[27mA[27mN[27mD[27mR[27mO[27mI[27mD[27m_[27mH[27mO[27mM[27mE[1B[K[A[64C[?2004l[1B
+/Users/tanujsingh/Library/Android/sdk
+[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Tanujs-MacBook-Air.local/Users/tanujsingh/Desktop/WorkingFolder[0m[27m[24m[Jtanujsingh@Tanujs-MacBook-Air WorkingFolder % [K[?2004h[7mecho $PATH[27m
+[K[A[46C[27me[27mc[27mh[27mo[27m [27m$[27mP[27mA[27mT[27mH[1B[K[A[56C[?2004l[1B
+/Users/tanujsingh/Library/Android/sdk/tools:/Users/tanujsingh/Library/Android/sdk/tools/bin:/Users/tanujsingh/Library/Python/3.9/bin:/Users/tanujsingh/Library/Python/3.13/bin:/Users/tanujsingh/Library/Android/sdk/tools:/Users/tanujsingh/Library/Android/sdk/tools/bin:/Users/tanujsingh/Library/Python/3.9/bin:/Users/tanujsingh/Library/Python/3.13/bin:/Users/tanujsingh/Library/Android/sdk/tools:/Users/tanujsingh/Library/Android/sdk/tools/bin:/Users/tanujsingh/Library/Python/3.9/bin:/Users/tanujsingh/Library/Python/3.13/bin:/Users/tanujsingh/Library/Android/sdk/tools:/Users/tanujsingh/Library/Android/sdk/tools/bin:/Users/tanujsingh/Library/Python/3.9/bin:/Users/tanujsingh/Library/Python/3.13/bin:/Users/tanujsingh/Library/Android/sdk/tools:/Users/tanujsingh/Library/Android/sdk/tools/bin:/Users/tanujsingh/Library/Python/3.9/bin:/Users/tanujsingh/Library/Python/3.13/bin:/Users/tanujsingh/Library/Android/sdk/tools:/Users/tanujsingh/Library/Android/sdk/tools/bin:/Users/tanujsingh/Library/Python/3.9/bin:/Users/tanujsingh/Library/Python/3.13/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/opt/homebrew/bin:/Users/tanujsingh/Library/Android/sdk/emulator:/Users/tanujsingh/Library/Android/sdk/tools:/Users/tanujsingh/Library/Android/sdk/tools/bin:/Users/tanujsingh/Library/Android/sdk/platform-tools:/Users/tanujsingh/Library/Android/sdk/emulator:/Users/tanujsingh/Library/Android/sdk/tools:/Users/tanujsingh/Library/Android/sdk/tools/bin:/Users/tanujsingh/Library/Android/sdk/platform-tools:/Users/tanujsingh/Library/Android/sdk/emulator:/Users/tanujsingh/Library/Android/sdk/tools:/Users/tanujsingh/Library/Android/sdk/tools/bin:/Users/tanujsingh/Library/Android/sdk/platform-tools:/Users/tanujsingh/Library/Android/sdk/emulator:/Users/tanujsingh/Library/Android/sdk/tools:/Users/tanujsingh/Library/Android/sdk/tools/bin:/Users/tanujsingh/Library/Android/sdk/platform-tools:/Users/tanujsingh/Library/Android/sdk/platform-tools:/Users/tanujsingh/Library/Android/sdk/platform-tools:/Users/tanujsingh/Library/Android/sdk/build-tools/34.0.1:/Users/tanujsingh/Library/Android/sdk/emulator:/Users/tanujsingh/Library/Android/sdk/tools:/Users/tanujsingh/Library/Android/sdk/tools/bin:/Users/tanujsingh/Library/Android/sdk/platform-tools:/Users/tanujsingh/Library/Android/sdk/build-tools/36.1.0:/Users/tanujsingh/Library/Android/sdk/emulator:/Users/tanujsingh/Library/Android/sdk/tools:/Users/tanujsingh/Library/Android/sdk/tools/bin:/Users/tanujsingh/Library/Android/sdk/platform-tools
+[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Tanujs-MacBook-Air.local/Users/tanujsingh/Desktop/WorkingFolder[0m[27m[24m[Jtanujsingh@Tanujs-MacBook-Air WorkingFolder % [K[?2004h[7menv DEBUG=* appium-doctor --android[27m
+[K[A[46C[27me[27mn[27mv[27m [27mD[27mE[27mB[27mU[27mG[27m=[27m*[27m [27ma[27mp[27mp[27mi[27mu[27mm[27m-[27md[27mo[27mc[27mt[27mo[27mr[27m [27m-[27m-[27ma[27mn[27md[27mr[27mo[27mi[27md[1B[K[A[81C[?2004l[1B
+zsh: no matches found: DEBUG=*
+[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Tanujs-MacBook-Air.local/Users/tanujsingh/Desktop/WorkingFolder[0m[27m[24m[Jtanujsingh@Tanujs-MacBook-Air WorkingFolder % [K[?2004h[7mDEBUG=* appium-doctor --android[27m
+[K[A[46C[27mD[27mE[27mB[27mU[27mG[27m=[27m*[27m [27ma[27mp[27mp[27mi[27mu[27mm[27m-[27md[27mo[27mc[27mt[27mo[27mr[27m [27m-[27m-[27ma[27mn[27md[27mr[27mo[27mi[27md[1B[K[A[77C[?2004l[1B
+[32minfo[0m [0m[35mAppiumDoctor[0m Appium Doctor v.2.1.15
+[0m[30;43mWARN[0m [0m[35mAppiumDoctor[0m This package is deprecated since the Appium server version 2.4.0 and will be removed in the future.
+[0m[30;43mWARN[0m [0m[35mAppiumDoctor[0m Use doctor checks (if any exist) integrated into your installed driver or plugin by running `appium driver doctor <driver_name>` or `appium plugin doctor <plugin_name>`.
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m ### Diagnostic for [32mnecessary[39m dependencies starting ###
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m APPIUM_HOME is /Users/tanujsingh/.appium
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m The Node.js binary was found at: /opt/homebrew/bin/node
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m Node version is 24.9.0
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m ANDROID_HOME is set to: /Users/tanujsingh/Library/Android/sdk
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m JAVA_HOME is set to: /opt/homebrew/Cellar/openjdk@17/17.0.16/libexec/openjdk.jdk/Contents/Home
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m    Checking adb, emulator, apkanalyzer
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m      'adb' is in /Users/tanujsingh/Library/Android/sdk/platform-tools/adb
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m      'emulator' is in /Users/tanujsingh/Library/Android/sdk/emulator/emulator
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m      'apkanalyzer' is in /Users/tanujsingh/Library/Android/sdk/cmdline-tools/latest/bin/apkanalyzer
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m adb, emulator, apkanalyzer exist: /Users/tanujsingh/Library/Android/sdk
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m 'bin' subfolder exists under '/opt/homebrew/Cellar/openjdk@17/17.0.16/libexec/openjdk.jdk/Contents/Home'
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m ### Diagnostic for necessary dependencies completed, no fix needed. ###
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m 
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m ### Diagnostic for [33moptional[39m dependencies starting ###
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m ffmpeg is installed at: /opt/homebrew/bin/ffmpeg. ffmpeg version 8.0 Copyright (c) 2000-2025 the FFmpeg developers
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m mjpeg-consumer is installed at: /opt/homebrew/lib. Installed version is: 2.0.0
+[0m[30;43mWARN[0m [0m[35mAppiumDoctor[0m  [33m✖[39m bundletool.jar cannot be found
+[0m[30;43mWARN[0m [0m[35mAppiumDoctor[0m  [33m✖[39m gst-launch-1.0 and/or gst-inspect-1.0 cannot be found
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m ### Diagnostic for optional dependencies completed, 2 fixes possible. ###
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m 
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m ### Optional Manual Fixes ###
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m The configuration can install optionally. Please do the following manually:
+[0m[30;43mWARN[0m [0m[35mAppiumDoctor[0m  ➜ [1mbundletool.jar[22m is used to handle Android App Bundle. Please read http://appium.io/docs/en/writing-running-appium/android/android-appbundle/ to install it
+[0m[30;43mWARN[0m [0m[35mAppiumDoctor[0m  ➜ [1mgst-launch-1.0 and gst-inspect-1.0[22m are used to stream the screen of the device under test. Please read https://appium.io/docs/en/writing-running-appium/android/android-screen-streaming/ to install them and for more details
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m 
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m ###
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m 
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m Bye! Run appium-doctor again when all manual fixes have been applied!
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m 
+[0m[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Tanujs-MacBook-Air.local/Users/tanujsingh/Desktop/WorkingFolder[0m[27m[24m[Jtanujsingh@Tanujs-MacBook-Air WorkingFolder % [K[?2004h[7msudo ln -s /Users/tanujsingh/Desktop/WorkingFolder/bundletool.jar /usr/loc[7ma[7ml/bin/bundletool.jar[27m[K
+[K[A[A[46C[27ms[27mu[27md[27mo[27m [27ml[27mn[27m [27m-[27ms[27m [27m/[27mU[27ms[27me[27mr[27ms[27m/[27mt[27ma[27mn[27mu[27mj[27ms[27mi[27mn[27mg[27mh[27m/[27mD[27me[27ms[27mk[27mt[27mo[27mp[27m/[27mW[27mo[27mr[27mk[27mi[27mn[27mg[27mF[27mo[27ml[27md[27me[27mr[27m/[27mb[27mu[27mn[27md[27ml[27me[27mt[27mo[27mo[27ml[27m.[27mj[27ma[27mr[27m [27m/[27mu[27ms[27mr[27m/[27ml[27mo[27mca[27ml[27m/[27mb[27mi[27mn[27m/[27mb[27mu[27mn[27md[27ml[27me[27mt[27mo[27mo[27ml[27m.[27mj[27ma[27mr[1B[K[A[21C[A[25CDEBUG=* appium-doctor --android[K[1B[K[1B[K[A[A[46Csudo ln -s /Users/tanujsingh/Desktop/WorkingFolder/bundletool.jar /usr/local/bin/bundletool.jar[1B[K[K

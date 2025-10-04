@@ -1,0 +1,578 @@
+Script started on Fri Oct  3 20:50:18 2025
+[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Tanujs-MacBook-Air.local/Users/tanujsingh[0m[27m[24m[Jtanujsingh@Tanujs-MacBook-Air ~ % [K[?2004hnnpm -v[?2004l
+11.6.1
+[1G[0K[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Tanujs-MacBook-Air.local/Users/tanujsingh[0m[27m[24m[Jtanujsingh@Tanujs-MacBook-Air ~ % [K[?2004hnnpm install -g appium-doctor[?2004l
+[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K[1mnpm[22m [33mwarn[39m [94mdeprecated[39m are-we-there-yet@3.0.1: This package is no longer supported.
+[1G[0K⠴[1G[0K[1mnpm[22m [33mwarn[39m [94mdeprecated[39m gauge@4.0.4: This package is no longer supported.
+[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K[1mnpm[22m [33mwarn[39m [94mdeprecated[39m inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K[1mnpm[22m [33mwarn[39m [94mdeprecated[39m rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
+[1G[0K⠇[1G[0K[1mnpm[22m [33mwarn[39m [94mdeprecated[39m npmlog@6.0.2: This package is no longer supported.
+[1G[0K⠇[1G[0K[1mnpm[22m [33mwarn[39m [94mdeprecated[39m glob@6.0.4: Glob versions prior to v9 are no longer supported
+[1G[0K⠇[1G[0K[1mnpm[22m [33mwarn[39m [94mdeprecated[39m rimraf@2.4.5: Rimraf versions prior to v4 are no longer supported
+[1G[0K⠇[1G[0K⠏[1G[0K[1mnpm[22m [33mwarn[39m [94mdeprecated[39m glob@7.2.3: Glob versions prior to v9 are no longer supported
+[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K[1mnpm[22m [33mwarn[39m [94mdeprecated[39m authorize-ios@1.2.1: Moved into appium
+[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K[1mnpm[22m [33mwarn[39m [94mdeprecated[39m appium-support@2.55.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K[1mnpm[22m [33mwarn[39m [94mdeprecated[39m debug@4.1.1: Debug versions >=3.2.0 <3.2.7 || >=4 <4.3.1 have a low-severity ReDos regression when used in a Node.js environment. It is recommended you upgrade to 3.2.7 or 4.3.1. (https://github.com/visionmedia/debug/issues/797)
+[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K
+added 283 packages in 46s
+[1G[0K⠦[1G[0K
+[1G[0K⠦[1G[0K34 packages are looking for funding
+[1G[0K⠦[1G[0K  run `npm fund` for details
+[1G[0K⠦[1G[0K[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Tanujs-MacBook-Air.local/Users/tanujsingh[0m[27m[24m[Jtanujsingh@Tanujs-MacBook-Air ~ % [K[?2004h[7mappium-doctor --android[27m
+[K[A[34C[27ma[27mp[27mp[27mi[27mu[27mm[27m-[27md[27mo[27mc[27mt[27mo[27mr[27m [27m-[27m-[27ma[27mn[27md[27mr[27mo[27mi[27md[1B[K[A[57C[?2004l[1B
+[30;43mWARN[0m [0m[35mAppiumDoctor[0m [Deprecated] Please use appium-doctor installed with "npm install @appium/doctor --location=global"
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m Appium Doctor v.1.16.2
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m ### Diagnostic for [32mnecessary[39m dependencies starting ###
+[0m(node:5525) [DEP0176] DeprecationWarning: fs.F_OK is deprecated, use fs.constants.F_OK instead
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m The Node.js binary was found at: /opt/homebrew/bin/node
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m Node version is 24.9.0
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m  [32m✔[39m ANDROID_HOME is set to: /Users/tanujsingh/Library/Android/sdk
+[0m[30;43mWARN[0m [0m[35mAppiumDoctor[0m  [31m✖[39m JAVA_HOME environment variable is NOT set!
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m    Checking adb, android, emulator, apkanalyzer
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m      'adb' is in /Users/tanujsingh/Library/Android/sdk/platform-tools/adb
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m      'emulator' is in /Users/tanujsingh/Library/Android/sdk/emulator/emulator
+[0m[30;43mWARN[0m [0m[35mAppiumDoctor[0m  [31m✖[39m android, apkanalyzer could NOT be found in /Users/tanujsingh/Library/Android/sdk!
+[0m[30;43mWARN[0m [0m[35mAppiumDoctor[0m  [31m✖[39m Cannot check $JAVA_HOME requirements since the environment variable itself is not set
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m ### Diagnostic for necessary dependencies completed, 3 fixes needed. ###
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m 
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m ### Diagnostic for [33moptional[39m dependencies starting ###
+[0m[30;43mWARN[0m [0m[35mAppiumDoctor[0m  [33m✖[39m opencv4nodejs cannot be found.
+[0m[30;43mWARN[0m [0m[35mAppiumDoctor[0m  [33m✖[39m ffmpeg cannot be found
+[0m[30;43mWARN[0m [0m[35mAppiumDoctor[0m  [33m✖[39m mjpeg-consumer cannot be found.
+[0m[30;43mWARN[0m [0m[35mAppiumDoctor[0m  [33m✖[39m bundletool.jar cannot be found
+[0m[30;43mWARN[0m [0m[35mAppiumDoctor[0m  [33m✖[39m gst-launch-1.0 and/or gst-inspect-1.0 cannot be found
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m ### Diagnostic for optional dependencies completed, 5 fixes possible. ###
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m 
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m ### Manual Fixes Needed ###
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m The configuration cannot be automatically fixed, please do the following first:
+[0m[30;43mWARN[0m [0m[35mAppiumDoctor[0m  ➜ Make sure the environment variable [1mJAVA_HOME[22m is properly configured for the Appium process. Refer https://github.com/appium/java-client/blob/master/docs/environment.md for more details.
+[0m[30;43mWARN[0m [0m[35mAppiumDoctor[0m  ➜ Manually install [1mandroid, apkanalyzer[22m and add it to [1mPATH[22m. https://developer.android.com/studio#cmdline-tools and https://developer.android.com/studio/intro/update#sdk-manager may help to setup.
+[0m[30;43mWARN[0m [0m[35mAppiumDoctor[0m  ➜ Set $JAVA_HOME environment variable to the root folder path of your local JDK installation
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m 
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m ### Optional Manual Fixes ###
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m The configuration can install optionally. Please do the following manually:
+[0m[30;43mWARN[0m [0m[35mAppiumDoctor[0m  ➜ Why [1mopencv4nodejs[22m is needed and how to install it: http://appium.io/docs/en/writing-running-appium/image-comparison/
+[0m[30;43mWARN[0m [0m[35mAppiumDoctor[0m  ➜ [1mffmpeg[22m is needed to record screen features. Please read https://www.ffmpeg.org/ to install it
+[0m[30;43mWARN[0m [0m[35mAppiumDoctor[0m  ➜ [1mmjpeg-consumer[22m module is required to use MJPEG-over-HTTP features. Please install it with 'npm i -g mjpeg-consumer'.
+[0m[30;43mWARN[0m [0m[35mAppiumDoctor[0m  ➜ [1mbundletool.jar[22m is used to handle Android App Bundle. Please read http://appium.io/docs/en/writing-running-appium/android/android-appbundle/ to install it
+[0m[30;43mWARN[0m [0m[35mAppiumDoctor[0m  ➜ [1mgst-launch-1.0 and gst-inspect-1.0[22m are used to stream the screen of the device under test. Please read https://appium.io/docs/en/writing-running-appium/android/android-screen-streaming/ to install them and for more details
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m 
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m ###
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m 
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m Bye! Run appium-doctor again when all manual fixes have been applied!
+[0m[32minfo[0m [0m[35mAppiumDoctor[0m 
+[0m[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Tanujs-MacBook-Air.local/Users/tanujsingh[0m[27m[24m[Jtanujsingh@Tanujs-MacBook-Air ~ % [K[?2004hjjava -version[?2004l
+java version "15.0.2" 2021-01-19
+Java(TM) SE Runtime Environment (build 15.0.2+7-27)
+Java HotSpot(TM) 64-Bit Server VM (build 15.0.2+7-27, mixed mode, sharing)
+[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Tanujs-MacBook-Air.local/Users/tanujsingh[0m[27m[24m[Jtanujsingh@Tanujs-MacBook-Air ~ % [K[?2004h[7m/usr/libexec/java_home[27m
+[K[A[34C[27m/[27mu[27ms[27mr[27m/[27ml[27mi[27mb[27me[27mx[27me[27mc[27m/[27mj[27ma[27mv[27ma[27m_[27mh[27mo[27mm[27me[1B[K[A[56C[?2004l[1B
+/Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home
+[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Tanujs-MacBook-Air.local/Users/tanujsingh[0m[27m[24m[Jtanujsingh@Tanujs-MacBook-Air ~ % [K[?2004h[7mnano ~/.zshrc[27m
+[K[A[34C[27mn[27ma[27mn[27mo[27m [27m~[27m/[27m.[27mz[27ms[27mh[27mr[27mc[1B[K[A[47C[?2004l[1B
+[?1049h[1;30r[1;1H[J[7m  UW PICO 5.09                                               New Buffer                                                 [27m[29;1H[K[30;1H[K[29;1H[7m^[27m[7mG[27m Get Help         [7m^[27m[7mO[27m WriteOut         [7m^[27m[7mR[27m Read File        [7m^[27m[7mY[27m Prev Pg          [7m^[27m[7mK[27m Cut Text         [7m^[27m[7mC[27m Cur Pos          [30;1H[7m^[27m[7mX[27m Exit             [7m^[27m[7mJ[27m Justify          [7m^[27m[7mW[27m Where is         [7m^[27m[7mV[27m Next Pg          [7m^[27m[7mU[27m UnCut Text       [7m^[27m[7mT[27m To Spell        [K[3;1H[28;1H                                                                                                                        [28;53H[7m[ Reading file ][27m[28;1H                                                                                                                        [28;52H[7m[ Read 10 lines ][27m[1;1H[J[7m  UW PICO 5.09                                     File: /Users/tanujsingh/.zshrc                                       [27m[3;1Hexport PATH="$HOME/Library/Python/3.13/bin:$PATH"[5;1Hexport PATH="$HOME/Library/Python/3.9/bin:$PATH"[6;1Hexport ANDROID_HOME=$HOME/Library/Android/sdk[7;1Hexport ANDROID_SDK_ROOT=$ANDROID_HOME[8;1Hexport PATH=$PATH:$ANDROID_HOME/emulator[9;1Hexport PATH=$PATH:$ANDROID_HOME/tools[10;1Hexport PATH=$PATH:$ANDROID_HOME/tools/bin[11;1Hexport PATH=$PATH:$ANDROID_HOME/platform-tools[29;1H[K[30;1H[K[29;1H[7m^[27m[7mG[27m Get Help         [7m^[27m[7mO[27m WriteOut         [7m^[27m[7mR[27m Read File        [7m^[27m[7mY[27m Prev Pg          [7m^[27m[7mK[27m Cut Text         [7m^[27m[7mC[27m Cur Pos          [30;1H[7m^[27m[7mX[27m Exit             [7m^[27m[7mJ[27m Justify          [7m^[27m[7mW[27m Where is         [7m^[27m[7mV[27m Next Pg          [7m^[27m[7mU[27m UnCut Text       [7m^[27m[7mT[27m To Spell        [K[3;1H[4;1H[5;1H[6;1H[7;1H[8;1H[9;1H[10;1H[11;1H[12;1H[1;48H[7mFile: /Users/tanujsingh/.zshrc                                 Modified[27m[12;1Hexport[12;8HJAVA_HOME=$(/usr/libexec/java_home)[13;1H[29;1H                    [7mY[27m Yes                                                                                               [30;2H[7mC[27m Cancel           [7mN[27m No                                                                                               [K[28;1H                                                                                                                        [28;1H[7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                                                            [28;62H[27m[7mYes[27m[28;1H                                                                                                                        [28;1H[7mFile Name to write :                                                                                                    [28;22H[27m[29;1H[7m^[27m[7mG[27m Get Help         [7m^[27m[7mT[27m  To Files                                                                                        [30;21H[7mT[27m[7mA[27m[7mB[27m Complete                                                                                       [K[7m[28;22H/Users/tanujsingh/.zshrc                                                                           [28;46H[27m[28;1H                                                                                                                        [28;54H[7m[ Writing... ][27m[28;1H                                                                                                                        [28;52H[7m[ Wrote 11 lines ][27m[29;1H[K[30;1H[K[?1049l[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Tanujs-MacBook-Air.local/Users/tanujsingh[0m[27m[24m[Jtanujsingh@Tanujs-MacBook-Air ~ % [K[?2004h[7msource ~/.zshrc[27m
+[K[A[34C[27ms[27mo[27mu[27mr[27mc[27me[27m [27m~[27m/[27m.[27mz[27ms[27mh[27mr[27mc[1B[K[A[49C[1C[1C[1C[1C[1C[1C[1C[1C[1B[K[A[49C            s  nano ~/.zshrc[1B[K[A[34C             [1B[K[A[34Cnano ~/.zshrc[1B[K[K[A[34C/usr/libexec/java_home[1B[A[34Cjava -version         [1B[K[A[47C[13D/usr/libexec/java_home[1B[K[A[34Cnano ~/.zshrc         [1B[K[A[34C             [1B[K[A[34C[?2004l[1B[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Tanujs-MacBook-Air.local/Users/tanujsingh[0m[27m[24m[Jtanujsingh@Tanujs-MacBook-Air ~ % [K[?2004h[7msource ~/.zshrc[27m
+[K[A[34C[27ms[27mo[27mu[27mr[27mc[27me[27m [27m~[27m/[27m.[27mz[27ms[27mh[27mr[27mc[1B[K[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Tanujs-MacBook-Air.local/Users/tanujsingh[0m[27m[24m[Jtanujsingh@Tanujs-MacBook-Air ~ % [K[?2004h[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Tanujs-MacBook-Air.local/Users/tanujsingh[0m[27m[24m[Jtanujsingh@Tanujs-MacBook-Air ~ % [K[?2004hsource ~/.zshrc
+[K[K[A[49C[?2004l[1B
+[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Tanujs-MacBook-Air.local/Users/tanujsingh[0m[27m[24m[Jtanujsingh@Tanujs-MacBook-Air ~ % [K[?2004hssource ~/.zshrc[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Tanujs-MacBook-Air.local/Users/tanujsingh[0m[27m[24m[Jtanujsingh@Tanujs-MacBook-Air ~ % [K[?2004h[7mecho $JAVA_HOME[27m
+[K[A[34C[27me[27mc[27mh[27mo[27m [27m$[27mJ[27mA[27mV[27mA[27m_[27mH[27mO[27mM[27mE[1B[K[?2004l
+/Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home
+[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Tanujs-MacBook-Air.local/Users/tanujsingh[0m[27m[24m[Jtanujsingh@Tanujs-MacBook-Air ~ % [K[?2004heecho $JAVA_HOME[?2004l
+/Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home
+[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Tanujs-MacBook-Air.local/Users/tanujsingh[0m[27m[24m[Jtanujsingh@Tanujs-MacBook-Air ~ % [K[?2004h[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Tanujs-MacBook-Air.local/Users/tanujsingh[0m[27m[24m[Jtanujsingh@Tanujs-MacBook-Air ~ % [K[?2004heexit()[?2004l
+[0m[27m[24m[Jfunction> [K[?2004h[?2004l
+[0m[27m[24m[Jfunction> [K[?2004h
+zsh: do you wish to see all 1460 possibilities (487 lines)? y[J[J_CodeSignature                 iconutil                       quotacheck
+-                              iconv                          quotaoff
+:                              ictool                         quotaon
+!                              id                             r
+.                              idle3                          racoon
+._android-info.txt             idle3.13                       rails
+._LICENSE                      if                             rake
+._NOTICE.csv                   ifconfig                       ranlib
+._NOTICE.txt                   imptrace                       rarpd
+._source.properties            include                        rdoc
+[                              indent                         read
+[[                             infocmp                        readlink
+{                              infotocap                      readonly
+}                              install                        realpath
+aa                             install_name_tool              reboot
+ab                             installer                      rehash
+ac                             instmodsh                      renice
+accton                         instmodsh5.34                  repairHomePermissions
+actool                         integer                        repeat
+adb                            IOAccelMemory                  repquota
+add-zsh-hook                   ioalloccount                   reset
+adig                           ioclasscount                   ResMerger
+aea                            iofile.d                       resolveLinks
+afclip                         iofileb.d                      resources
+afconvert                      IOMFB_FDR_Loader               return
+afhash                         iopattern                      rev
+afida                          iopending                      Rez
+afinfo                         ioreg                          ri
+afktool                        IOSDebug                       rm
+afplay                         iosnoop                        rmdir
+afscexpand                     iostat                         rmic
+agentxtrap                     iotop                          rmid
+agvtool                        ip2cc                          rmiregistry
+ahost                          ip2cc5.34                      rotatelogs
+alias                          ipconfig                       route
+amt                            ipcount                        rpc.lockd
+android-info.txt               ipcount5.34                    rpc.statd
+apachectl                      ipcrm                          rpcbind
+apfs_hfs_convert               ipcs                           rpcgen
+apfs_unlockfv                  iperf3-darwin                  rpcinfo
+app-sso                        ippeveprinter                  rs
+appium                         ippfind                        rsync
+appium-doctor                  ipptool                        rtadvd
+appleh13camerad                iptab                          ruby
+appleh16camerad                iptab5.34                      run-help
+applesingle                    iRATBW.mlmodelc                rview
+apply                          irb                            rvim
+appsleepd                      jar                            rwbypid.d
+apropos                        jarsigner                      rwbytype.d
+ar                             java                           rwsnoop
+arch                           javac                          sa
+arp                            javadoc                        safaridriver
+as                             javap                          SafeEjectGPU
+asa                            javaws                         sample
+aslmanager                     jcmd                           sampleproc
+asr                            jconsole                       sandbox-exec
+AssetCacheLocatorUtil          jcontrol                       say
+AssetCacheManagerUtil          jdb                            sc_auth
+AssetCacheTetheratorUtil       jdeps                          sc_usage
+assetutil                      jhsdb                          scandeps.pl
+at                             jimage                         scandeps5.34.pl
+atos                           jinfo                          sched
+atq                            jjs                            scp
+atrm                           jlink                          screen
+atsutil                        jmap                           screencapture
+audit                          jobs                           script
+auditd                         join                           scselect
+auditreduce                    jot                            scutil
+authserver                     jpackage                       sdef
+autoload                       jps                            sdiff
+automationmodetool             jq                             sdp
+automator                      jrunscript                     sdx
+automount                      jshell                         security
+auval                          json_pp                        securityd
+auvaltool                      json_pp5.34                    sed
+avbanalyse                     json_xs                        seeksize.d
+avbcapture                     json_xs5.34                    segedit
+avbdeviced                     jstack                         select
+avbdiagnose                    jstat                          sendmail
+avbutil                        jstatd                         seq
+avconvert                      kadmin                         serialver
+avmediainfo                    kadmin.local                   serverinfo
+avmetareadwrite                kcc                            servertool
+awk                            kcditto                        set
+b64decode                      kdcsetup                       SetFile
+b64encode                      kdestroy                       setkey
+banner                         KernelEventAgent               setopt
+base64                         kextcache                      setquota
+basename                       kextfind                       setregion
+bash                           kextlibs                       setuids.d
+bashbug                        kextload                       sfltool
+batch                          kextstat                       sftp
+bc                             kextunload                     sh
+bg                             kextutil                       sha1
+bin64                          keychain-access                sha1sum
+bindkey                        keytool                        sha224
+binhex                         kgetcred                       sha224sum
+binhex.pl                      kill                           sha256
+binhex5.34.pl                  kill.d                         sha256sum
+bintrans                       killall                        sha384
+bioutil                        kinit                          sha384sum
+bison                          klist                          sha512
+bitesize.d                     klist_cdhashes                 sha512sum
+bless                          kmutil                         shar
+BlueTool                       kpasswd                        sharing
+bluetoothaudiod                krb5-config                    shasum
+bluetoothd                     krbservicesetup                shasum5.34
+bm4                            ksh                            shazam
+BootCacheControl               kswitch                        shell_session_delete_expired
+bputil                         ktrace                         shell_session_history_allowed
+brctl                          ktutil                         shell_session_history_check
+break                          lam                            shell_session_history_enable
+brew                           languagesetup                  shell_session_save
+brotli                         last                           shell_session_save_history
+bsdtar                         lastcomm                       shell_session_update
+bspatch                        lastwords                      shift
+BTLEServer                     latency                        shlock
+BTLEServerAgent                launchctl                      shortcuts
+builtin                        launchd                        showmount
+bundle                         layerutil                      shutdown
+bundler                        ld                             sigdist.d
+bunzip2                        ldapadd                        sips
+bye                            ldapcompare                    size
+bzcat                          ldapdelete                     skywalkctl
+bzcmp                          ldapexop                       slapacl
+bzdiff                         ldapmodify                     slapadd
+bzegrep                        ldapmodrdn                     slapauth
+bzfgrep                        ldappasswd                     slapcat
+bzgrep                         ldapsearch                     slapconfig
+bzip2                          ldapurl                        slapdn
+bzip2recover                   ldapwhoami                     slapindex
+bzless                         leaks                          slappasswd
+bzmore                         leave                          slapschema
+c_rehash                       less                           slaptest
+c++                            lessecho                       sleep
+c++filt                        lesskey                        slogin
+c89                            let                            smbd
+c99                            lex                            smbdiagnose
+caffeinate                     lib                            smbutil
+cal                            lib64                          sndiskmove
+calendar                       libnetcfg                      snfsdefrag
+cancel                         libnetcfg5.34                  snmp-bridge-mib
+cap_mkdb                       libtool                        snmpbulkget
+captoinfo                      LICENSE                        snmpbulkwalk
+case                           limit                          snmpconf
+cat                            link                           snmpd
+cc                             lipo                           snmpdelta
+cd                             lldb                           snmpdf
+certtool                       llvm-g++                       snmpget
+cfprefsd                       llvm-gcc                       snmpgetnext
+chat                           ln                             snmpinform
+chdir                          loads.d                        snmpnetstat
+checkgid                       local                          snmpset
+chflags                        locale                         snmpstatus
+chfn                           localedef                      snmptable
+chgrp                          localemanager                  snmptest
+chmod                          locate                         snmptranslate
+chown                          lockf                          snmptrap
+chpass                         lockstat                       snmptrapd
+chroot                         log                            snmpusm
+chsh                           logger                         snmpvacm
+ckksctl                        login                          snmpwalk
+cksum                          logname                        snquota
+clang                          logout                         sntp
+clang++                        logresolve                     sntpd
+clangd                         look                           softwareupdate
+clear                          lorder                         sort
+cmp                            lp                             source
+cmpdylib                       lpadmin                        source.properties
+codecctl                       lpc                            sourcekit-lsp
+codesign                       lpinfo                         spctl
+codesign_allocate              lpmove                         spfd
+col                            lpoptions                      spfd5.34
+colrm                          lpq                            spfquery
+column                         lpr                            spfquery5.34
+comm                           lprm                           spindump
+command                        lpstat                         splain
+compadd                        ls                             splain5.34
+comparguments                  lsappinfo                      split
+compcall                       lsbom                          SplitForks
+compctl                        lskq                           spray
+compdescribe                   lsm                            sqlite3
+compfiles                      lsmp                           ssh
+compgroups                     lsof                           ssh-add
+compquote                      lsvfs                          ssh-agent
+compress                       lwp-download                   ssh-copy-id
+compression_tool               lwp-download5.34               ssh-keygen
+compset                        lwp-dump                       ssh-keyscan
+comptags                       lwp-dump5.34                   sshd
+comptry                        lwp-mirror                     sso_util
+compvalues                     lwp-mirror5.34                 stapler
+config_data                    lwp-request                    stat
+config_data5.34                lwp-request5.34                streamzip
+continue                       lz4                            streamzip5.34
+coproc                         lz4c                           stringdups
+coreaudiod                     lz4cat                         strings
+corelist                       lzcat                          strip
+corelist5.34                   lzcmp                          stty
+corepack                       lzdiff                         stz
+cp                             lzegrep                        su
+cpan                           lzfgrep                        sudo
+cpan5.34                       lzgrep                         sum
+cpio                           lzless                         suspend
+cpp                            lzma                           sw_vers
+cpu_profiler.d                 lzmadec                        swcutil
+cpuctl                         lzmainfo                       swift
+cpuwalk.d                      lzmore                         swift-inspect
+crashpad_handler               m4                             swiftc
+crashreport                    macbinary                      symbols
+crc32                          macerror                       symbolscache
+crc325.34                      macerror5.34                   sync
+creatbyproc.d                  machine                        sysadminctl
+createhomedir                  macoserror                     syscallbypid.d
+crlrefresh                     mail                           syscallbyproc.d
+cron                           mailq                          syscallbysysc.d
+crontab                        mailx                          sysctl
+csfdiagnose                    make                           sysdiagnose
+csh                            make_f2fs                      syslog
+csplit                         make_f2fs_casefold             syslogd
+csreq                          malloc_history                 syspolicy_check
+csrutil                        man                            system_profiler
+ctags                          mandoc                         system-override
+ctf_insert                     mandoc_soelim                  systemextensionsctl
+cu                             manpath                        systemkeychain
+cups-config                    mcxquery                       systemsetup
+cupsaccept                     mcxrefresh                     systemsoundserverd
+cupsctl                        md5                            systemstats
+cupsd                          md5sum                         tab2space
+cupsdisable                    mddiagnose                     tabs
+cupsenable                     mdfind                         tail
+cupsfilter                     mdimport                       tailspin
+cupsreject                     mdls                           talk
+cupstestppd                    mDNSResponder                  tar
+curl                           mDNSResponderHelper            taskinfo
+curl-config                    mdutil                         taskpolicy
+cut                            memacct                        tbtdiagnose
+cvadmin                        memory_pressure                tccutil
+cvaffinity                     mesg                           tclsh
+cvcp                           mg                             tclsh8.5
+cvdb                           mib2c                          tcpdump
+cvdbset                        mib2c-update                   tcsh
+cvfsck                         mig                            tee
+cvfsdb                         mkbom                          test
+cvfsid                         mkdir                          test-yaml
+cvgather                       mke2fs                         test-yaml5.34
+cvlabel                        mke2fs.conf                    textutil
+cvmkdir                        mkextunpack                    tftp
+cvmkfile                       mkfifo                         then
+cvmkfs                         mkfile                         thermal
+cvupdatefs                     mknod                          tic
+cvversions                     mkpassdb                       tidy
+dappprof                       mksdcard                       tidy_changelog
+dapptrace                      mktemp                         tidy_changelog5.34
+dash                           mnthome                        tiff2icns
+date                           modelcatalogdump               tiffutil
+db_archive                     modelmanagerdump               time
+db_checkpoint                  moose-outdated                 timer_analyser.d
+db_codegen                     moose-outdated5.34             timerfires
+db_deadlock                    more                           times
+db_dump                        mount                          timesyncanalyse
+db_hotbackup                   mount_9p                       tkcon
+db_load                        mount_acfs                     tkmib
+db_printlog                    mount_afp                      tkpp
+db_recover                     mount_apfs                     tkpp5.34
+db_stat                        mount_cd9660                   tmdiagnose
+db_upgrade                     mount_cddafs                   tmutil
+db_verify                      mount_devfs                    tnameserv
+dbicadmin                      mount_exfat                    toe
+dbicadmin5.34                  mount_fdesc                    top
+dbilogstrip                    mount_ftp                      tops
+dbilogstrip5.34                mount_hfs                      topsyscall
+dbiprof                        mount_msdos                    topsysproc
+dbiprof5.34                    mount_nfs                      touch
+dbiproxy                       mount_smbfs                    tput
+dbiproxy5.34                   mount_tmpfs                    tr
+dbmmanage                      mount_udf                      trace
+dc                             mount_virtiofs                 traceroute
+dd                             mount_webdav                   traceroute6
+dddiagnose                     mp2bug                         trap
+ddns-confgen                   mpioutil                       traptoemail
+debinhex.pl                    mpsgraphtool                   trash
+debinhex5.34.pl                mtree                          treereg
+declare                        mv                             treereg5.34
+defaults                       nano                           trimforce
+delv                           nbdst                          true
+demandoc                       nc                             truncate
+DeRez                          ncal                           trustcachectl
+derq                           ncctl                          tset
+desdp                          ncdestroy                      tsig-keygen
+dev_mkdb                       ncinit                         tsort
+devmodectl                     nclist                         tty
+DevToolsSecurity               ncurses5.4-config              ttyctl
+df                             ndp                            type
+diagnose-fu                    net-server                     typeset
+diff                           net-server5.34                 uasysdiagnose
+diff3                          net-snmp-cert                  ul
+diffstat                       net-snmp-config                ulimit
+dig                            net-snmp-create-v3-user        umask
+DirectoryService               netbiosd                       umount
+dirname                        netsimd                        umtool
+dirs                           netstat                        unalias
+disable                        nettop                         uname
+disklabel                      networkQuality                 uncompress
+diskutil                       networksetup                   unexpand
+disown                         newaliases                     unfunction
+dispqlen.d                     newfs_apfs                     unhash
+dist_package_tool              newfs_exfat                    unifdef
+distnoted                      newfs_fskit                    unifdefall
+ditto                          newfs_hfs                      uniq
+dmc                            newfs_msdos                    units
+dmesg                          newfs_udf                      universalaccessd
+dnctl                          newgrp                         unlimit
+dns-sd                         newproc.d                      unlink
+do                             newsyslog                      unlz4
+done                           nfs4mapid                      unlzma
+dot_clean                      nfsd                           unpack200
+drutil                         nfsiod                         unset
+dscacheutil                    nfsstat                        unsetopt
+dscl                           nice                           unsetpassword
+dsconfigad                     nimble_bridge                  until
+dsconfigldap                   nl                             unvis
+dseditgroup                    nlcontrol                      unxz
+dsenableroot                   nm                             unzip
+dserr                          nmedit                         unzipsfx
+dsexport                       nocorrect                      unzstd
+dsimport                       node                           update_dyld_shared_cache
+dsmemberutil                   noglob                         update_mcdp29xx
+dsymutil                       nohup                          update_terminal_cwd
+dtrace                         nologin                        uptime
+dtruss                         NOTICE.csv                     usbcfwflasher
+du                             NOTICE.txt                     usbdiagnose
+dwarfdump                      notifyd                        usdcat
+dyld_info                      notifyutil                     usdchecker
+dyld_usage                     npm                            usdcrush
+dynamic_pager                  npx                            usdextract
+echo                           nscurl                         usdrecord
+echotc                         nslookup                       usdtree
+echoti                         nsupdate                       usdzip
+ed                             nvram                          usernoted
+edquota                        objdump                        users
+egrep                          ocspcheck                      uttype
+elif                           ocspd                          uuchk
+else                           od                             uucico
+emulate                        odutil                         uuconv
+emulator                       open                           uucp
+emulator-check                 opendiff                       uudecode
+enable                         opensnoop                      uuencode
+enc2xs                         openssl                        uuidgen
+enc2xs5.34                     orbd                           uulog
+encguess                       osacompile                     uuname
+encguess5.34                   osadecompile                   uupick
+encode_keychange               osalang                        uusched
+end                            osascript                      uustat
+env                            otctl                          uuto
+envvars                        otool                          uux
+envvars-std                    pack200                        uuxqt
+erb                            package-stash-conflicts        vared
+errinfo                        package-stash-conflicts5.34    vi
+esac                           package.xml                    view
+eslogger                       pagesize                       viewdiagnostic
+etc1tool                       pagestuff                      vifs
+eval                           par.pl                         vim
+ex                             par5.34.pl                     vimdiff
+exec                           parl                           vimtutor
+execsnoop                      parl5.34                       vipw
+exit                           parldyn                        vis
+expand                         parldyn5.34                    visudo
+expect                         passwd                         vm_stat
+export                         PasswordService                vmmap
+expr                           paste                          vpnd
+eyapp                          patch                          vsdbutil
+eyapp5.34                      pathchk                        vtool
+false                          pathopens.d                    w
+fastboot                       pax                            wait
+fc                             pbcopy                         wait4path
+fcgistarter                    pbpaste                        wall
+fddist                         pcap-config                    wc
+fdesetup                       pcsctest                       wdutil
+fdisk                          pdisk                          weakpass_edit
+fg                             perl                           wfsctl
+fgrep                          perl5.34                       what
+fi                             perlbug                        whatis
+fibreconfig                    perlbug5.34                    wheel3
+file                           perldoc                        wheel3.13
+filebyproc.d                   perldoc5.34                    whence
+filecoordinationd              perlivp                        where
+fileproviderctl                perlivp5.34                    whereis
+filtercalltree                 perlthanks                     which
+find                           perlthanks5.34                 which-command
+findrule                       pfctl                          while
+findrule5.34                   pgrep                          who
+finger                         pico                           whoami
+firmwarepasswd                 piconv                         whois
+fixproc                        piconv5.34                     WirelessRadioManagerd
+flex                           pidpersec.d                    wish
+flex++                         ping                           wish8.5
+float                          ping6                          write
+fmt                            pip                            wsdump
+fold                           pip3                           xar
+fontrestore                    pip3.13                        xargs
+footprint                      pip3.9                         xartutil
+for                            pkgbuild                       xattr
+foreach                        pkgutil                        xcdebug
+fping                          pkill                          xcode-select
+fs_usage                       pl                             xcodebuild
+fsck                           pl2pm                          xcrun
+fsck_apfs                      pl2pm5.34                      xcscontrol
+fsck_cs                        plockstat                      xcsdiagnose
+fsck_exfat                     pluginkit                      xctrace
+fsck_fskit                     plutil                         xed
+fsck_hfs                       pmset                          xgettext.pl
+fsck_msdos                     pod2html                       xgettext5.34.pl
+fsck_udf                       pod2html5.34                   xip
+fstyp                          pod2man                        xml2-config
+fstyp_hfs                      pod2man5.34                    xml2man
+fstyp_msdos                    pod2readme                     xmlcatalog
+fstyp_ntfs                     pod2readme5.34                 xmllint
+fstyp_udf                      pod2text                       xpath
+function                       pod2text5.34                   xpath5.34
+functions                      pod2usage                      xprotect
+funzip                         pod2usage5.34                  xsanctl
+fuser                          podchecker                     xscertadmin
+g++                            podchecker5.34                 xslt-config
+gatherheaderdoc                policytool                     xsltproc
+gcc                            popd                           xsubpp
+gcore                          postalias                      xsubpp5.34
+gcov                           postcat                        xxd
+gem                            postconf                       xz
+gen_bridge_metadata            postdrop                       xzcat
+gencat                         postfix                        xzcmp
+genstrings                     postkick                       xzdec
+getconf                        postlock                       xzdiff
+GetFileInfo                    postlog                        xzegrep
+getln                          postmap                        xzfgrep
+getopt                         postmulti                      xzgrep
+getopts                        postqueue                      xzless
+git                            postsuper                      xzmore
+git-receive-pack               power_report.sh                yaa
+git-shell                      powermetrics                   yacc
+git-upload-archive             pp                             yamlpp-events
+git-upload-pack                pp5.34                         yamlpp-events5.34
+gktool                         ppdc                           yamlpp-highlight
+gm4                            ppdhtml                        yamlpp-highlight5.34
+gnumake                        ppdi                           yamlpp-load
+gperf                          ppdmerge                       yamlpp-load-dump
+gpt                            ppdpo                          yamlpp-load-dump5.34
+graphicssession                pppd                           yamlpp-load5.34
+grep                           pr                             yamlpp-parse-emit
+groups                         praudit                        yamlpp-parse-emit5.34
+gssd                           priclass.d                     yapp
+gunzip                         pridist.d                      yapp5.34
+gzcat                          print                          yes
+gzexe                          printenv                       zcat
+gzip                           printf                         zcmp
+h2ph                           private                        zcompile
+h2ph5.34                       procsystime                    zdiff
+h2xs                           productbuild                   zdump
+h2xs5.34                       productsign                    zegrep
+halt                           profiles                       zfgrep
+hash                           prove                          zforce
+hdid                           prove5.34                      zformat
+hdik                           ps                             zgrep
+hdiutil                        psm                            zic
+hdxml2manxml                   ptar                           zip
+head                           ptar5.34                       zipcloak
+headerdoc2html                 ptardiff                       zipdetails
+heap                           ptardiff5.34                   zipdetails5.34
+hexdump                        ptargrep                       zipgrep
+hidutil                        ptargrep5.34                   zipinfo
+history                        purge                          zipnote
+hiutil                         pushd                          zipsplit
+host                           pushln                         zle
+hostinfo                       pwd                            zless
+hostname                       pwd_mkdb                       zmodload
+hotspot.d                      pwpolicy                       zmore
+hpmdiagnose                    pydoc3                         znew
+hprof-conv                     pydoc3.13                      zparseopts
+htcacheclean                   python3                        zprint
+htdbm                          python3-config                 zregexparse
+htdigest                       python3.13                     zsh
+htmltree                       python3.13-config              zstd
+htmltree5.34                   pzstd                          zstdcat
+htpasswd                       qemu                           zstdgrep
+httpd                          qemu-img                       zstdless
+httpd-wrapper                  qlmanage                       zstdmt
+httxt2dbm                      qsn                            zstyle
+ibtool                         quota                          
+[0m[27m[24m[Jfunction> [K[?2004l
+[0m[27m[24m[Jfunction> [K[?2004h

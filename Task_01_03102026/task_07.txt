@@ -1,0 +1,5 @@
+Script started on Fri Oct  3 22:48:02 2025
+[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Tanujs-MacBook-Air.local/Users/tanujsingh[0m[27m[24m[Jtanujsingh@Tanujs-MacBook-Air ~ % [K[?2004h[7mgst-launch-1.0 --version[27m
+[K[A[34C[27mg[27ms[27mt[27m-[27ml[27ma[27mu[27mn[27mc[27mh[27m-[27m1[27m.[27m0[27m [27m-[27m-[27mv[27me[27mr[27ms[27mi[27mo[27mn[1B[K[A[58C[?2004l[1B
+^[[A^[[B        
+^[[B    
