@@ -1,0 +1,11 @@
+Script started on Sat Oct  4 14:16:38 2025
+[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Tanujs-MacBook-Air.local/Users/tanujsingh[0m[27m[24m[Jtanujsingh@Tanujs-MacBook-Air ~ % [K[?2004h[7mxcrun simctl ui booted appearance dark[27m[38D[27mx[27mc[27mr[27mu[27mn[27m [27ms[27mi[27mm[27mc[27mt[27ml[27m [27mu[27mi[27m [27mb[27mo[27mo[27mt[27me[27md[27m [27ma[27mp[27mp[27me[27ma[27mr[27ma[27mn[27mc[27me[27m [27md[27ma[27mr[27mk[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Tanujs-MacBook-Air.local/Users/tanujsingh[0m[27m[24m[Jtanujsingh@Tanujs-MacBook-Air ~ % [K[?2004h[7mxcrun simctl ui booted appearance light[27m[39D[27mx[27mc[27mr[27mu[27mn[27m [27ms[27mi[27mm[27mc[27mt[27ml[27m [27mu[27mi[27m [27mb[27mo[27mo[27mt[27me[27md[27m [27ma[27mp[27mp[27me[27ma[27mr[27ma[27mn[27mc[27me[27m [27ml[27mi[27mg[27mh[27mt[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://Tanujs-MacBook-Air.local/Users/tanujsingh[0m[27m[24m[Jtanujsingh@Tanujs-MacBook-Air ~ % [K[?2004heexit[?2004l
+
+Saving session...
+...copying shared history...
+...saving history...truncating history files...
+...completed.
+
+Script done on Sat Oct  4 14:25:03 2025
