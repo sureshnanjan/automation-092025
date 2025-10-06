@@ -1,92 +1,61 @@
-import sys
-import os
-import json
+import sys, os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+from gestures_library import MobileGestures
 import time
 import pytest
 from appium import webdriver
 from appium.webdriver.common.appiumby import AppiumBy
-
-# Add gestures_library import path
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 from gestures_library import MobileGestures
-
-
-@pytest.fixture(scope="function")
-def driver(request):
-    platform = request.config.getoption("--platform")
-
-    with open(f"capabilities/{platform}.json") as f:
-        desired_caps = json.load(f)
-
-    # Use the local APK file path
-    apk_path = os.path.abspath("ApiDemos-debug.apk")
-    desired_caps["appium:app"] = apk_path
-
-    driver = webdriver.Remote(
-        command_executor="https://hub.browserstack.com/wd/hub",
-        desired_capabilities=desired_caps
-    )
-
-    yield driver
-    driver.quit()
-
 
 def test_image_gallery_gestures(driver):
     gestures = MobileGestures(driver)
 
-    print("\n======= PAGE SOURCE (Initial) =======")
-    print(driver.page_source[:2000])  # print only first 2000 chars
-    print("====================================\n")
-
-    # Step 1: Open "Views"
-    driver.find_element(AppiumBy.ANDROID_UIAUTOMATOR, 'new UiSelector().text("Views")').click()
-    time.sleep(2)
-
-    # Step 2: Scroll to and open "Gallery"
-    gestures.scroll_to_element("Gallery")
-    driver.find_element(AppiumBy.ANDROID_UIAUTOMATOR, 'new UiSelector().text("Gallery")').click()
-    time.sleep(1)
-
-    # Step 3: Tap "1. Photos"
-    driver.find_element(AppiumBy.ANDROID_UIAUTOMATOR, 'new UiSelector().text("1. Photos")').click()
-    time.sleep(1)
-
-    # Step 4: Swipe through images
-    for _ in range(3):
+    # Test 1: Swipe through images
+    for i in range(3):
         gestures.swipe_left()
         time.sleep(1)
 
-    # Step 5: Validate image presence
-    image = driver.find_element(AppiumBy.ID, "io.appium.android.apis:id/gallery")
-    assert image.is_displayed()
+    # Verify image changed
+    current_image = driver.find_element(AppiumBy.ID, "image_view")
+    assert current_image.is_displayed()
+
+    # Test 2: Scroll to find specific item
+    gestures.scroll_to_element("Settings")
+    settings_button = driver.find_element(AppiumBy.XPATH, "//android.widget.TextView[@text='Settings']")
+    assert settings_button.is_displayed()
+
+    # Test 3: Long press for context menu
+    item = driver.find_element(AppiumBy.ID, "list_item_1")
+    gestures.long_press(item)
+    context_menu = driver.find_element(AppiumBy.ID, "context_menu")
+    assert context_menu.is_displayed()
 
 
 def test_form_interactions(driver):
     gestures = MobileGestures(driver)
 
-    # Step 1: Go to "Views" → "Controls" → "2. Dark Theme"
-    driver.find_element(AppiumBy.ANDROID_UIAUTOMATOR, 'new UiSelector().text("Views")').click()
-    time.sleep(1)
-    gestures.scroll_to_element("Controls")
-    driver.find_element(AppiumBy.ANDROID_UIAUTOMATOR, 'new UiSelector().text("Controls")').click()
-    time.sleep(1)
-    driver.find_element(AppiumBy.ANDROID_UIAUTOMATOR, 'new UiSelector().text("2. Dark Theme")').click()
-    time.sleep(1)
+    # Test: Multi-finger tap and complex gestures
+    # Implement form filling with various input types
 
-    print("\n======= PAGE SOURCE (Form Screen) =======")
-    print(driver.page_source[:2000])
-    print("========================================\n")
-
-    # Step 2: Enter name
-    name_field = driver.find_element(AppiumBy.ID, "io.appium.android.apis:id/edit")
+    # Text input
+    name_field = driver.find_element(AppiumBy.ACCESSIBILITY_ID, "nameInput")
     name_field.send_keys("John Doe")
+
+    # Hide keyboard
     driver.hide_keyboard()
 
-    # Step 3: Toggle checkbox and switch
-    checkbox = driver.find_element(AppiumBy.ID, "io.appium.android.apis:id/check1")
-    checkbox.click()
-    assert checkbox.is_selected()
+    # Select from dropdown (requires swipe/scroll)
+    dropdown = driver.find_element(AppiumBy.ID, "country_dropdown")
+    dropdown.click()
 
-    toggle = driver.find_element(AppiumBy.ID, "io.appium.android.apis:id/toggle1")
-    toggle.click()
-    assert toggle.get_attribute("checked") in ["true", True]
+    gestures.scroll_to_element("India")
+    india_option = driver.find_element(AppiumBy.XPATH, "//android.widget.TextView[@text='India']")
+    india_option.click()
+
+    # Submit form
+    submit_button = driver.find_element(AppiumBy.ACCESSIBILITY_ID, "submitButton")
+    submit_button.click()
+
+    # Verify submission
+    success_message = driver.find_element(AppiumBy.ID, "success_message")
+    assert "Success" in success_message.text
