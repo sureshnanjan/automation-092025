@@ -1,0 +1,14 @@
+{
+  "platformName": "Android",
+  "appium:automationName": "UiAutomator2",
+  "appium:deviceName": "Google Pixel 5",
+  "appium:platformVersion": "11.0",
+  "appium:app": "bs://f8a6d43db506424d3e595ae69dfde7bb5b368660",
+  "bstack:options": {
+    "userName": "tanujsingh_jhcLtJ",
+    "accessKey": "pfhBpuadweTk5S5Kzq4d",
+    "projectName": "Gesture Automation",
+    "buildName": "Gesture Build v1",
+    "sessionName": "Android Gestures"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "platformName": "android",
+  "automationName": "UiAutomator2",
+  "appium:deviceName": "Google Pixel 7",
+  "appium:platformVersion": "13.0",
+  "appium:app": "bs://f8a6d43db506424d3e595ae69dfde7bb5b368660>",
+  "bstack:options": {
+    "projectName": "Appium Debug Example",
+    "buildName": "Debug Build 1",
+    "sessionName": "Test with Waits",
+    "userName": "tanujsingh_jhcLtJ",
+    "accessKey": "pfhBpuadweTk5S5Kzq4d",
+    "debug": true,
+    "networkLogs": true
+  }
+}

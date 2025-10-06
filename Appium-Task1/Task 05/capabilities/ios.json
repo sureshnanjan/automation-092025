@@ -1,0 +1,14 @@
+{
+  "platformName": "iOS",
+  "appium:automationName": "XCUITest",
+  "appium:deviceName": "iPhone 13",
+  "appium:platformVersion": "15",
+  "appium:app": "bs://f8a6d43db506424d3e595ae69dfde7bb5b368660",
+  "bstack:options": {
+    "userName": "tanujsingh_jhcLtJ",
+    "accessKey": "pfhBpuadweTk5S5Kzq4d",
+    "projectName": "Gesture Automation",
+    "buildName": "Gesture Build v1",
+    "sessionName": "iOS Gestures"
+  }
+}
