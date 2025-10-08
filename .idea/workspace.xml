@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="077326c6-b923-4554-931a-289daac7c86c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/subtitle.py" beforeDir="false" afterPath="$PROJECT_DIR$/subtitle.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_herokuapp.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_herokuapp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,28 +15,28 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="33PEllAWI9PeoqvUP2OwMtSUVGp" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python tests.pytest in test_herokuapp.py.executor": "Run",
-    "Python.hello_selenium.executor": "Run",
-    "Python.subtitle.executor": "Run",
-    "Python.training_dashboard_gui.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "kishan",
-    "last_opened_file_path": "C:/Python_with_Appium/Qa-Training/automation-092025"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python tests.pytest in test_herokuapp.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hello_selenium.executor&quot;: &quot;Run&quot;,
+    &quot;Python.subtitle.executor&quot;: &quot;Run&quot;,
+    &quot;Python.training_dashboard_gui.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;kishan&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Python_with_Appium/Qa-Training/automation-092025&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="training_dashboard_gui" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="automation-092025" />
